@@ -1,0 +1,949 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="edge" attr.name="relation" attr.type="string" />
+  <key id="d3" for="node" attr.name="external" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="level" attr.type="long" />
+  <key id="d1" for="node" attr.name="credits" attr.type="string" />
+  <key id="d0" for="node" attr.name="title" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="COSC 101">
+      <data key="d0">Digital Citizenship</data>
+      <data key="d1">3</data>
+      <data key="d2">100</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 111">
+      <data key="d0">Computer Programming I</data>
+      <data key="d1">3</data>
+      <data key="d2">100</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 114">
+      <data key="d0">Vector Graphics and Animations</data>
+      <data key="d1">3</data>
+      <data key="d2">100</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 121">
+      <data key="d0">Computer Programming II</data>
+      <data key="d1">3</data>
+      <data key="d2">100</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 122">
+      <data key="d0">AI and Computer Fluency</data>
+      <data key="d1">3</data>
+      <data key="d2">100</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 123">
+      <data key="d0">Computer Creativity</data>
+      <data key="d1">3</data>
+      <data key="d2">100</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 150">
+      <data key="d0">Physical Computing</data>
+      <data key="d1">3</data>
+      <data key="d2">100</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 210">
+      <data key="d0">Software Construction</data>
+      <data key="d1">4</data>
+      <data key="d2">200</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 211">
+      <data key="d0">Machine Architecture</data>
+      <data key="d1">3</data>
+      <data key="d2">200</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 221">
+      <data key="d0">Discrete Structures in Computing</data>
+      <data key="d1">3</data>
+      <data key="d2">200</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 222">
+      <data key="d0">Data Structures</data>
+      <data key="d1">3</data>
+      <data key="d2">200</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 223">
+      <data key="d0">Principle of Computing: Logic, Discrete Structure, and Data Structure</data>
+      <data key="d1">3</data>
+      <data key="d2">200</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 247">
+      <data key="d0">Networks and Social Media</data>
+      <data key="d1">3</data>
+      <data key="d2">200</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 264">
+      <data key="d0">Introduction to Web Development and Databases</data>
+      <data key="d1">3</data>
+      <data key="d2">200</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 270">
+      <data key="d0">Fundamentals of Privacy and Security</data>
+      <data key="d1">3</data>
+      <data key="d2">200</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 301">
+      <data key="d0">Introduction to Data Analytics</data>
+      <data key="d1">3</data>
+      <data key="d2">300</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 303">
+      <data key="d0">Numerical Analysis</data>
+      <data key="d1">3</data>
+      <data key="d2">300</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 304">
+      <data key="d0">Introduction to Databases</data>
+      <data key="d1">3</data>
+      <data key="d2">300</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 305">
+      <data key="d0">Project Management</data>
+      <data key="d1">3</data>
+      <data key="d2">300</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 310">
+      <data key="d0">Software Engineering</data>
+      <data key="d1">3</data>
+      <data key="d2">300</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 315">
+      <data key="d0">Introduction to Operating Systems</data>
+      <data key="d1">3</data>
+      <data key="d2">300</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 320">
+      <data key="d0">Analysis of Algorithms</data>
+      <data key="d1">3</data>
+      <data key="d2">300</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 322">
+      <data key="d0">Introduction to Artificial Intelligence</data>
+      <data key="d1">3</data>
+      <data key="d2">300</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 328">
+      <data key="d0">Introduction to Networks</data>
+      <data key="d1">3</data>
+      <data key="d2">300</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 329">
+      <data key="d0">Learning Analytics</data>
+      <data key="d1">3</data>
+      <data key="d2">300</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 335">
+      <data key="d0">Introduction to Medical Imaging and Imaging Informatics</data>
+      <data key="d1">3</data>
+      <data key="d2">300</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 341">
+      <data key="d0">Human Computer Interaction</data>
+      <data key="d1">3</data>
+      <data key="d2">300</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 344">
+      <data key="d0">Image Processing and Applications</data>
+      <data key="d1">3</data>
+      <data key="d2">300</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 360">
+      <data key="d0">Web Programming</data>
+      <data key="d1">3</data>
+      <data key="d2">300</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 404">
+      <data key="d0">Database System Implementation</data>
+      <data key="d1">3</data>
+      <data key="d2">400</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 405">
+      <data key="d0">Modelling and Simulation</data>
+      <data key="d1">3</data>
+      <data key="d2">400</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 406">
+      <data key="d0">Numerical Optimization</data>
+      <data key="d1">3</data>
+      <data key="d2">400</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 407">
+      <data key="d0">Introduction to Parallel Computing</data>
+      <data key="d1">3</data>
+      <data key="d2">400</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 412">
+      <data key="d0">Mining Software Repositories</data>
+      <data key="d1">3</data>
+      <data key="d2">400</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 413">
+      <data key="d0">AI for Software Engineering</data>
+      <data key="d1">3</data>
+      <data key="d2">400</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 414">
+      <data key="d0">Computer Graphics</data>
+      <data key="d1">3</data>
+      <data key="d2">400</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 416">
+      <data key="d0">Special Topics in Databases</data>
+      <data key="d1">3-9</data>
+      <data key="d2">400</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 417">
+      <data key="d0">Topics in Computer Networks</data>
+      <data key="d1">3-6</data>
+      <data key="d2">400</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 419">
+      <data key="d0">Topics in Computer Science</data>
+      <data key="d1">3-9</data>
+      <data key="d2">400</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 421">
+      <data key="d0">Network Science</data>
+      <data key="d1">3</data>
+      <data key="d2">400</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 431">
+      <data key="d0">Special Topics in Databases, Lecture Format</data>
+      <data key="d1">3-9</data>
+      <data key="d2">400</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 432">
+      <data key="d0">Special Topics in Databases, Lecture and Laboratory Format</data>
+      <data key="d1">3-9</data>
+      <data key="d2">400</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 433">
+      <data key="d0">Topics in Computer Networks, Lecture Format</data>
+      <data key="d1">3-6</data>
+      <data key="d2">400</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 434">
+      <data key="d0">Topics in Computer Networks, Lecture and Laboratory Format</data>
+      <data key="d1">3-6</data>
+      <data key="d2">400</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 436">
+      <data key="d0">Topics in Computer Science, Lecture Format</data>
+      <data key="d1">3-9</data>
+      <data key="d2">400</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 437">
+      <data key="d0">Topics in Computer Science, Lecture and Laboratory Format</data>
+      <data key="d1">3-9</data>
+      <data key="d2">400</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 441">
+      <data key="d0">Advanced Human Computer Interaction</data>
+      <data key="d1">3</data>
+      <data key="d2">400</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 442">
+      <data key="d0">Educational Game Development</data>
+      <data key="d1">3</data>
+      <data key="d2">400</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 444">
+      <data key="d0">Computer Vision</data>
+      <data key="d1">3</data>
+      <data key="d2">400</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 447">
+      <data key="d0">Directed Studies in Software Maintenance</data>
+      <data key="d1">3</data>
+      <data key="d2">400</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 448">
+      <data key="d0">Directed Studies in Computer Science</data>
+      <data key="d1">3-6</data>
+      <data key="d2">400</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 449">
+      <data key="d0">Honours Thesis</data>
+      <data key="d1">6</data>
+      <data key="d2">400</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 450">
+      <data key="d0">Honours Thesis Part I</data>
+      <data key="d1">3</data>
+      <data key="d2">400</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 451">
+      <data key="d0">Honours Thesis Part II</data>
+      <data key="d1">3</data>
+      <data key="d2">400</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 490">
+      <data key="d0">Student-Directed Seminar</data>
+      <data key="d1">3</data>
+      <data key="d2">400</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 499">
+      <data key="d0">Capstone Software Engineering Project</data>
+      <data key="d1">6</data>
+      <data key="d2">400</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 504">
+      <data key="d0">Database System Implementation</data>
+      <data key="d1">3</data>
+      <data key="d2">500</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 505">
+      <data key="d0">Modelling and Simulation</data>
+      <data key="d1">3</data>
+      <data key="d2">500</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 506">
+      <data key="d0">Numerical Optimization</data>
+      <data key="d1">3</data>
+      <data key="d2">500</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 507">
+      <data key="d0">Parallel Computing</data>
+      <data key="d1">3</data>
+      <data key="d2">500</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 512">
+      <data key="d0">Mining Software Repositories</data>
+      <data key="d1">3</data>
+      <data key="d2">500</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 513">
+      <data key="d0">AI for Software Engineering</data>
+      <data key="d1">3</data>
+      <data key="d2">500</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 516">
+      <data key="d0">Special Topics in Databases</data>
+      <data key="d1">3-6</data>
+      <data key="d2">500</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 519">
+      <data key="d0">Topics in Computer Science</data>
+      <data key="d1">3-9</data>
+      <data key="d2">500</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 520">
+      <data key="d0">Advanced Algorithms</data>
+      <data key="d1">3</data>
+      <data key="d2">500</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 521">
+      <data key="d0">Network Science</data>
+      <data key="d1">3</data>
+      <data key="d2">500</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 522">
+      <data key="d0">Advanced Topics in Artificial Intelligence</data>
+      <data key="d1">3</data>
+      <data key="d2">500</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 531">
+      <data key="d0">Special Topics in Databases, Lecture Format</data>
+      <data key="d1">3-6</data>
+      <data key="d2">500</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 532">
+      <data key="d0">Special Topics in Databases, Lecture and Laboratory Format</data>
+      <data key="d1">3-6</data>
+      <data key="d2">500</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 536">
+      <data key="d0">Topics in Computer Science, Lecture Format</data>
+      <data key="d1">3-6</data>
+      <data key="d2">500</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 537">
+      <data key="d0">Topics in Computer Science, Lecture and Laboratory Format</data>
+      <data key="d1">3-6</data>
+      <data key="d2">500</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 541">
+      <data key="d0">Advanced Human Computer Interaction</data>
+      <data key="d1">3</data>
+      <data key="d2">500</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 544">
+      <data key="d0">Computer Vision</data>
+      <data key="d1">3</data>
+      <data key="d2">500</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 548">
+      <data key="d0">Directed Studies</data>
+      <data key="d1">3-6</data>
+      <data key="d2">500</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 549">
+      <data key="d0">Master's Thesis</data>
+      <data key="d1">12</data>
+      <data key="d2">500</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 550">
+      <data key="d0">Master's Project</data>
+      <data key="d1">6</data>
+      <data key="d2">500</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 590">
+      <data key="d0">Graduate Seminar</data>
+      <data key="d1">1-3</data>
+      <data key="d2">500</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 649">
+      <data key="d0">Doctoral Dissertation</data>
+      <data key="d1">0</data>
+      <data key="d2">600</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="COSC 690">
+      <data key="d0">Research Skills</data>
+      <data key="d1">3</data>
+      <data key="d2">600</data>
+      <data key="d3">False</data>
+    </node>
+    <node id="MATH 125">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">100</data>
+      <data key="d3">True</data>
+    </node>
+    <node id="MATH 126">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">100</data>
+      <data key="d3">True</data>
+    </node>
+    <node id="MATH 100">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">100</data>
+      <data key="d3">True</data>
+    </node>
+    <node id="MATH 101">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">100</data>
+      <data key="d3">True</data>
+    </node>
+    <node id="MATH 103">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">100</data>
+      <data key="d3">True</data>
+    </node>
+    <node id="MATH 116">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">100</data>
+      <data key="d3">True</data>
+    </node>
+    <node id="APSC 177">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">100</data>
+      <data key="d3">True</data>
+    </node>
+    <node id="MATH 142">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">100</data>
+      <data key="d3">True</data>
+    </node>
+    <node id="APSC 173">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">100</data>
+      <data key="d3">True</data>
+    </node>
+    <node id="APSC 171">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">100</data>
+      <data key="d3">True</data>
+    </node>
+    <node id="MATH 200">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">200</data>
+      <data key="d3">True</data>
+    </node>
+    <node id="MATH 221">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">200</data>
+      <data key="d3">True</data>
+    </node>
+    <node id="DATA 301">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">300</data>
+      <data key="d3">True</data>
+    </node>
+    <node id="APSC 179">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">100</data>
+      <data key="d3">True</data>
+    </node>
+    <node id="STAT 121">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">100</data>
+      <data key="d3">True</data>
+    </node>
+    <node id="STAT 124">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">100</data>
+      <data key="d3">True</data>
+    </node>
+    <node id="STAT 205">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">200</data>
+      <data key="d3">True</data>
+    </node>
+    <node id="STAT 230">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">200</data>
+      <data key="d3">True</data>
+    </node>
+    <node id="PHYS 121">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">100</data>
+      <data key="d3">True</data>
+    </node>
+    <node id="PHYS 122">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">100</data>
+      <data key="d3">True</data>
+    </node>
+    <node id="APSC 248">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">200</data>
+      <data key="d3">True</data>
+    </node>
+    <node id="DATA 311">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">300</data>
+      <data key="d3">True</data>
+    </node>
+    <edge source="COSC 111" target="COSC 121">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 111" target="COSC 123">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 111" target="COSC 150">
+      <data key="d4">coreq</data>
+    </edge>
+    <edge source="COSC 111" target="COSC 223">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 111" target="COSC 270">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 111" target="COSC 303">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 111" target="COSC 304">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 111" target="COSC 341">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 114" target="COSC 223">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 121" target="COSC 210">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 121" target="COSC 211">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 121" target="COSC 221">
+      <data key="d4">coreq</data>
+    </edge>
+    <edge source="COSC 121" target="COSC 222">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 121" target="COSC 264">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 121" target="COSC 304">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 121" target="COSC 341">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 121" target="COSC 360">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 122" target="COSC 123">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 122" target="COSC 150">
+      <data key="d4">coreq</data>
+    </edge>
+    <edge source="COSC 123" target="COSC 121">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 123" target="COSC 223">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 123" target="COSC 304">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 123" target="COSC 341">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 210" target="COSC 310">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 210" target="COSC 344">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 210" target="COSC 407">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 211" target="COSC 328">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 221" target="COSC 315">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 221" target="COSC 320">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 221" target="COSC 322">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 221" target="COSC 405">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 221" target="COSC 414">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 221" target="COSC 421">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 222" target="COSC 210">
+      <data key="d4">coreq</data>
+    </edge>
+    <edge source="COSC 222" target="COSC 304">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 222" target="COSC 310">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 222" target="COSC 315">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 222" target="COSC 320">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 222" target="COSC 322">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 222" target="COSC 328">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 222" target="COSC 329">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 222" target="COSC 335">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 222" target="COSC 344">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 222" target="COSC 405">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 222" target="COSC 407">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 222" target="COSC 414">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 222" target="COSC 421">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 223" target="COSC 247">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 223" target="COSC 264">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 223" target="COSC 310">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 304" target="COSC 301">
+      <data key="d4">coreq</data>
+    </edge>
+    <edge source="COSC 304" target="COSC 360">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 304" target="COSC 404">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 304" target="COSC 416">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 304" target="COSC 431">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 304" target="COSC 432">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 304" target="COSC 499">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 310" target="COSC 305">
+      <data key="d4">coreq</data>
+    </edge>
+    <edge source="COSC 310" target="COSC 412">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 310" target="COSC 413">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 310" target="COSC 442">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 310" target="COSC 499">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 315" target="COSC 417">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 315" target="COSC 433">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 315" target="COSC 434">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 328" target="COSC 417">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 328" target="COSC 433">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 328" target="COSC 434">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 341" target="COSC 441">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 341" target="COSC 442">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 341" target="COSC 499">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 344" target="COSC 444">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="COSC 450" target="COSC 451">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="MATH 125" target="COSC 111">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="MATH 126" target="COSC 111">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="MATH 100" target="COSC 111">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="MATH 101" target="COSC 111">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="MATH 101" target="COSC 221">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="MATH 103" target="COSC 111">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="MATH 103" target="COSC 221">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="MATH 116" target="COSC 111">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="APSC 177" target="COSC 121">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="APSC 177" target="COSC 150">
+      <data key="d4">coreq</data>
+    </edge>
+    <edge source="MATH 142" target="COSC 221">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="APSC 173" target="COSC 221">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="APSC 171" target="COSC 223">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="MATH 200" target="COSC 303">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="MATH 200" target="COSC 344">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="MATH 200" target="COSC 406">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="MATH 221" target="COSC 303">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="MATH 221" target="COSC 320">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="MATH 221" target="COSC 344">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="MATH 221" target="COSC 406">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="MATH 221" target="COSC 414">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="DATA 301" target="COSC 303">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="DATA 301" target="COSC 341">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="APSC 179" target="COSC 320">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="APSC 179" target="COSC 344">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="APSC 179" target="COSC 406">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="APSC 179" target="COSC 414">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="STAT 121" target="COSC 329">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="STAT 124" target="COSC 329">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="STAT 205" target="COSC 329">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="STAT 205" target="COSC 421">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="STAT 230" target="COSC 329">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="STAT 230" target="COSC 421">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="PHYS 121" target="COSC 335">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="PHYS 122" target="COSC 335">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="APSC 248" target="COSC 344">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="APSC 248" target="COSC 406">
+      <data key="d4">prereq</data>
+    </edge>
+    <edge source="DATA 311" target="COSC 412">
+      <data key="d4">prereq</data>
+    </edge>
+  </graph>
+</graphml>
