@@ -1,0 +1,4 @@
+beautifulsoup4==4.15.0
+matplotlib==3.10.9
+networkx==3.4.2
+requests==2.34.2
