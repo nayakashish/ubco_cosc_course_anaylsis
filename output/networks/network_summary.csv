@@ -1,0 +1,14 @@
+network,directed,nodes,edges,density,components,is_dag,longest_path
+N1_full,True,78,111,0.0185,10,True,7
+N2_prereq_only,True,78,104,0.0173,13,True,6
+N3_cosc_only,True,56,73,0.0237,11,True,6
+N4_bsc,True,55,43,0.0145,27,True,7
+N5_ba,True,23,32,0.0632,3,True,7
+N6_bsc_ba_union,True,56,43,0.0140,28,True,7
+N7_grade_weighted,True,78,111,0.0185,10,True,7
+N8_minus_COSC111,True,77,97,0.0166,15,True,6
+N8_minus_COSC122,True,77,109,0.0186,10,True,7
+N8_minus_COSC123,True,77,105,0.0179,10,True,6
+N9_prof_course_bipartite,False,104,137,0.0256,5,False,
+N10_shared_instructor,False,49,189,0.1607,5,False,
+N11_grade_similarity,False,36,75,0.1190,1,False,

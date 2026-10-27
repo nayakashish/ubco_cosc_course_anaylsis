@@ -1,0 +1,951 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d13" for="edge" attr.name="relation" attr.type="string" />
+  <key id="d12" for="node" attr.name="offered_summer" attr.type="boolean" />
+  <key id="d11" for="node" attr.name="offered_winter" attr.type="boolean" />
+  <key id="d10" for="node" attr.name="terms_offered" attr.type="double" />
+  <key id="d9" for="node" attr.name="students" attr.type="double" />
+  <key id="d8" for="node" attr.name="fail_rate" attr.type="double" />
+  <key id="d7" for="node" attr.name="avg_grade" attr.type="double" />
+  <key id="d6" for="node" attr.name="has_grades" attr.type="boolean" />
+  <key id="d5" for="node" attr.name="in_ba" attr.type="boolean" />
+  <key id="d4" for="node" attr.name="in_bsc" attr.type="boolean" />
+  <key id="d3" for="node" attr.name="year_level" attr.type="long" />
+  <key id="d2" for="node" attr.name="group" attr.type="string" />
+  <key id="d1" for="node" attr.name="subject" attr.type="string" />
+  <key id="d0" for="node" attr.name="title" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="COSC 101">
+      <data key="d0">Digital Citizenship</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">True</data>
+      <data key="d7">81.2</data>
+      <data key="d8">7.3</data>
+      <data key="d9">823.0</data>
+      <data key="d10">7.0</data>
+      <data key="d11">True</data>
+      <data key="d12">True</data>
+    </node>
+    <node id="COSC 111">
+      <data key="d0">Computer Programming I</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">1</data>
+      <data key="d4">True</data>
+      <data key="d5">True</data>
+      <data key="d6">True</data>
+      <data key="d7">72.2</data>
+      <data key="d8">19.5</data>
+      <data key="d9">2618.0</data>
+      <data key="d10">10.0</data>
+      <data key="d11">True</data>
+      <data key="d12">True</data>
+    </node>
+    <node id="COSC 114">
+      <data key="d0">Vector Graphics and Animations</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="COSC 121">
+      <data key="d0">Computer Programming II</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">1</data>
+      <data key="d4">True</data>
+      <data key="d5">True</data>
+      <data key="d6">True</data>
+      <data key="d7">72.3</data>
+      <data key="d8">14.5</data>
+      <data key="d9">1953.0</data>
+      <data key="d10">10.0</data>
+      <data key="d11">True</data>
+      <data key="d12">True</data>
+    </node>
+    <node id="COSC 122">
+      <data key="d0">AI and Computer Fluency</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">True</data>
+      <data key="d7">81.2</data>
+      <data key="d8">6.5</data>
+      <data key="d9">1089.0</data>
+      <data key="d10">8.0</data>
+      <data key="d11">True</data>
+      <data key="d12">True</data>
+    </node>
+    <node id="COSC 123">
+      <data key="d0">Computer Creativity</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">1</data>
+      <data key="d4">True</data>
+      <data key="d5">True</data>
+      <data key="d6">True</data>
+      <data key="d7">83.0</data>
+      <data key="d8">6.6</data>
+      <data key="d9">785.0</data>
+      <data key="d10">5.0</data>
+      <data key="d11">True</data>
+      <data key="d12">False</data>
+    </node>
+    <node id="COSC 150">
+      <data key="d0">Physical Computing</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="COSC 210">
+      <data key="d0">Software Construction</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">2</data>
+      <data key="d4">True</data>
+      <data key="d5">False</data>
+      <data key="d6">True</data>
+      <data key="d7">69.6</data>
+      <data key="d8">11.9</data>
+      <data key="d9">95.0</data>
+      <data key="d10">4.0</data>
+      <data key="d11">True</data>
+      <data key="d12">False</data>
+    </node>
+    <node id="COSC 211">
+      <data key="d0">Machine Architecture</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">2</data>
+      <data key="d4">True</data>
+      <data key="d5">False</data>
+      <data key="d6">True</data>
+      <data key="d7">75.2</data>
+      <data key="d8">13.1</data>
+      <data key="d9">936.0</data>
+      <data key="d10">7.0</data>
+      <data key="d11">True</data>
+      <data key="d12">True</data>
+    </node>
+    <node id="COSC 221">
+      <data key="d0">Discrete Structures in Computing</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">2</data>
+      <data key="d4">True</data>
+      <data key="d5">False</data>
+      <data key="d6">True</data>
+      <data key="d7">74.6</data>
+      <data key="d8">5.9</data>
+      <data key="d9">1200.0</data>
+      <data key="d10">9.0</data>
+      <data key="d11">True</data>
+      <data key="d12">True</data>
+    </node>
+    <node id="COSC 222">
+      <data key="d0">Data Structures</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">2</data>
+      <data key="d4">True</data>
+      <data key="d5">True</data>
+      <data key="d6">True</data>
+      <data key="d7">75.5</data>
+      <data key="d8">6.4</data>
+      <data key="d9">1315.0</data>
+      <data key="d10">10.0</data>
+      <data key="d11">True</data>
+      <data key="d12">True</data>
+    </node>
+    <node id="COSC 223">
+      <data key="d0">Principle of Computing: Logic, Discrete Structure, and Data Structure</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">2</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="COSC 247">
+      <data key="d0">Networks and Social Media</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">2</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="COSC 264">
+      <data key="d0">Introduction to Web Development and Databases</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">2</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="COSC 270">
+      <data key="d0">Fundamentals of Privacy and Security</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">2</data>
+      <data key="d4">True</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="COSC 301">
+      <data key="d0">Introduction to Data Analytics</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">3</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">True</data>
+      <data key="d7">79.1</data>
+      <data key="d8">5.9</data>
+      <data key="d9">689.0</data>
+      <data key="d10">7.0</data>
+      <data key="d11">True</data>
+      <data key="d12">True</data>
+    </node>
+    <node id="COSC 303">
+      <data key="d0">Numerical Analysis</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">3</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">True</data>
+      <data key="d7">78.0</data>
+      <data key="d8">3.3</data>
+      <data key="d9">135.0</data>
+      <data key="d10">5.0</data>
+      <data key="d11">True</data>
+      <data key="d12">False</data>
+    </node>
+    <node id="COSC 304">
+      <data key="d0">Introduction to Databases</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">3</data>
+      <data key="d4">True</data>
+      <data key="d5">True</data>
+      <data key="d6">True</data>
+      <data key="d7">80.6</data>
+      <data key="d8">5.6</data>
+      <data key="d9">1235.0</data>
+      <data key="d10">10.0</data>
+      <data key="d11">True</data>
+      <data key="d12">True</data>
+    </node>
+    <node id="COSC 305">
+      <data key="d0">Project Management</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">3</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">True</data>
+      <data key="d7">78.5</data>
+      <data key="d8">3.4</data>
+      <data key="d9">436.0</data>
+      <data key="d10">5.0</data>
+      <data key="d11">True</data>
+      <data key="d12">False</data>
+    </node>
+    <node id="COSC 310">
+      <data key="d0">Software Engineering</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">3</data>
+      <data key="d4">True</data>
+      <data key="d5">True</data>
+      <data key="d6">True</data>
+      <data key="d7">78.5</data>
+      <data key="d8">6.7</data>
+      <data key="d9">1036.0</data>
+      <data key="d10">6.0</data>
+      <data key="d11">True</data>
+      <data key="d12">True</data>
+    </node>
+    <node id="COSC 315">
+      <data key="d0">Introduction to Operating Systems</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">3</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">True</data>
+      <data key="d7">77.7</data>
+      <data key="d8">5.3</data>
+      <data key="d9">377.0</data>
+      <data key="d10">3.0</data>
+      <data key="d11">True</data>
+      <data key="d12">False</data>
+    </node>
+    <node id="COSC 320">
+      <data key="d0">Analysis of Algorithms</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">3</data>
+      <data key="d4">True</data>
+      <data key="d5">False</data>
+      <data key="d6">True</data>
+      <data key="d7">79.7</data>
+      <data key="d8">4.9</data>
+      <data key="d9">813.0</data>
+      <data key="d10">6.0</data>
+      <data key="d11">True</data>
+      <data key="d12">True</data>
+    </node>
+    <node id="COSC 322">
+      <data key="d0">Introduction to Artificial Intelligence</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">3</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">True</data>
+      <data key="d7">76.1</data>
+      <data key="d8">1.9</data>
+      <data key="d9">499.0</data>
+      <data key="d10">8.0</data>
+      <data key="d11">True</data>
+      <data key="d12">True</data>
+    </node>
+    <node id="COSC 328">
+      <data key="d0">Introduction to Networks</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">3</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">True</data>
+      <data key="d7">74.8</data>
+      <data key="d8">6.5</data>
+      <data key="d9">583.0</data>
+      <data key="d10">8.0</data>
+      <data key="d11">True</data>
+      <data key="d12">True</data>
+    </node>
+    <node id="COSC 329">
+      <data key="d0">Learning Analytics</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">3</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">True</data>
+      <data key="d7">83.1</data>
+      <data key="d9">52.0</data>
+      <data key="d10">1.0</data>
+      <data key="d11">True</data>
+      <data key="d12">False</data>
+    </node>
+    <node id="COSC 335">
+      <data key="d0">Introduction to Medical Imaging and Imaging Informatics</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">3</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">True</data>
+      <data key="d7">77.2</data>
+      <data key="d8">0.0</data>
+      <data key="d9">33.0</data>
+      <data key="d10">3.0</data>
+      <data key="d11">True</data>
+      <data key="d12">False</data>
+    </node>
+    <node id="COSC 341">
+      <data key="d0">Human Computer Interaction</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">3</data>
+      <data key="d4">True</data>
+      <data key="d5">True</data>
+      <data key="d6">True</data>
+      <data key="d7">84.1</data>
+      <data key="d8">0.9</data>
+      <data key="d9">864.0</data>
+      <data key="d10">5.0</data>
+      <data key="d11">True</data>
+      <data key="d12">True</data>
+    </node>
+    <node id="COSC 344">
+      <data key="d0">Image Processing and Applications</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">3</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">True</data>
+      <data key="d7">81.9</data>
+      <data key="d8">1.5</data>
+      <data key="d9">270.0</data>
+      <data key="d10">4.0</data>
+      <data key="d11">True</data>
+      <data key="d12">False</data>
+    </node>
+    <node id="COSC 360">
+      <data key="d0">Web Programming</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">3</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">True</data>
+      <data key="d7">74.4</data>
+      <data key="d8">7.7</data>
+      <data key="d9">733.0</data>
+      <data key="d10">8.0</data>
+      <data key="d11">True</data>
+      <data key="d12">True</data>
+    </node>
+    <node id="COSC 404">
+      <data key="d0">Database System Implementation</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">4</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">True</data>
+      <data key="d7">80.9</data>
+      <data key="d8">6.1</data>
+      <data key="d9">198.0</data>
+      <data key="d10">2.0</data>
+      <data key="d11">True</data>
+      <data key="d12">False</data>
+    </node>
+    <node id="COSC 405">
+      <data key="d0">Modelling and Simulation</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">4</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">True</data>
+      <data key="d7">83.1</data>
+      <data key="d8">2.4</data>
+      <data key="d9">101.0</data>
+      <data key="d10">4.0</data>
+      <data key="d11">True</data>
+      <data key="d12">True</data>
+    </node>
+    <node id="COSC 406">
+      <data key="d0">Numerical Optimization</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">4</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">True</data>
+      <data key="d7">74.7</data>
+      <data key="d8">0.0</data>
+      <data key="d9">18.0</data>
+      <data key="d10">1.0</data>
+      <data key="d11">True</data>
+      <data key="d12">False</data>
+    </node>
+    <node id="COSC 407">
+      <data key="d0">Introduction to Parallel Computing</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">4</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">True</data>
+      <data key="d7">73.7</data>
+      <data key="d8">8.6</data>
+      <data key="d9">499.0</data>
+      <data key="d10">5.0</data>
+      <data key="d11">True</data>
+      <data key="d12">False</data>
+    </node>
+    <node id="COSC 412">
+      <data key="d0">Mining Software Repositories</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">4</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="COSC 413">
+      <data key="d0">AI for Software Engineering</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">4</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="COSC 414">
+      <data key="d0">Computer Graphics</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">4</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">True</data>
+      <data key="d7">75.2</data>
+      <data key="d8">5.3</data>
+      <data key="d9">425.0</data>
+      <data key="d10">5.0</data>
+      <data key="d11">True</data>
+      <data key="d12">False</data>
+    </node>
+    <node id="COSC 416">
+      <data key="d0">Special Topics in Databases</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">4</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">True</data>
+      <data key="d7">89.1</data>
+      <data key="d8">0.0</data>
+      <data key="d9">142.0</data>
+      <data key="d10">1.0</data>
+      <data key="d11">True</data>
+      <data key="d12">False</data>
+    </node>
+    <node id="COSC 417">
+      <data key="d0">Topics in Computer Networks</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">4</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="COSC 419">
+      <data key="d0">Topics in Computer Science</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">4</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">True</data>
+      <data key="d7">79.5</data>
+      <data key="d8">2.6</data>
+      <data key="d9">143.0</data>
+      <data key="d10">3.0</data>
+      <data key="d11">True</data>
+      <data key="d12">False</data>
+    </node>
+    <node id="COSC 421">
+      <data key="d0">Network Science</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">4</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">True</data>
+      <data key="d7">80.6</data>
+      <data key="d8">1.9</data>
+      <data key="d9">258.0</data>
+      <data key="d10">4.0</data>
+      <data key="d11">True</data>
+      <data key="d12">False</data>
+    </node>
+    <node id="COSC 431">
+      <data key="d0">Special Topics in Databases, Lecture Format</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">4</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="COSC 432">
+      <data key="d0">Special Topics in Databases, Lecture and Laboratory Format</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">4</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="COSC 433">
+      <data key="d0">Topics in Computer Networks, Lecture Format</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">4</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="COSC 434">
+      <data key="d0">Topics in Computer Networks, Lecture and Laboratory Format</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">4</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="COSC 436">
+      <data key="d0">Topics in Computer Science, Lecture Format</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">4</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="COSC 437">
+      <data key="d0">Topics in Computer Science, Lecture and Laboratory Format</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">4</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="COSC 441">
+      <data key="d0">Advanced Human Computer Interaction</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">4</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">True</data>
+      <data key="d7">81.5</data>
+      <data key="d8">2.5</data>
+      <data key="d9">81.0</data>
+      <data key="d10">2.0</data>
+      <data key="d11">True</data>
+      <data key="d12">True</data>
+    </node>
+    <node id="COSC 442">
+      <data key="d0">Educational Game Development</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">4</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="COSC 444">
+      <data key="d0">Computer Vision</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">4</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">True</data>
+      <data key="d7">76.8</data>
+      <data key="d8">1.6</data>
+      <data key="d9">62.0</data>
+      <data key="d10">3.0</data>
+      <data key="d11">True</data>
+      <data key="d12">False</data>
+    </node>
+    <node id="COSC 447">
+      <data key="d0">Directed Studies in Software Maintenance</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">4</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="COSC 448">
+      <data key="d0">Directed Studies in Computer Science</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">4</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="COSC 449">
+      <data key="d0">Honours Thesis</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">4</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="COSC 450">
+      <data key="d0">Honours Thesis Part I</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">4</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="COSC 451">
+      <data key="d0">Honours Thesis Part II</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">4</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+    </node>
+    <node id="COSC 490">
+      <data key="d0">Student-Directed Seminar</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">4</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">True</data>
+      <data key="d7">90.3</data>
+      <data key="d8">0.0</data>
+      <data key="d9">42.0</data>
+      <data key="d10">3.0</data>
+      <data key="d11">True</data>
+      <data key="d12">False</data>
+    </node>
+    <node id="COSC 499">
+      <data key="d0">Capstone Software Engineering Project</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">4</data>
+      <data key="d4">True</data>
+      <data key="d5">True</data>
+      <data key="d6">True</data>
+      <data key="d7">83.5</data>
+      <data key="d8">4.0</data>
+      <data key="d9">786.0</data>
+      <data key="d10">10.0</data>
+      <data key="d11">True</data>
+      <data key="d12">True</data>
+    </node>
+    <edge source="COSC 111" target="COSC 121">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 111" target="COSC 123">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 111" target="COSC 150">
+      <data key="d13">coreq</data>
+    </edge>
+    <edge source="COSC 111" target="COSC 223">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 111" target="COSC 270">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 111" target="COSC 303">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 111" target="COSC 304">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 111" target="COSC 341">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 114" target="COSC 223">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 121" target="COSC 210">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 121" target="COSC 211">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 121" target="COSC 221">
+      <data key="d13">coreq</data>
+    </edge>
+    <edge source="COSC 121" target="COSC 222">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 121" target="COSC 264">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 121" target="COSC 304">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 121" target="COSC 341">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 121" target="COSC 360">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 122" target="COSC 123">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 122" target="COSC 150">
+      <data key="d13">coreq</data>
+    </edge>
+    <edge source="COSC 123" target="COSC 121">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 123" target="COSC 223">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 123" target="COSC 304">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 123" target="COSC 341">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 210" target="COSC 310">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 210" target="COSC 344">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 210" target="COSC 407">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 211" target="COSC 328">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 221" target="COSC 315">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 221" target="COSC 320">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 221" target="COSC 322">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 221" target="COSC 405">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 221" target="COSC 414">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 221" target="COSC 421">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 222" target="COSC 210">
+      <data key="d13">coreq</data>
+    </edge>
+    <edge source="COSC 222" target="COSC 304">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 222" target="COSC 310">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 222" target="COSC 315">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 222" target="COSC 320">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 222" target="COSC 322">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 222" target="COSC 328">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 222" target="COSC 329">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 222" target="COSC 335">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 222" target="COSC 344">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 222" target="COSC 405">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 222" target="COSC 407">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 222" target="COSC 414">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 222" target="COSC 421">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 223" target="COSC 247">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 223" target="COSC 264">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 223" target="COSC 310">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 304" target="COSC 301">
+      <data key="d13">coreq</data>
+    </edge>
+    <edge source="COSC 304" target="COSC 360">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 304" target="COSC 404">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 304" target="COSC 416">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 304" target="COSC 431">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 304" target="COSC 432">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 304" target="COSC 499">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 310" target="COSC 305">
+      <data key="d13">coreq</data>
+    </edge>
+    <edge source="COSC 310" target="COSC 412">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 310" target="COSC 413">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 310" target="COSC 442">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 310" target="COSC 499">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 315" target="COSC 417">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 315" target="COSC 433">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 315" target="COSC 434">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 328" target="COSC 417">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 328" target="COSC 433">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 328" target="COSC 434">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 341" target="COSC 441">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 341" target="COSC 442">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 341" target="COSC 499">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 344" target="COSC 444">
+      <data key="d13">prereq</data>
+    </edge>
+    <edge source="COSC 450" target="COSC 451">
+      <data key="d13">prereq</data>
+    </edge>
+  </graph>
+</graphml>

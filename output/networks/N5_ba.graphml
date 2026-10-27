@@ -1,0 +1,472 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d14" for="edge" attr.name="relation" attr.type="string" />
+  <key id="d13" for="node" attr.name="required" attr.type="boolean" />
+  <key id="d12" for="node" attr.name="offered_summer" attr.type="boolean" />
+  <key id="d11" for="node" attr.name="offered_winter" attr.type="boolean" />
+  <key id="d10" for="node" attr.name="terms_offered" attr.type="double" />
+  <key id="d9" for="node" attr.name="students" attr.type="double" />
+  <key id="d8" for="node" attr.name="fail_rate" attr.type="double" />
+  <key id="d7" for="node" attr.name="avg_grade" attr.type="double" />
+  <key id="d6" for="node" attr.name="has_grades" attr.type="boolean" />
+  <key id="d5" for="node" attr.name="in_ba" attr.type="boolean" />
+  <key id="d4" for="node" attr.name="in_bsc" attr.type="boolean" />
+  <key id="d3" for="node" attr.name="year_level" attr.type="long" />
+  <key id="d2" for="node" attr.name="group" attr.type="string" />
+  <key id="d1" for="node" attr.name="subject" attr.type="string" />
+  <key id="d0" for="node" attr.name="title" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="COSC 210">
+      <data key="d0">Software Construction</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">2</data>
+      <data key="d4">True</data>
+      <data key="d5">False</data>
+      <data key="d6">True</data>
+      <data key="d7">69.6</data>
+      <data key="d8">11.9</data>
+      <data key="d9">95.0</data>
+      <data key="d10">4.0</data>
+      <data key="d11">True</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+    </node>
+    <node id="DATA 301">
+      <data key="d0">Introduction to Data Analytics</data>
+      <data key="d1">DATA</data>
+      <data key="d2">MATH / STAT / DATA</data>
+      <data key="d3">3</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">True</data>
+      <data key="d7">83.3</data>
+      <data key="d8">3.7</data>
+      <data key="d9">602.0</data>
+      <data key="d10">9.0</data>
+      <data key="d11">True</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+    </node>
+    <node id="COSC 122">
+      <data key="d0">AI and Computer Fluency</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">True</data>
+      <data key="d7">81.2</data>
+      <data key="d8">6.5</data>
+      <data key="d9">1089.0</data>
+      <data key="d10">8.0</data>
+      <data key="d11">True</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+    </node>
+    <node id="COSC 304">
+      <data key="d0">Introduction to Databases</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">3</data>
+      <data key="d4">True</data>
+      <data key="d5">True</data>
+      <data key="d6">True</data>
+      <data key="d7">80.6</data>
+      <data key="d8">5.6</data>
+      <data key="d9">1235.0</data>
+      <data key="d10">10.0</data>
+      <data key="d11">True</data>
+      <data key="d12">True</data>
+      <data key="d13">True</data>
+    </node>
+    <node id="MATH 125">
+      <data key="d0">Pre-Calculus</data>
+      <data key="d1">MATH</data>
+      <data key="d2">MATH / STAT / DATA</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">True</data>
+      <data key="d7">67.1</data>
+      <data key="d8">16.6</data>
+      <data key="d9">681.0</data>
+      <data key="d10">7.0</data>
+      <data key="d11">True</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+    </node>
+    <node id="COSC 310">
+      <data key="d0">Software Engineering</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">3</data>
+      <data key="d4">True</data>
+      <data key="d5">True</data>
+      <data key="d6">True</data>
+      <data key="d7">78.5</data>
+      <data key="d8">6.7</data>
+      <data key="d9">1036.0</data>
+      <data key="d10">6.0</data>
+      <data key="d11">True</data>
+      <data key="d12">True</data>
+      <data key="d13">True</data>
+    </node>
+    <node id="COSC 123">
+      <data key="d0">Computer Creativity</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">1</data>
+      <data key="d4">True</data>
+      <data key="d5">True</data>
+      <data key="d6">True</data>
+      <data key="d7">83.0</data>
+      <data key="d8">6.6</data>
+      <data key="d9">785.0</data>
+      <data key="d10">5.0</data>
+      <data key="d11">True</data>
+      <data key="d12">False</data>
+      <data key="d13">True</data>
+    </node>
+    <node id="COSC 222">
+      <data key="d0">Data Structures</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">2</data>
+      <data key="d4">True</data>
+      <data key="d5">True</data>
+      <data key="d6">True</data>
+      <data key="d7">75.5</data>
+      <data key="d8">6.4</data>
+      <data key="d9">1315.0</data>
+      <data key="d10">10.0</data>
+      <data key="d11">True</data>
+      <data key="d12">True</data>
+      <data key="d13">True</data>
+    </node>
+    <node id="MATH 100">
+      <data key="d0">Differential Calculus with Applications to Physical Sciences and Engineering</data>
+      <data key="d1">MATH</data>
+      <data key="d2">MATH / STAT / DATA</data>
+      <data key="d3">1</data>
+      <data key="d4">True</data>
+      <data key="d5">True</data>
+      <data key="d6">True</data>
+      <data key="d7">68.1</data>
+      <data key="d8">19.6</data>
+      <data key="d9">4792.0</data>
+      <data key="d10">10.0</data>
+      <data key="d11">True</data>
+      <data key="d12">True</data>
+      <data key="d13">True</data>
+    </node>
+    <node id="COSC 114">
+      <data key="d0">Vector Graphics and Animations</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+      <data key="d13">False</data>
+    </node>
+    <node id="APSC 177">
+      <data key="d0">Engineering Computation and Instrumentation</data>
+      <data key="d1">APSC</data>
+      <data key="d2">Other (APSC, PHYS, ...)</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">True</data>
+      <data key="d7">61.3</data>
+      <data key="d8">23.1</data>
+      <data key="d9">1840.0</data>
+      <data key="d10">5.0</data>
+      <data key="d11">True</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+    </node>
+    <node id="COSC 341">
+      <data key="d0">Human Computer Interaction</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">3</data>
+      <data key="d4">True</data>
+      <data key="d5">True</data>
+      <data key="d6">True</data>
+      <data key="d7">84.1</data>
+      <data key="d8">0.9</data>
+      <data key="d9">864.0</data>
+      <data key="d10">5.0</data>
+      <data key="d11">True</data>
+      <data key="d12">True</data>
+      <data key="d13">True</data>
+    </node>
+    <node id="COSC 111">
+      <data key="d0">Computer Programming I</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">1</data>
+      <data key="d4">True</data>
+      <data key="d5">True</data>
+      <data key="d6">True</data>
+      <data key="d7">72.2</data>
+      <data key="d8">19.5</data>
+      <data key="d9">2618.0</data>
+      <data key="d10">10.0</data>
+      <data key="d11">True</data>
+      <data key="d12">True</data>
+      <data key="d13">True</data>
+    </node>
+    <node id="MATH 126">
+      <data key="d0">Basic Mathematics: An Indigenous Perspective</data>
+      <data key="d1">MATH</data>
+      <data key="d2">MATH / STAT / DATA</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">True</data>
+      <data key="d7">75.5</data>
+      <data key="d8">6.1</data>
+      <data key="d9">33.0</data>
+      <data key="d10">4.0</data>
+      <data key="d11">True</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+    </node>
+    <node id="APSC 171">
+      <data key="d0">Engineering Drawing and CAD/CAM</data>
+      <data key="d1">APSC</data>
+      <data key="d2">Other (APSC, PHYS, ...)</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">True</data>
+      <data key="d7">76.3</data>
+      <data key="d8">3.4</data>
+      <data key="d9">1938.0</data>
+      <data key="d10">5.0</data>
+      <data key="d11">True</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+    </node>
+    <node id="COSC 223">
+      <data key="d0">Principle of Computing: Logic, Discrete Structure, and Data Structure</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">2</data>
+      <data key="d4">False</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+      <data key="d13">False</data>
+    </node>
+    <node id="COSC 499">
+      <data key="d0">Capstone Software Engineering Project</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">4</data>
+      <data key="d4">True</data>
+      <data key="d5">True</data>
+      <data key="d6">True</data>
+      <data key="d7">83.5</data>
+      <data key="d8">4.0</data>
+      <data key="d9">786.0</data>
+      <data key="d10">10.0</data>
+      <data key="d11">True</data>
+      <data key="d12">True</data>
+      <data key="d13">True</data>
+    </node>
+    <node id="COSC 121">
+      <data key="d0">Computer Programming II</data>
+      <data key="d1">COSC</data>
+      <data key="d2">COSC</data>
+      <data key="d3">1</data>
+      <data key="d4">True</data>
+      <data key="d5">True</data>
+      <data key="d6">True</data>
+      <data key="d7">72.3</data>
+      <data key="d8">14.5</data>
+      <data key="d9">1953.0</data>
+      <data key="d10">10.0</data>
+      <data key="d11">True</data>
+      <data key="d12">True</data>
+      <data key="d13">True</data>
+    </node>
+    <node id="MATH 103">
+      <data key="d0">Integral Calculus with Applications to Life Sciences</data>
+      <data key="d1">MATH</data>
+      <data key="d2">MATH / STAT / DATA</data>
+      <data key="d3">1</data>
+      <data key="d4">True</data>
+      <data key="d5">False</data>
+      <data key="d6">True</data>
+      <data key="d7">72.0</data>
+      <data key="d8">13.0</data>
+      <data key="d9">869.0</data>
+      <data key="d10">5.0</data>
+      <data key="d11">True</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+    </node>
+    <node id="MATH 101">
+      <data key="d0">Integral Calculus with Applications to Physical Sciences and Engineering</data>
+      <data key="d1">MATH</data>
+      <data key="d2">MATH / STAT / DATA</data>
+      <data key="d3">1</data>
+      <data key="d4">True</data>
+      <data key="d5">False</data>
+      <data key="d6">True</data>
+      <data key="d7">67.2</data>
+      <data key="d8">21.7</data>
+      <data key="d9">3230.0</data>
+      <data key="d10">10.0</data>
+      <data key="d11">True</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+    </node>
+    <node id="MATH 116">
+      <data key="d0">Calculus I for Management and Economics</data>
+      <data key="d1">MATH</data>
+      <data key="d2">MATH / STAT / DATA</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+      <data key="d5">True</data>
+      <data key="d6">True</data>
+      <data key="d7">65.4</data>
+      <data key="d8">23.0</data>
+      <data key="d9">1433.0</data>
+      <data key="d10">5.0</data>
+      <data key="d11">True</data>
+      <data key="d12">False</data>
+      <data key="d13">True</data>
+    </node>
+    <node id="MATH 111">
+      <data key="d0">Finite Mathematics</data>
+      <data key="d1">MATH</data>
+      <data key="d2">MATH / STAT / DATA</data>
+      <data key="d3">1</data>
+      <data key="d4">False</data>
+      <data key="d5">True</data>
+      <data key="d6">True</data>
+      <data key="d7">70.0</data>
+      <data key="d8">11.5</data>
+      <data key="d9">44.0</data>
+      <data key="d10">2.0</data>
+      <data key="d11">True</data>
+      <data key="d12">False</data>
+      <data key="d13">True</data>
+    </node>
+    <node id="PHIL 331">
+      <data key="d0">Computer Ethics</data>
+      <data key="d1">PHIL</data>
+      <data key="d2">Other (APSC, PHYS, ...)</data>
+      <data key="d3">3</data>
+      <data key="d4">True</data>
+      <data key="d5">True</data>
+      <data key="d6">True</data>
+      <data key="d7">81.0</data>
+      <data key="d8">1.6</data>
+      <data key="d9">1305.0</data>
+      <data key="d10">10.0</data>
+      <data key="d11">True</data>
+      <data key="d12">True</data>
+      <data key="d13">True</data>
+    </node>
+    <edge source="COSC 210" target="COSC 310">
+      <data key="d14">prereq</data>
+    </edge>
+    <edge source="DATA 301" target="COSC 341">
+      <data key="d14">prereq</data>
+    </edge>
+    <edge source="COSC 122" target="COSC 123">
+      <data key="d14">prereq</data>
+    </edge>
+    <edge source="COSC 304" target="COSC 499">
+      <data key="d14">prereq</data>
+    </edge>
+    <edge source="MATH 125" target="COSC 111">
+      <data key="d14">prereq</data>
+    </edge>
+    <edge source="COSC 310" target="COSC 499">
+      <data key="d14">prereq</data>
+    </edge>
+    <edge source="COSC 123" target="COSC 121">
+      <data key="d14">prereq</data>
+    </edge>
+    <edge source="COSC 123" target="COSC 223">
+      <data key="d14">prereq</data>
+    </edge>
+    <edge source="COSC 123" target="COSC 304">
+      <data key="d14">prereq</data>
+    </edge>
+    <edge source="COSC 123" target="COSC 341">
+      <data key="d14">prereq</data>
+    </edge>
+    <edge source="COSC 222" target="COSC 210">
+      <data key="d14">coreq</data>
+    </edge>
+    <edge source="COSC 222" target="COSC 304">
+      <data key="d14">prereq</data>
+    </edge>
+    <edge source="COSC 222" target="COSC 310">
+      <data key="d14">prereq</data>
+    </edge>
+    <edge source="MATH 100" target="COSC 111">
+      <data key="d14">prereq</data>
+    </edge>
+    <edge source="COSC 114" target="COSC 223">
+      <data key="d14">prereq</data>
+    </edge>
+    <edge source="APSC 177" target="COSC 121">
+      <data key="d14">prereq</data>
+    </edge>
+    <edge source="COSC 341" target="COSC 499">
+      <data key="d14">prereq</data>
+    </edge>
+    <edge source="COSC 111" target="COSC 121">
+      <data key="d14">prereq</data>
+    </edge>
+    <edge source="COSC 111" target="COSC 123">
+      <data key="d14">prereq</data>
+    </edge>
+    <edge source="COSC 111" target="COSC 223">
+      <data key="d14">prereq</data>
+    </edge>
+    <edge source="COSC 111" target="COSC 304">
+      <data key="d14">prereq</data>
+    </edge>
+    <edge source="COSC 111" target="COSC 341">
+      <data key="d14">prereq</data>
+    </edge>
+    <edge source="MATH 126" target="COSC 111">
+      <data key="d14">prereq</data>
+    </edge>
+    <edge source="APSC 171" target="COSC 223">
+      <data key="d14">prereq</data>
+    </edge>
+    <edge source="COSC 223" target="COSC 310">
+      <data key="d14">prereq</data>
+    </edge>
+    <edge source="COSC 121" target="COSC 210">
+      <data key="d14">prereq</data>
+    </edge>
+    <edge source="COSC 121" target="COSC 222">
+      <data key="d14">prereq</data>
+    </edge>
+    <edge source="COSC 121" target="COSC 304">
+      <data key="d14">prereq</data>
+    </edge>
+    <edge source="COSC 121" target="COSC 341">
+      <data key="d14">prereq</data>
+    </edge>
+    <edge source="MATH 103" target="COSC 111">
+      <data key="d14">prereq</data>
+    </edge>
+    <edge source="MATH 101" target="COSC 111">
+      <data key="d14">prereq</data>
+    </edge>
+    <edge source="MATH 116" target="COSC 111">
+      <data key="d14">prereq</data>
+    </edge>
+  </graph>
+</graphml>

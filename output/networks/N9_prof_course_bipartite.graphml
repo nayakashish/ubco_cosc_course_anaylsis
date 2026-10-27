@@ -1,0 +1,1377 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d14" for="edge" attr.name="sections" attr.type="long" />
+  <key id="d13" for="node" attr.name="offered_summer" attr.type="boolean" />
+  <key id="d12" for="node" attr.name="offered_winter" attr.type="boolean" />
+  <key id="d11" for="node" attr.name="terms_offered" attr.type="double" />
+  <key id="d10" for="node" attr.name="students" attr.type="double" />
+  <key id="d9" for="node" attr.name="fail_rate" attr.type="double" />
+  <key id="d8" for="node" attr.name="avg_grade" attr.type="double" />
+  <key id="d7" for="node" attr.name="has_grades" attr.type="boolean" />
+  <key id="d6" for="node" attr.name="in_ba" attr.type="boolean" />
+  <key id="d5" for="node" attr.name="in_bsc" attr.type="boolean" />
+  <key id="d4" for="node" attr.name="year_level" attr.type="long" />
+  <key id="d3" for="node" attr.name="group" attr.type="string" />
+  <key id="d2" for="node" attr.name="subject" attr.type="string" />
+  <key id="d1" for="node" attr.name="title" attr.type="string" />
+  <key id="d0" for="node" attr.name="bipartite" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="COSC 101">
+      <data key="d0">course</data>
+      <data key="d1">Digital Citizenship</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">1</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+      <data key="d7">True</data>
+      <data key="d8">81.2</data>
+      <data key="d9">7.3</data>
+      <data key="d10">823.0</data>
+      <data key="d11">7.0</data>
+      <data key="d12">True</data>
+      <data key="d13">True</data>
+    </node>
+    <node id="Vsevolod Lynov">
+      <data key="d0">professor</data>
+    </node>
+    <node id="COSC 111">
+      <data key="d0">course</data>
+      <data key="d1">Computer Programming I</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">1</data>
+      <data key="d5">True</data>
+      <data key="d6">True</data>
+      <data key="d7">True</data>
+      <data key="d8">72.2</data>
+      <data key="d9">19.5</data>
+      <data key="d10">2618.0</data>
+      <data key="d11">10.0</data>
+      <data key="d12">True</data>
+      <data key="d13">True</data>
+    </node>
+    <node id="COSC 121">
+      <data key="d0">course</data>
+      <data key="d1">Computer Programming II</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">1</data>
+      <data key="d5">True</data>
+      <data key="d6">True</data>
+      <data key="d7">True</data>
+      <data key="d8">72.3</data>
+      <data key="d9">14.5</data>
+      <data key="d10">1953.0</data>
+      <data key="d11">10.0</data>
+      <data key="d12">True</data>
+      <data key="d13">True</data>
+    </node>
+    <node id="Jeff Bulmer">
+      <data key="d0">professor</data>
+    </node>
+    <node id="COSC 122">
+      <data key="d0">course</data>
+      <data key="d1">AI and Computer Fluency</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">1</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+      <data key="d7">True</data>
+      <data key="d8">81.2</data>
+      <data key="d9">6.5</data>
+      <data key="d10">1089.0</data>
+      <data key="d11">8.0</data>
+      <data key="d12">True</data>
+      <data key="d13">True</data>
+    </node>
+    <node id="COSC 211">
+      <data key="d0">course</data>
+      <data key="d1">Machine Architecture</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">2</data>
+      <data key="d5">True</data>
+      <data key="d6">False</data>
+      <data key="d7">True</data>
+      <data key="d8">75.2</data>
+      <data key="d9">13.1</data>
+      <data key="d10">936.0</data>
+      <data key="d11">7.0</data>
+      <data key="d12">True</data>
+      <data key="d13">True</data>
+    </node>
+    <node id="Vladimir Grebenyuk">
+      <data key="d0">professor</data>
+    </node>
+    <node id="COSC 221">
+      <data key="d0">course</data>
+      <data key="d1">Discrete Structures in Computing</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">2</data>
+      <data key="d5">True</data>
+      <data key="d6">False</data>
+      <data key="d7">True</data>
+      <data key="d8">74.6</data>
+      <data key="d9">5.9</data>
+      <data key="d10">1200.0</data>
+      <data key="d11">9.0</data>
+      <data key="d12">True</data>
+      <data key="d13">True</data>
+    </node>
+    <node id="Jeewon Yoo">
+      <data key="d0">professor</data>
+    </node>
+    <node id="COSC 222">
+      <data key="d0">course</data>
+      <data key="d1">Data Structures</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">2</data>
+      <data key="d5">True</data>
+      <data key="d6">True</data>
+      <data key="d7">True</data>
+      <data key="d8">75.5</data>
+      <data key="d9">6.4</data>
+      <data key="d10">1315.0</data>
+      <data key="d11">10.0</data>
+      <data key="d12">True</data>
+      <data key="d13">True</data>
+    </node>
+    <node id="Seyyed Hosseini">
+      <data key="d0">professor</data>
+    </node>
+    <node id="COSC 301">
+      <data key="d0">course</data>
+      <data key="d1">Introduction to Data Analytics</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">3</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+      <data key="d7">True</data>
+      <data key="d8">79.1</data>
+      <data key="d9">5.9</data>
+      <data key="d10">689.0</data>
+      <data key="d11">7.0</data>
+      <data key="d12">True</data>
+      <data key="d13">True</data>
+    </node>
+    <node id="Firas Moosvi">
+      <data key="d0">professor</data>
+    </node>
+    <node id="COSC 304">
+      <data key="d0">course</data>
+      <data key="d1">Introduction to Databases</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">3</data>
+      <data key="d5">True</data>
+      <data key="d6">True</data>
+      <data key="d7">True</data>
+      <data key="d8">80.6</data>
+      <data key="d9">5.6</data>
+      <data key="d10">1235.0</data>
+      <data key="d11">10.0</data>
+      <data key="d12">True</data>
+      <data key="d13">True</data>
+    </node>
+    <node id="Youry Khmelevsky;Ramon Lawrence">
+      <data key="d0">professor</data>
+    </node>
+    <node id="COSC 320">
+      <data key="d0">course</data>
+      <data key="d1">Analysis of Algorithms</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">3</data>
+      <data key="d5">True</data>
+      <data key="d6">False</data>
+      <data key="d7">True</data>
+      <data key="d8">79.7</data>
+      <data key="d9">4.9</data>
+      <data key="d10">813.0</data>
+      <data key="d11">6.0</data>
+      <data key="d12">True</data>
+      <data key="d13">True</data>
+    </node>
+    <node id="COSC 322">
+      <data key="d0">course</data>
+      <data key="d1">Introduction to Artificial Intelligence</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">3</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+      <data key="d7">True</data>
+      <data key="d8">76.1</data>
+      <data key="d9">1.9</data>
+      <data key="d10">499.0</data>
+      <data key="d11">8.0</data>
+      <data key="d12">True</data>
+      <data key="d13">True</data>
+    </node>
+    <node id="Congsong Zhang">
+      <data key="d0">professor</data>
+    </node>
+    <node id="COSC 360">
+      <data key="d0">course</data>
+      <data key="d1">Web Programming</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">3</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+      <data key="d7">True</data>
+      <data key="d8">74.4</data>
+      <data key="d9">7.7</data>
+      <data key="d10">733.0</data>
+      <data key="d11">8.0</data>
+      <data key="d12">True</data>
+      <data key="d13">True</data>
+    </node>
+    <node id="Mohamed Abdelpakey">
+      <data key="d0">professor</data>
+    </node>
+    <node id="COSC 405">
+      <data key="d0">course</data>
+      <data key="d1">Modelling and Simulation</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">4</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+      <data key="d7">True</data>
+      <data key="d8">83.1</data>
+      <data key="d9">2.4</data>
+      <data key="d10">101.0</data>
+      <data key="d11">4.0</data>
+      <data key="d12">True</data>
+      <data key="d13">True</data>
+    </node>
+    <node id="Yas Yamin">
+      <data key="d0">professor</data>
+    </node>
+    <node id="COSC 445">
+      <data key="d0">course</data>
+      <data key="d1">Computer Vision</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">4</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+      <data key="d7">True</data>
+      <data key="d8">72.0</data>
+      <data key="d10">56.0</data>
+      <data key="d11">2.0</data>
+      <data key="d12">True</data>
+      <data key="d13">True</data>
+    </node>
+    <node id="Mohamed Shehata">
+      <data key="d0">professor</data>
+    </node>
+    <node id="COSC 499">
+      <data key="d0">course</data>
+      <data key="d1">Capstone Software Engineering Project</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">4</data>
+      <data key="d5">True</data>
+      <data key="d6">True</data>
+      <data key="d7">True</data>
+      <data key="d8">83.5</data>
+      <data key="d9">4.0</data>
+      <data key="d10">786.0</data>
+      <data key="d11">10.0</data>
+      <data key="d12">True</data>
+      <data key="d13">True</data>
+    </node>
+    <node id="Mandeep Pannu">
+      <data key="d0">professor</data>
+    </node>
+    <node id="Fuxiang Chen;Vsevolod Lynov">
+      <data key="d0">professor</data>
+    </node>
+    <node id="Fuxiang Chen">
+      <data key="d0">professor</data>
+    </node>
+    <node id="Abdallah Mohamed">
+      <data key="d0">professor</data>
+    </node>
+    <node id="Ifeoma Adaji">
+      <data key="d0">professor</data>
+    </node>
+    <node id="COSC 123">
+      <data key="d0">course</data>
+      <data key="d1">Computer Creativity</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">1</data>
+      <data key="d5">True</data>
+      <data key="d6">True</data>
+      <data key="d7">True</data>
+      <data key="d8">83.0</data>
+      <data key="d9">6.6</data>
+      <data key="d10">785.0</data>
+      <data key="d11">5.0</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+    </node>
+    <node id="COSC 210">
+      <data key="d0">course</data>
+      <data key="d1">Software Construction</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">2</data>
+      <data key="d5">True</data>
+      <data key="d6">False</data>
+      <data key="d7">True</data>
+      <data key="d8">69.6</data>
+      <data key="d9">11.9</data>
+      <data key="d10">95.0</data>
+      <data key="d11">4.0</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+    </node>
+    <node id="Yong Gao">
+      <data key="d0">professor</data>
+    </node>
+    <node id="Mohammad Khalad Hasan">
+      <data key="d0">professor</data>
+    </node>
+    <node id="Scott Fazackerley">
+      <data key="d0">professor</data>
+    </node>
+    <node id="COSC 303">
+      <data key="d0">course</data>
+      <data key="d1">Numerical Analysis</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">3</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+      <data key="d7">True</data>
+      <data key="d8">78.0</data>
+      <data key="d9">3.3</data>
+      <data key="d10">135.0</data>
+      <data key="d11">5.0</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+    </node>
+    <node id="Warren Hare">
+      <data key="d0">professor</data>
+    </node>
+    <node id="COSC 305">
+      <data key="d0">course</data>
+      <data key="d1">Project Management</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">3</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+      <data key="d7">True</data>
+      <data key="d8">78.5</data>
+      <data key="d9">3.4</data>
+      <data key="d10">436.0</data>
+      <data key="d11">5.0</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+    </node>
+    <node id="Patricia Lasserre">
+      <data key="d0">professor</data>
+    </node>
+    <node id="COSC 310">
+      <data key="d0">course</data>
+      <data key="d1">Software Engineering</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">3</data>
+      <data key="d5">True</data>
+      <data key="d6">True</data>
+      <data key="d7">True</data>
+      <data key="d8">78.5</data>
+      <data key="d9">6.7</data>
+      <data key="d10">1036.0</data>
+      <data key="d11">6.0</data>
+      <data key="d12">True</data>
+      <data key="d13">True</data>
+    </node>
+    <node id="Shan Du">
+      <data key="d0">professor</data>
+    </node>
+    <node id="COSC 315">
+      <data key="d0">course</data>
+      <data key="d1">Introduction to Operating Systems</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">3</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+      <data key="d7">True</data>
+      <data key="d8">77.7</data>
+      <data key="d9">5.3</data>
+      <data key="d10">377.0</data>
+      <data key="d11">3.0</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+    </node>
+    <node id="Apurva Narayan">
+      <data key="d0">professor</data>
+    </node>
+    <node id="COSC 328">
+      <data key="d0">course</data>
+      <data key="d1">Introduction to Networks</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">3</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+      <data key="d7">True</data>
+      <data key="d8">74.8</data>
+      <data key="d9">6.5</data>
+      <data key="d10">583.0</data>
+      <data key="d11">8.0</data>
+      <data key="d12">True</data>
+      <data key="d13">True</data>
+    </node>
+    <node id="COSC 329">
+      <data key="d0">course</data>
+      <data key="d1">Learning Analytics</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">3</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+      <data key="d7">True</data>
+      <data key="d8">83.1</data>
+      <data key="d10">52.0</data>
+      <data key="d11">1.0</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+    </node>
+    <node id="Bowen Hui">
+      <data key="d0">professor</data>
+    </node>
+    <node id="COSC 335">
+      <data key="d0">course</data>
+      <data key="d1">Introduction to Medical Imaging and Imaging Informatics</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">3</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+      <data key="d7">True</data>
+      <data key="d8">77.2</data>
+      <data key="d9">0.0</data>
+      <data key="d10">33.0</data>
+      <data key="d11">3.0</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+    </node>
+    <node id="Thor Bjarnason;Rasika Rajapakshe">
+      <data key="d0">professor</data>
+    </node>
+    <node id="COSC 404">
+      <data key="d0">course</data>
+      <data key="d1">Database System Implementation</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">4</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+      <data key="d7">True</data>
+      <data key="d8">80.9</data>
+      <data key="d9">6.1</data>
+      <data key="d10">198.0</data>
+      <data key="d11">2.0</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+    </node>
+    <node id="Ramon Lawrence">
+      <data key="d0">professor</data>
+    </node>
+    <node id="COSC 407">
+      <data key="d0">course</data>
+      <data key="d1">Introduction to Parallel Computing</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">4</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+      <data key="d7">True</data>
+      <data key="d8">73.7</data>
+      <data key="d9">8.6</data>
+      <data key="d10">499.0</data>
+      <data key="d11">5.0</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+    </node>
+    <node id="COSC 414">
+      <data key="d0">course</data>
+      <data key="d1">Computer Graphics</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">4</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+      <data key="d7">True</data>
+      <data key="d8">75.2</data>
+      <data key="d9">5.3</data>
+      <data key="d10">425.0</data>
+      <data key="d11">5.0</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+    </node>
+    <node id="COSC 419">
+      <data key="d0">course</data>
+      <data key="d1">Topics in Computer Science</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">4</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+      <data key="d7">True</data>
+      <data key="d8">79.5</data>
+      <data key="d9">2.6</data>
+      <data key="d10">143.0</data>
+      <data key="d11">3.0</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+    </node>
+    <node id="COSC 490">
+      <data key="d0">course</data>
+      <data key="d1">Student-Directed Seminar</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">4</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+      <data key="d7">True</data>
+      <data key="d8">90.3</data>
+      <data key="d9">0.0</data>
+      <data key="d10">42.0</data>
+      <data key="d11">3.0</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+    </node>
+    <node id="Yves Lucet">
+      <data key="d0">professor</data>
+    </node>
+    <node id="Gema Rodriguez-Perez">
+      <data key="d0">professor</data>
+    </node>
+    <node id="COSC 507">
+      <data key="d0">course</data>
+      <data key="d1">Parallel Computing</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">5</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+      <data key="d7">True</data>
+      <data key="d8">88.1</data>
+      <data key="d9">0.0</data>
+      <data key="d10">26.0</data>
+      <data key="d11">3.0</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+    </node>
+    <node id="COSC 519">
+      <data key="d0">course</data>
+      <data key="d1">Topics in Computer Science</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">5</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+      <data key="d7">True</data>
+      <data key="d8">85.6</data>
+      <data key="d9">0.0</data>
+      <data key="d10">48.0</data>
+      <data key="d11">4.0</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+    </node>
+    <node id="COSC 520">
+      <data key="d0">course</data>
+      <data key="d1">Advanced Algorithms</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">5</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+      <data key="d7">True</data>
+      <data key="d8">91.4</data>
+      <data key="d9">0.0</data>
+      <data key="d10">52.0</data>
+      <data key="d11">4.0</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+    </node>
+    <node id="COSC 541">
+      <data key="d0">course</data>
+      <data key="d1">Advanced Human Computer Interaction</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">5</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+      <data key="d7">True</data>
+      <data key="d8">88.0</data>
+      <data key="d9">0.0</data>
+      <data key="d10">20.0</data>
+      <data key="d11">2.0</data>
+      <data key="d12">True</data>
+      <data key="d13">True</data>
+    </node>
+    <node id="COSC 545">
+      <data key="d0">course</data>
+      <data key="d1">Computer Vision</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">5</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+      <data key="d7">True</data>
+      <data key="d8">80.4</data>
+      <data key="d10">14.0</data>
+      <data key="d11">1.0</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+    </node>
+    <node id="Paul Lee">
+      <data key="d0">professor</data>
+    </node>
+    <node id="Youry Khmelevsky">
+      <data key="d0">professor</data>
+    </node>
+    <node id="Chaoping Guo">
+      <data key="d0">professor</data>
+    </node>
+    <node id="Bradley Rey">
+      <data key="d0">professor</data>
+    </node>
+    <node id="Shawn Wang">
+      <data key="d0">professor</data>
+    </node>
+    <node id="Shan du">
+      <data key="d0">professor</data>
+    </node>
+    <node id="Reece Walsh">
+      <data key="d0">professor</data>
+    </node>
+    <node id="Fatemeh Hendijani Fard">
+      <data key="d0">professor</data>
+    </node>
+    <node id="COSC 341">
+      <data key="d0">course</data>
+      <data key="d1">Human Computer Interaction</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">3</data>
+      <data key="d5">True</data>
+      <data key="d6">True</data>
+      <data key="d7">True</data>
+      <data key="d8">84.1</data>
+      <data key="d9">0.9</data>
+      <data key="d10">864.0</data>
+      <data key="d11">5.0</data>
+      <data key="d12">True</data>
+      <data key="d13">True</data>
+    </node>
+    <node id="COSC 344">
+      <data key="d0">course</data>
+      <data key="d1">Image Processing and Applications</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">3</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+      <data key="d7">True</data>
+      <data key="d8">81.9</data>
+      <data key="d9">1.5</data>
+      <data key="d10">270.0</data>
+      <data key="d11">4.0</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+    </node>
+    <node id="COSC 421">
+      <data key="d0">course</data>
+      <data key="d1">Network Science</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">4</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+      <data key="d7">True</data>
+      <data key="d8">80.6</data>
+      <data key="d9">1.9</data>
+      <data key="d10">258.0</data>
+      <data key="d11">4.0</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+    </node>
+    <node id="COSC 444">
+      <data key="d0">course</data>
+      <data key="d1">Computer Vision</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">4</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+      <data key="d7">True</data>
+      <data key="d8">76.8</data>
+      <data key="d9">1.6</data>
+      <data key="d10">62.0</data>
+      <data key="d11">3.0</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+    </node>
+    <node id="COSC 504">
+      <data key="d0">course</data>
+      <data key="d1">Database System Implementation</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">5</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+      <data key="d7">True</data>
+      <data key="d8">86.0</data>
+      <data key="d9">0.0</data>
+      <data key="d10">8.0</data>
+      <data key="d11">1.0</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+    </node>
+    <node id="COSC 516">
+      <data key="d0">course</data>
+      <data key="d1">Special Topics in Databases</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">5</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+      <data key="d7">True</data>
+      <data key="d8">93.5</data>
+      <data key="d9">0.0</data>
+      <data key="d10">13.0</data>
+      <data key="d11">1.0</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+    </node>
+    <node id="COSC 544">
+      <data key="d0">course</data>
+      <data key="d1">Computer Vision</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">5</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+      <data key="d7">True</data>
+      <data key="d8">83.4</data>
+      <data key="d9">0.0</data>
+      <data key="d10">33.0</data>
+      <data key="d11">3.0</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+    </node>
+    <node id="James Nastos">
+      <data key="d0">professor</data>
+    </node>
+    <node id="Ken Chidlow">
+      <data key="d0">professor</data>
+    </node>
+    <node id="Stephen Brown">
+      <data key="d0">professor</data>
+    </node>
+    <node id="Mostafa Mohamed">
+      <data key="d0">professor</data>
+    </node>
+    <node id="Mohamad Khajezade">
+      <data key="d0">professor</data>
+    </node>
+    <node id="Michael Kudla-Hooper;Rasika Rajapakshe">
+      <data key="d0">professor</data>
+    </node>
+    <node id="Arshad Nasser">
+      <data key="d0">professor</data>
+    </node>
+    <node id="Islam Osman">
+      <data key="d0">professor</data>
+    </node>
+    <node id="COSC 521">
+      <data key="d0">course</data>
+      <data key="d1">Network Science</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">5</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+      <data key="d7">True</data>
+      <data key="d8">87.8</data>
+      <data key="d9">0.0</data>
+      <data key="d10">13.0</data>
+      <data key="d11">1.0</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+    </node>
+    <node id="COSC 548">
+      <data key="d0">course</data>
+      <data key="d1">Directed Studies</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">5</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+      <data key="d7">True</data>
+      <data key="d8">100.0</data>
+      <data key="d9">0.0</data>
+      <data key="d10">6.0</data>
+      <data key="d11">1.0</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+    </node>
+    <node id="A K M Amanat Ullah">
+      <data key="d0">professor</data>
+    </node>
+    <node id="Charles-Olivier Dufresne-Camaro">
+      <data key="d0">professor</data>
+    </node>
+    <node id="Mostafa Mohamed;Abdallah Mohamed">
+      <data key="d0">professor</data>
+    </node>
+    <node id="Sarah Foss">
+      <data key="d0">professor</data>
+    </node>
+    <node id="Barrett Ens">
+      <data key="d0">professor</data>
+    </node>
+    <node id="Jie Wu">
+      <data key="d0">professor</data>
+    </node>
+    <node id="Pourang Irani">
+      <data key="d0">professor</data>
+    </node>
+    <node id="John Braun">
+      <data key="d0">professor</data>
+    </node>
+    <node id="COSC 406">
+      <data key="d0">course</data>
+      <data key="d1">Numerical Optimization</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">4</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+      <data key="d7">True</data>
+      <data key="d8">74.7</data>
+      <data key="d9">0.0</data>
+      <data key="d10">18.0</data>
+      <data key="d11">1.0</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+    </node>
+    <node id="COSC 416">
+      <data key="d0">course</data>
+      <data key="d1">Special Topics in Databases</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">4</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+      <data key="d7">True</data>
+      <data key="d8">89.1</data>
+      <data key="d9">0.0</data>
+      <data key="d10">142.0</data>
+      <data key="d11">1.0</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+    </node>
+    <node id="Iman Jalilvand">
+      <data key="d0">professor</data>
+    </node>
+    <node id="COSC 441">
+      <data key="d0">course</data>
+      <data key="d1">Advanced Human Computer Interaction</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">4</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+      <data key="d7">True</data>
+      <data key="d8">81.5</data>
+      <data key="d9">2.5</data>
+      <data key="d10">81.0</data>
+      <data key="d11">2.0</data>
+      <data key="d12">True</data>
+      <data key="d13">True</data>
+    </node>
+    <node id="COSC 505">
+      <data key="d0">course</data>
+      <data key="d1">Modelling and Simulation</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">5</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+      <data key="d7">True</data>
+      <data key="d8">90.1</data>
+      <data key="d9">0.0</data>
+      <data key="d10">9.0</data>
+      <data key="d11">1.0</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+    </node>
+    <node id="COSC 506">
+      <data key="d0">course</data>
+      <data key="d1">Numerical Optimization</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">5</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+      <data key="d7">True</data>
+      <data key="d8">88.7</data>
+      <data key="d9">0.0</data>
+      <data key="d10">9.0</data>
+      <data key="d11">1.0</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+    </node>
+    <node id="COSC 536">
+      <data key="d0">course</data>
+      <data key="d1">Topics in Computer Science, Lecture Format</data>
+      <data key="d2">COSC</data>
+      <data key="d3">COSC</data>
+      <data key="d4">5</data>
+      <data key="d5">False</data>
+      <data key="d6">False</data>
+      <data key="d7">True</data>
+      <data key="d8">92.8</data>
+      <data key="d9">0.0</data>
+      <data key="d10">16.0</data>
+      <data key="d11">1.0</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+    </node>
+    <node id="Gema Rodriguez Perez">
+      <data key="d0">professor</data>
+    </node>
+    <node id="Fatemeh Fard">
+      <data key="d0">professor</data>
+    </node>
+    <edge source="COSC 101" target="Vsevolod Lynov">
+      <data key="d14">3</data>
+    </edge>
+    <edge source="COSC 101" target="Fuxiang Chen;Vsevolod Lynov">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 101" target="Fuxiang Chen">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 101" target="Mohamad Khajezade">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 101" target="Charles-Olivier Dufresne-Camaro">
+      <data key="d14">2</data>
+    </edge>
+    <edge source="Vsevolod Lynov" target="COSC 111">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="Vsevolod Lynov" target="COSC 122">
+      <data key="d14">3</data>
+    </edge>
+    <edge source="COSC 111" target="Abdallah Mohamed">
+      <data key="d14">5</data>
+    </edge>
+    <edge source="COSC 111" target="Jeff Bulmer">
+      <data key="d14">3</data>
+    </edge>
+    <edge source="COSC 111" target="Scott Fazackerley">
+      <data key="d14">4</data>
+    </edge>
+    <edge source="COSC 111" target="Chaoping Guo">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 111" target="Bradley Rey">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 111" target="James Nastos">
+      <data key="d14">3</data>
+    </edge>
+    <edge source="COSC 111" target="Mohamad Khajezade">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 111" target="Mostafa Mohamed">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 111" target="Ken Chidlow">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 111" target="Patricia Lasserre">
+      <data key="d14">2</data>
+    </edge>
+    <edge source="COSC 121" target="Jeff Bulmer">
+      <data key="d14">2</data>
+    </edge>
+    <edge source="COSC 121" target="Abdallah Mohamed">
+      <data key="d14">3</data>
+    </edge>
+    <edge source="COSC 121" target="Ifeoma Adaji">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 121" target="Scott Fazackerley">
+      <data key="d14">3</data>
+    </edge>
+    <edge source="COSC 121" target="Ken Chidlow">
+      <data key="d14">3</data>
+    </edge>
+    <edge source="COSC 121" target="Mostafa Mohamed">
+      <data key="d14">3</data>
+    </edge>
+    <edge source="COSC 121" target="Mostafa Mohamed;Abdallah Mohamed">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 121" target="Bowen Hui">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 122" target="Firas Moosvi">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 122" target="James Nastos">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 122" target="Congsong Zhang">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 122" target="Sarah Foss">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 122" target="Bowen Hui">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 211" target="Vladimir Grebenyuk">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 211" target="Abdallah Mohamed">
+      <data key="d14">4</data>
+    </edge>
+    <edge source="COSC 211" target="Scott Fazackerley">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 211" target="A K M Amanat Ullah">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 221" target="Jeewon Yoo">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 221" target="Yong Gao">
+      <data key="d14">11</data>
+    </edge>
+    <edge source="COSC 221" target="Paul Lee">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 221" target="Stephen Brown">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 222" target="Seyyed Hosseini">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 222" target="Mohammad Khalad Hasan">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 222" target="Fuxiang Chen">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 222" target="Yves Lucet">
+      <data key="d14">4</data>
+    </edge>
+    <edge source="COSC 222" target="Mohamed Shehata">
+      <data key="d14">2</data>
+    </edge>
+    <edge source="COSC 222" target="Barrett Ens">
+      <data key="d14">3</data>
+    </edge>
+    <edge source="Seyyed Hosseini" target="COSC 320">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 301" target="Firas Moosvi">
+      <data key="d14">2</data>
+    </edge>
+    <edge source="COSC 301" target="Scott Fazackerley">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 301" target="Youry Khmelevsky">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 301" target="Mostafa Mohamed">
+      <data key="d14">3</data>
+    </edge>
+    <edge source="Firas Moosvi" target="COSC 123">
+      <data key="d14">2</data>
+    </edge>
+    <edge source="COSC 304" target="Youry Khmelevsky;Ramon Lawrence">
+      <data key="d14">2</data>
+    </edge>
+    <edge source="COSC 304" target="Youry Khmelevsky">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 304" target="Ramon Lawrence">
+      <data key="d14">4</data>
+    </edge>
+    <edge source="COSC 304" target="Mostafa Mohamed">
+      <data key="d14">3</data>
+    </edge>
+    <edge source="COSC 320" target="Mohamed Abdelpakey">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 320" target="Fatemeh Hendijani Fard">
+      <data key="d14">3</data>
+    </edge>
+    <edge source="COSC 320" target="Jie Wu">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 320" target="Fatemeh Fard">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 322" target="Congsong Zhang">
+      <data key="d14">2</data>
+    </edge>
+    <edge source="COSC 322" target="Yong Gao">
+      <data key="d14">5</data>
+    </edge>
+    <edge source="COSC 322" target="Mostafa Mohamed">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 360" target="Mohamed Abdelpakey">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 360" target="Scott Fazackerley">
+      <data key="d14">3</data>
+    </edge>
+    <edge source="COSC 360" target="Ifeoma Adaji">
+      <data key="d14">4</data>
+    </edge>
+    <edge source="Mohamed Abdelpakey" target="COSC 328">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 405" target="Yas Yamin">
+      <data key="d14">2</data>
+    </edge>
+    <edge source="COSC 405" target="John Braun">
+      <data key="d14">2</data>
+    </edge>
+    <edge source="COSC 445" target="Mohamed Shehata">
+      <data key="d14">2</data>
+    </edge>
+    <edge source="Mohamed Shehata" target="COSC 210">
+      <data key="d14">2</data>
+    </edge>
+    <edge source="Mohamed Shehata" target="COSC 545">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="Mohamed Shehata" target="COSC 444">
+      <data key="d14">3</data>
+    </edge>
+    <edge source="Mohamed Shehata" target="COSC 544">
+      <data key="d14">3</data>
+    </edge>
+    <edge source="Mohamed Shehata" target="COSC 419">
+      <data key="d14">2</data>
+    </edge>
+    <edge source="Mohamed Shehata" target="COSC 519">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 499" target="Mandeep Pannu">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 499" target="Gema Rodriguez-Perez">
+      <data key="d14">2</data>
+    </edge>
+    <edge source="COSC 499" target="Scott Fazackerley">
+      <data key="d14">3</data>
+    </edge>
+    <edge source="COSC 499" target="Bowen Hui">
+      <data key="d14">2</data>
+    </edge>
+    <edge source="Fuxiang Chen" target="COSC 310">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="Abdallah Mohamed" target="COSC 407">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="Abdallah Mohamed" target="COSC 507">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="Abdallah Mohamed" target="COSC 123">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="Ifeoma Adaji" target="COSC 419">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="Ifeoma Adaji" target="COSC 519">
+      <data key="d14">2</data>
+    </edge>
+    <edge source="Ifeoma Adaji" target="COSC 421">
+      <data key="d14">4</data>
+    </edge>
+    <edge source="Ifeoma Adaji" target="COSC 521">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 123" target="Youry Khmelevsky">
+      <data key="d14">2</data>
+    </edge>
+    <edge source="COSC 210" target="Gema Rodriguez-Perez">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 210" target="Gema Rodriguez Perez">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="Mohammad Khalad Hasan" target="COSC 341">
+      <data key="d14">4</data>
+    </edge>
+    <edge source="Scott Fazackerley" target="COSC 407">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="Scott Fazackerley" target="COSC 507">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="Scott Fazackerley" target="COSC 328">
+      <data key="d14">5</data>
+    </edge>
+    <edge source="Scott Fazackerley" target="COSC 310">
+      <data key="d14">2</data>
+    </edge>
+    <edge source="Scott Fazackerley" target="COSC 315">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 303" target="Warren Hare">
+      <data key="d14">4</data>
+    </edge>
+    <edge source="COSC 303" target="Shawn Wang">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 305" target="Patricia Lasserre">
+      <data key="d14">3</data>
+    </edge>
+    <edge source="COSC 305" target="Mostafa Mohamed">
+      <data key="d14">2</data>
+    </edge>
+    <edge source="COSC 310" target="Shan Du">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 310" target="Shan du">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 310" target="Gema Rodriguez-Perez">
+      <data key="d14">2</data>
+    </edge>
+    <edge source="COSC 310" target="Gema Rodriguez Perez">
+      <data key="d14">2</data>
+    </edge>
+    <edge source="Shan Du" target="COSC 414">
+      <data key="d14">3</data>
+    </edge>
+    <edge source="Shan Du" target="COSC 344">
+      <data key="d14">2</data>
+    </edge>
+    <edge source="Shan Du" target="COSC 536">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 315" target="Apurva Narayan">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 315" target="Reece Walsh">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 328" target="Fatemeh Hendijani Fard">
+      <data key="d14">2</data>
+    </edge>
+    <edge source="COSC 329" target="Bowen Hui">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="Bowen Hui" target="COSC 541">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 335" target="Thor Bjarnason;Rasika Rajapakshe">
+      <data key="d14">2</data>
+    </edge>
+    <edge source="COSC 335" target="Michael Kudla-Hooper;Rasika Rajapakshe">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 404" target="Ramon Lawrence">
+      <data key="d14">2</data>
+    </edge>
+    <edge source="Ramon Lawrence" target="COSC 504">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="Ramon Lawrence" target="COSC 516">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 407" target="Yves Lucet">
+      <data key="d14">2</data>
+    </edge>
+    <edge source="COSC 407" target="A K M Amanat Ullah">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 414" target="Shan du">
+      <data key="d14">2</data>
+    </edge>
+    <edge source="COSC 419" target="Gema Rodriguez-Perez">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 490" target="Yves Lucet">
+      <data key="d14">3</data>
+    </edge>
+    <edge source="Yves Lucet" target="COSC 520">
+      <data key="d14">2</data>
+    </edge>
+    <edge source="Yves Lucet" target="COSC 507">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="Yves Lucet" target="COSC 406">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="Yves Lucet" target="COSC 506">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="Gema Rodriguez-Perez" target="COSC 536">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 519" target="Shan du">
+      <data key="d14">2</data>
+    </edge>
+    <edge source="COSC 520" target="Islam Osman">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 520" target="Fatemeh Hendijani Fard">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="Shan du" target="COSC 344">
+      <data key="d14">2</data>
+    </edge>
+    <edge source="Fatemeh Hendijani Fard" target="COSC 548">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 341" target="Arshad Nasser">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 341" target="A K M Amanat Ullah">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 341" target="Pourang Irani">
+      <data key="d14">2</data>
+    </edge>
+    <edge source="Barrett Ens" target="COSC 441">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="John Braun" target="COSC 505">
+      <data key="d14">1</data>
+    </edge>
+    <edge source="COSC 416" target="Iman Jalilvand">
+      <data key="d14">1</data>
+    </edge>
+  </graph>
+</graphml>
