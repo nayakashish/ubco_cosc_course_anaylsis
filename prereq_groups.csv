@@ -1,0 +1,184 @@
+course,route,group,member,note
+COSC 111,1,1,HS_ENTRY,70% in one of PREC 12 / MATH 12 (high school) or MATH 125 / MATH 126; HS_ENTRY stands for the high-school courses and is treated as always satisfied
+COSC 111,1,1,MATH 125,
+COSC 111,1,1,MATH 126,
+COSC 111,2,1,MATH 100,Calendar wording is ambiguous: unclear if the 70% score also applies to this route
+COSC 111,2,1,MATH 101,
+COSC 111,2,1,MATH 103,
+COSC 111,2,1,MATH 116,
+COSC 121,1,1,COSC 111,60% minimum
+COSC 121,1,1,COSC 123,
+COSC 121,1,1,APSC 177,
+COSC 123,1,1,COSC 111,
+COSC 123,1,1,COSC 122,
+COSC 211,1,1,COSC 121,
+COSC 221,1,1,MATH 101,COSC 121 is a corequisite (not in this file)
+COSC 221,1,1,MATH 103,
+COSC 221,1,1,MATH 142,
+COSC 221,1,1,APSC 173,
+COSC 222,1,1,COSC 121,60% minimum
+COSC 223,1,1,COSC 114,
+COSC 223,1,1,APSC 171,
+COSC 223,1,2,COSC 123,
+COSC 223,1,2,COSC 111,
+COSC 247,1,1,COSC 223,
+COSC 264,1,1,COSC 121,
+COSC 264,1,1,COSC 223,
+COSC 303,1,1,MATH 200,
+COSC 303,1,2,MATH 221,
+COSC 303,1,3,COSC 111,
+COSC 303,1,3,DATA 301,
+COSC 304,1,1,COSC 222,Route (a)
+COSC 304,2,1,STANDING_3,Route (b): third-year standing AND one of COSC 111 / 121 / 123; STANDING_3 is treated as always satisfied
+COSC 304,2,2,COSC 111,
+COSC 304,2,2,COSC 121,
+COSC 304,2,2,COSC 123,
+COSC 310,1,1,STANDING_3,Route (b) only: COSC 210 removed from the model (not in last year's plan); route (a) needed COSC 210 so it was dropped
+COSC 310,1,2,COSC 222,
+COSC 310,1,2,COSC 223,
+COSC 315,1,1,COSC 221,
+COSC 315,1,2,COSC 222,
+COSC 320,1,1,COSC 221,
+COSC 320,1,2,COSC 222,
+COSC 320,1,3,MATH 221,
+COSC 320,1,3,APSC 179,
+COSC 322,1,1,COSC 221,
+COSC 322,1,2,COSC 222,
+COSC 328,1,1,COSC 211,
+COSC 328,1,2,COSC 222,
+COSC 329,1,1,COSC 222,
+COSC 329,1,2,STAT 121,
+COSC 329,1,2,STAT 124,
+COSC 329,1,2,STAT 205,
+COSC 329,1,2,STAT 230,
+COSC 335,1,1,COSC 222,More than 60% required in each
+COSC 335,1,2,PHYS 121,PHYS 121 preferred
+COSC 335,1,2,PHYS 122,
+COSC 341,1,1,COSC 111,
+COSC 341,1,1,COSC 121,
+COSC 341,1,1,COSC 123,
+COSC 341,1,1,DATA 301,
+COSC 341,1,2,STANDING_3,Third-year standing
+COSC 344,1,1,COSC 222,COSC 210 removed from the model (not in last year's plan)
+COSC 344,1,2,MATH 200,
+COSC 344,1,2,APSC 248,
+COSC 344,1,3,MATH 221,
+COSC 344,1,3,APSC 179,
+COSC 360,1,1,COSC 121,
+COSC 360,1,2,COSC 304,
+COSC 360,1,3,STANDING_3,Third-year standing
+COSC 404,1,1,COSC 304,
+COSC 404,1,2,STANDING_3,Third-year standing
+COSC 405,1,1,COSC 221,
+COSC 405,1,2,COSC 222,
+COSC 406,1,1,MATH 200,
+COSC 406,1,1,APSC 248,
+COSC 406,1,2,MATH 221,
+COSC 406,1,2,APSC 179,
+COSC 407,1,1,COSC 222,COSC 210 removed from the model (not in last year's plan)
+COSC 412,1,1,COSC 310,DATA 311 removed from the model (not in last year's plan); that requirement is dropped
+COSC 413,1,1,STANDING_4,Fourth-year standing OR COSC 310 (two routes); STANDING_4 is treated as always satisfied
+COSC 413,2,1,COSC 310,
+COSC 414,1,1,COSC 221,
+COSC 414,1,2,COSC 222,
+COSC 414,1,3,MATH 221,
+COSC 414,1,3,APSC 179,
+COSC 416,1,1,COSC 304,
+COSC 416,1,2,STANDING_3,Third-year standing
+COSC 417,1,1,COSC 315,
+COSC 417,1,2,COSC 328,
+COSC 421,1,1,COSC 221,
+COSC 421,1,2,COSC 222,
+COSC 421,1,3,STAT 230,
+COSC 421,1,3,STAT 205,
+COSC 431,1,1,COSC 304,
+COSC 431,1,2,STANDING_3,Third-year standing
+COSC 432,1,1,COSC 304,
+COSC 432,1,2,STANDING_3,Third-year standing
+COSC 433,1,1,COSC 315,
+COSC 433,1,2,COSC 328,
+COSC 434,1,1,COSC 315,
+COSC 434,1,2,COSC 328,
+COSC 441,1,1,COSC 341,
+COSC 441,1,2,STANDING_4,Fourth-year standing
+COSC 442,1,1,COSC 341,
+COSC 442,1,2,COSC 310,
+COSC 444,1,1,COSC 344,
+COSC 451,1,1,COSC 450,
+COSC 499,1,1,COSC 304,
+COSC 499,1,2,COSC 310,
+COSC 499,1,3,COSC 341,
+COSC 114,1,1,HS_ENTRY,One of MATH 12 / PREC 12 / CALC 12 (high school); always satisfied
+MATH 125,1,1,HS_ENTRY,Principles of Mathematics 11 or Pre-Calculus 11 or Foundations of Mathematics 12 (high school)
+MATH 126,1,1,HS_ENTRY,Same high-school options or permission of the Department; treated as satisfied
+MATH 100,1,1,HS_ENTRY,Route (a): 67% in MATH 12 or PREC 12 (high school)
+MATH 100,1,1,MATH 125,Route (b): 60% minimum; MATH 100 and MATH 116 are equivalent (credit for only one)
+MATH 100,1,1,MATH 126,
+MATH 116,1,1,HS_ENTRY,Route (a): 67% in MATH 12 or PREC 12 (high school)
+MATH 116,1,1,MATH 125,Route (b): 60% minimum
+MATH 116,1,1,MATH 126,
+MATH 101,1,1,MATH 100,
+MATH 101,1,1,MATH 116,
+MATH 103,1,1,MATH 100,
+MATH 103,1,1,MATH 116,
+MATH 142,1,1,MATH 100,
+MATH 142,1,1,MATH 116,
+MATH 200,1,1,MATH 101,Route (a)
+MATH 200,1,1,MATH 103,Route (b): 65% minimum in MATH 103
+MATH 221,1,1,MATH 100,
+MATH 221,1,1,MATH 116,
+STAT 121,1,1,MATH 125,Route (a): 60% minimum
+STAT 121,1,1,MATH 126,
+STAT 121,1,1,HS_ENTRY,Route (b): 67% in MATH 12 or PREC 12 (high school)
+STAT 121,1,1,MATH 100,Route (c)
+STAT 124,1,1,HS_ENTRY,Principles of Mathematics 11 or Pre-Calculus 11 or Foundations of Mathematics 12 (high school)
+STAT 124,1,1,MATH 125,
+STAT 124,1,1,MATH 126,
+STAT 124,1,1,MATH 100,
+STAT 205,1,1,STAT 203,STAT 203 is not in our data yet (its prerequisites are unknown)
+STAT 230,1,1,MATH 101,
+STAT 230,1,1,MATH 103,
+STAT 230,1,1,MATH 142,
+STAT 230,1,2,DATA 101,DATA 101 is not in our data yet (its prerequisites are unknown)
+STAT 230,1,2,COSC 221,
+DATA 301,1,1,STANDING_3,Third-year standing
+PHYS 121,1,1,MATH 100,MATH 101 or MATH 103 is a corequisite (not in this file)
+PHYS 121,1,1,MATH 116,
+PHYS 121,1,2,PHYS 111,
+PHYS 121,1,2,PHYS 112,
+PHYS 122,1,1,MATH 100,MATH 101 or MATH 103 is a corequisite (not in this file); same prerequisites as PHYS 121
+PHYS 122,1,1,MATH 116,
+PHYS 122,1,2,PHYS 111,
+PHYS 122,1,2,PHYS 112,
+APSC 173,1,1,APSC 172,
+APSC 248,1,1,APSC 173,
+STAT 203,1,1,MATH 101,Corequisite DATA 101 is not in this file
+STAT 203,1,1,MATH 103,
+STAT 203,1,1,MATH 142,
+PHYS 111,1,1,HS_ENTRY,One of PHYS 11 or PHYS 12 (high school); always satisfied; Physics 12 strongly recommended; corequisite MATH 100 or MATH 116 is not in this file
+PHYS 111,1,2,HS_ENTRY,One of MATH 12 or PREC 12 (high school) or MATH 125 or MATH 126
+PHYS 111,1,2,MATH 125,
+PHYS 111,1,2,MATH 126,
+PHYS 112,1,1,HS_ENTRY,One of MATH 12 or PREC 12 (high school) or MATH 125 or MATH 126; Physics 11 and 12 strongly recommended; taking MATH 100 at the same time is recommended but not required
+PHYS 112,1,1,MATH 125,
+PHYS 112,1,1,MATH 126,
+ENGL 203,1,1,ENGL 109,One of the nine listed English courses
+ENGL 203,1,1,ENGL 112,
+ENGL 203,1,1,ENGL 114,
+ENGL 203,1,1,ENGL 150,
+ENGL 203,1,1,ENGL 151,
+ENGL 203,1,1,ENGL 153,
+ENGL 203,1,1,ENGL 154,
+ENGL 203,1,1,ENGL 155,
+ENGL 203,1,1,ENGL 156,
+CORH 203,1,1,ENGL 109,One of the nine listed courses (ENGL 154 is not in this list)
+CORH 203,1,1,ENGL 112,
+CORH 203,1,1,ENGL 114,
+CORH 203,1,1,ENGL 150,
+CORH 203,1,1,ENGL 151,
+CORH 203,1,1,ENGL 153,
+CORH 203,1,1,ENGL 155,
+CORH 203,1,1,ENGL 156,
+CORH 203,1,1,APSC 176,
+APSC 201,1,1,APSC 176,
+PHIL 331,1,1,STANDING_3,Third-year standing in an Arts or Science program or in the B.Sust. degree

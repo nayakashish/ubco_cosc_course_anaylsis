@@ -1,0 +1,93 @@
+course,subject,role,in_BSc_plan,in_BA_plan,connected,prereq_level,n_prereq_courses,n_unlocks,has_grade_data
+APSC 171,APSC,prerequisite only,False,False,True,1,0,1,True
+APSC 172,APSC,prerequisite only,False,False,True,1,0,1,True
+APSC 173,APSC,prerequisite only,False,False,True,2,1,2,True
+APSC 176,APSC,plan course,True,False,True,1,0,2,True
+APSC 177,APSC,prerequisite only,False,False,True,1,0,1,True
+APSC 179,APSC,prerequisite only,False,False,True,1,0,4,True
+APSC 201,APSC,plan course,True,False,True,2,1,0,True
+APSC 248,APSC,prerequisite only,False,False,True,3,1,2,True
+CORH 203,CORH,plan course,True,False,True,2,9,0,True
+CORH 205,CORH,plan course,True,False,False,,0,0,True
+COSC 101,COSC,elective (offered 2021-2025),False,False,False,,0,0,True
+COSC 111,COSC,plan course,True,True,True,4,6,6,True
+COSC 114,COSC,COSC course never offered 2021-2025,False,False,True,1,0,1,False
+COSC 121,COSC,plan course,True,True,True,6,3,6,True
+COSC 122,COSC,elective (offered 2021-2025),False,False,True,1,0,1,True
+COSC 123,COSC,plan course,True,True,True,5,2,4,True
+COSC 150,COSC,COSC course never offered 2021-2025,False,False,True,,0,0,False
+COSC 211,COSC,plan course,True,False,True,7,1,1,True
+COSC 221,COSC,plan course,True,False,True,4,4,7,True
+COSC 222,COSC,plan course,True,True,True,7,1,13,True
+COSC 223,COSC,COSC course never offered 2021-2025,False,False,True,6,4,3,False
+COSC 247,COSC,COSC course never offered 2021-2025,False,False,True,7,1,0,False
+COSC 264,COSC,COSC course never offered 2021-2025,False,False,True,7,2,0,False
+COSC 301,COSC,elective (offered 2021-2025),False,False,True,,0,0,True
+COSC 303,COSC,elective (offered 2021-2025),False,False,True,5,4,0,True
+COSC 304,COSC,plan course,True,True,True,8,4,6,True
+COSC 305,COSC,elective (offered 2021-2025),False,False,True,,0,0,True
+COSC 310,COSC,plan course,True,True,True,8,2,4,True
+COSC 315,COSC,elective (offered 2021-2025),False,False,True,8,2,3,True
+COSC 320,COSC,plan course,True,False,True,8,4,0,True
+COSC 322,COSC,elective (offered 2021-2025),False,False,True,8,2,0,True
+COSC 328,COSC,elective (offered 2021-2025),False,False,True,8,2,3,True
+COSC 329,COSC,elective (offered 2021-2025),False,False,True,8,5,0,True
+COSC 335,COSC,elective (offered 2021-2025),False,False,True,8,3,0,True
+COSC 341,COSC,plan course,True,True,True,7,4,3,True
+COSC 344,COSC,elective (offered 2021-2025),False,False,True,8,5,1,True
+COSC 360,COSC,elective (offered 2021-2025),False,False,True,9,2,0,True
+COSC 404,COSC,elective (offered 2021-2025),False,False,True,9,1,0,True
+COSC 405,COSC,elective (offered 2021-2025),False,False,True,8,2,0,True
+COSC 406,COSC,elective (offered 2021-2025),False,False,True,5,4,0,True
+COSC 407,COSC,elective (offered 2021-2025),False,False,True,8,1,0,True
+COSC 412,COSC,COSC course never offered 2021-2025,False,False,True,9,1,0,False
+COSC 413,COSC,COSC course never offered 2021-2025,False,False,True,9,1,0,False
+COSC 414,COSC,elective (offered 2021-2025),False,False,True,8,4,0,True
+COSC 416,COSC,elective (offered 2021-2025),False,False,True,9,1,0,True
+COSC 417,COSC,COSC course never offered 2021-2025,False,False,True,9,2,0,False
+COSC 419,COSC,elective (offered 2021-2025),False,False,False,,0,0,True
+COSC 421,COSC,elective (offered 2021-2025),False,False,True,8,4,0,True
+COSC 431,COSC,COSC course never offered 2021-2025,False,False,True,9,1,0,False
+COSC 432,COSC,COSC course never offered 2021-2025,False,False,True,9,1,0,False
+COSC 433,COSC,COSC course never offered 2021-2025,False,False,True,9,2,0,False
+COSC 434,COSC,COSC course never offered 2021-2025,False,False,True,9,2,0,False
+COSC 441,COSC,elective (offered 2021-2025),False,False,True,8,1,0,True
+COSC 442,COSC,COSC course never offered 2021-2025,False,False,True,9,2,0,False
+COSC 444,COSC,elective (offered 2021-2025),False,False,True,9,1,0,True
+COSC 450,COSC,COSC course never offered 2021-2025,False,False,True,1,0,1,False
+COSC 451,COSC,COSC course never offered 2021-2025,False,False,True,2,1,0,False
+COSC 490,COSC,elective (offered 2021-2025),False,False,False,,0,0,True
+COSC 499,COSC,plan course,True,True,True,9,3,0,True
+DATA 101,DATA,prerequisite only,False,False,True,1,0,1,True
+DATA 301,DATA,prerequisite only,False,False,True,1,0,2,True
+ENGL 109,ENGL,plan course,True,False,True,1,0,2,True
+ENGL 112,ENGL,plan course,True,False,True,1,0,2,True
+ENGL 113,ENGL,plan course,True,False,False,,0,0,False
+ENGL 114,ENGL,plan course,True,False,True,1,0,2,True
+ENGL 150,ENGL,plan course,True,False,True,1,0,2,True
+ENGL 151,ENGL,plan course,True,False,True,1,0,2,True
+ENGL 153,ENGL,plan course,True,False,True,1,0,2,True
+ENGL 154,ENGL,plan course,True,False,True,1,0,1,True
+ENGL 155,ENGL,plan course,True,False,True,1,0,2,True
+ENGL 156,ENGL,plan course,True,False,True,1,0,2,True
+ENGL 203,ENGL,plan course,True,False,True,2,9,0,True
+MATH 100,MATH,plan course,True,True,True,2,2,9,True
+MATH 101,MATH,plan course,True,False,True,3,2,5,True
+MATH 103,MATH,plan course,True,False,True,3,2,5,True
+MATH 111,MATH,plan course,False,True,False,,0,0,True
+MATH 116,MATH,plan course,False,True,True,2,2,7,True
+MATH 125,MATH,prerequisite only,False,False,True,1,0,7,True
+MATH 126,MATH,prerequisite only,False,False,True,1,0,7,True
+MATH 142,MATH,prerequisite only,False,False,True,3,2,3,True
+MATH 200,MATH,prerequisite only,False,False,True,4,2,3,True
+MATH 221,MATH,plan course,True,False,True,3,2,5,True
+PHIL 331,PHIL,plan course,True,True,False,,0,0,True
+PHYS 111,PHYS,plan course,True,False,True,2,2,2,True
+PHYS 112,PHYS,plan course,True,False,True,2,2,2,True
+PHYS 121,PHYS,prerequisite only,False,False,True,3,4,1,True
+PHYS 122,PHYS,prerequisite only,False,False,True,3,4,1,True
+STAT 121,STAT,prerequisite only,False,False,True,3,3,1,True
+STAT 124,STAT,prerequisite only,False,False,True,3,3,1,True
+STAT 203,STAT,prerequisite only,False,False,True,4,3,1,True
+STAT 205,STAT,plan course,True,False,True,5,1,2,True
+STAT 230,STAT,plan course,True,False,True,5,5,2,True
