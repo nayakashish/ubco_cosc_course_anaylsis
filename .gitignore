@@ -12,5 +12,5 @@ __pycache__/
 .DS_Store
 .vscode/
 .idea/
-
+.pdf
 /temp

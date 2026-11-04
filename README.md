@@ -115,3 +115,23 @@ Run it with: `python combine_grades.py PATH/TO/ubc-pair-grade-data`
 - **Hidden small counts:** UBC hides grade counts below 6 for privacy, so some sections have no fail count. Those sections are left out of the fail rate. `Students_With_Fail_Data` shows how many students each fail rate is based on.
 - **Missing courses:** COSC 270 and ENGL 113 are required (BSc) but have no grade data in the repo. They are still nodes in the network, but have no grade weight.
 - **Options counted together:** "One of" requirements (e.g. COSC 111 or COSC 123) list every option as a required course.
+## Network analysis (`build_networks.py`)
+
+Run with: `python build_networks.py` (from the project root). It writes networks to `output/networks/` and figures to `output/figures/`.
+
+**Input data.** The networks are built from the cleaned AND/OR files described in `README_data_files.md`:
+`prereq_groups.csv`, `coreq_groups.csv`, `degree_requirements.csv` and `network_nodes.csv`. The old `output/edges.csv` is no longer used, because it treated every "one of" option as a required prerequisite.
+
+**BSc and BA networks** (N4, N5) are the core networks defined in `REVIEW_CHECKLIST.md`: the mandatory and choice courses of each degree (BSc English choice left out) and the links between them.
+
+**AND/OR-aware measures** in `output/networks/node_metrics_full.csv`:
+
+| Column | Meaning |
+|---|---|
+| `blocked_if_removed` | courses that can no longer be taken at all if this course did not exist (alternatives are respected) |
+| `delayed_if_removed` | courses that are still possible without it, but only through a longer chain |
+| `bsc_reqs_broken`, `ba_reqs_broken` | degree requirements that can no longer be met without this course |
+| `min_levels` | fewest prerequisite levels needed before a course, taking the shortest alternative each time (0 = no prerequisites; corequisites do not count) |
+| `descendants`, `longest_chain_to_node` | plain graph measures that follow every arrow; upper bounds that ignore alternatives |
+
+Year standing and high-school entry requirements are treated as always satisfied. Missing fail rates are still filled with the median (see `REVIEW_CHECKLIST.md`, decision 6).

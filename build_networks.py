@@ -78,14 +78,60 @@ GROUP_COLOR = {"COSC": BLUE, "MATH / STAT / DATA": ORANGE, "Other (APSC, PHYS, .
 
 
 # ---------------------------------------------------------------- load data
+# Prerequisite data comes from the cleaned AND/OR files (see README_data_files.md):
+#   prereq_groups.csv / coreq_groups.csv : course, route, group, member
+#     same group = alternatives (OR), groups in a route = all needed (AND),
+#     routes = alternative ways in (OR)
+#   degree_requirements.csv : which courses each degree requires
+#   network_nodes.csv       : the list of courses in the network
+# The old output/edges.csv treated every "one of" option as required and is no
+# longer used.
 courses = read_csv(ROOT / "output" / "courses.csv")
-edges = read_csv(ROOT / "output" / "edges.csv")
 by_course = {r["Course Code"]: r for r in read_csv(GRADES / "UBC Pair data - ubco_grades_by_course.csv")}
 required = read_csv(GRADES / "UBC Pair data - ubco_grades_required.csv.csv")
 sections = read_csv(GRADES / "UBC Pair data - ubco_grades_all_sections.csv")
+node_rows = read_csv(ROOT / "network_nodes.csv")
+degree_reqs = read_csv(ROOT / "degree_requirements.csv")
 
-BSC = {r["Course Code"] for r in required if r["In BSc"] == "TRUE"} | {"COSC 270", "ENGL 113"}
-BA = {r["Course Code"] for r in required if r["In BA"] == "TRUE"}
+# High-school entry and year standing are treated as always satisfied (no edge).
+SPECIAL = {"HS_ENTRY", "STANDING_3", "STANDING_4"}
+
+
+def read_logic(path):
+    """course -> list of routes; route -> list of groups; group -> set of members."""
+    tree = defaultdict(lambda: defaultdict(lambda: defaultdict(set)))
+    for r in read_csv(path):
+        tree[r["course"]][r["route"]][r["group"]].add(r["member"])
+    return {c: [list(groups.values()) for groups in routes.values()] for c, routes in tree.items()}
+
+
+PREREQ = read_logic(ROOT / "prereq_groups.csv")
+COREQ = read_logic(ROOT / "coreq_groups.csv")
+
+edges = []
+for relation, logic in (("prereq", PREREQ), ("coreq", COREQ)):
+    for course, routes in logic.items():
+        for route_i, groups in enumerate(routes, 1):
+            for group in groups:
+                for m in sorted(group - SPECIAL):
+                    edges.append({"source": m, "target": course, "relation": relation,
+                                  "route": route_i, "alternatives": len(group)})
+
+
+def degree_courses(program):
+    """Courses in a degree's core: every mandatory course and every option of a
+    choice requirement. The BSc English choice (BSC03) is kept out of the core,
+    as decided in REVIEW_CHECKLIST.md."""
+    out = set()
+    for r in degree_reqs:
+        if r["program"] == program and r["kind"] in ("mandatory", "choice") and not r["req_id"].startswith("BSC03"):
+            out |= set(r["options"].split("|"))
+    return out
+
+
+BSC = degree_courses("BSc")
+BA = degree_courses("BA")
+role = {r["course"]: r["role"] for r in node_rows}
 
 titles = {c["code"]: c["title"] for c in courses}
 
@@ -99,6 +145,7 @@ def node_attrs(code):
         "year_level": level(code),
         "in_bsc": code in BSC,
         "in_ba": code in BA,
+        "role": role.get(code, ""),
         "has_grades": bool(g),
     }
     for key, col in [("avg_grade", "Avg Grade"), ("fail_rate", "Fail Rate %"),
@@ -120,34 +167,125 @@ def build(edge_rows, keep_node=lambda c: True, extra_nodes=()):
     for e in edge_rows:
         s, t = e["source"], e["target"]
         if keep_node(s) and keep_node(t):
-            G.add_edge(s, t, relation=e["relation"])
+            G.add_edge(s, t, relation=e["relation"], route=e["route"], alternatives=e["alternatives"])
     for n in G.nodes:
         G.nodes[n].update(node_attrs(n))
     return G
 
 
-undergrad = [c["code"] for c in courses if level(c["code"]) <= 4]
+all_courses = [r["course"] for r in node_rows]
 
 # ---------------------------------------------------------------- networks
 NETWORKS = {}
-NETWORKS["N1_full"] = build(edges, extra_nodes=undergrad)
-NETWORKS["N2_prereq_only"] = build([e for e in edges if e["relation"] == "prereq"], extra_nodes=undergrad)
-NETWORKS["N3_cosc_only"] = build(edges, keep_node=lambda c: c.startswith("COSC"), extra_nodes=undergrad)
+NETWORKS["N1_full"] = build(edges, extra_nodes=all_courses)
+NETWORKS["N2_prereq_only"] = build([e for e in edges if e["relation"] == "prereq"], extra_nodes=all_courses)
+NETWORKS["N3_cosc_only"] = build(edges, keep_node=lambda c: c.startswith("COSC"), extra_nodes=all_courses)
 
 full = NETWORKS["N1_full"]
+prereq_net = NETWORKS["N2_prereq_only"]
+
+
+# ------------------------------------------------ AND/OR-aware measures
+# These read the prerequisite formulas, so a course with alternatives is only
+# blocked when every alternative is gone.
+def satisfied(routes, done):
+    if not routes:
+        return True
+    return any(all(any(m in SPECIAL or m in done for m in group) for group in route) for route in routes)
+
+
+def takeable(removed=frozenset(), prereq=PREREQ):
+    """Every course a student could still eventually take if `removed` courses
+    did not exist. Corequisites count (they can be taken in the same term)."""
+    done = set()
+    changed = True
+    while changed:
+        changed = False
+        for c in all_courses:
+            if c in done or c in removed:
+                continue
+            if satisfied(prereq.get(c), done) and satisfied(COREQ.get(c), done):
+                done.add(c)
+                changed = True
+    return done
+
+
+BASE_TAKEABLE = takeable()
+
+
+def min_levels(prereq=PREREQ, removed=frozenset()):
+    """Fewest prerequisite levels needed before each course, choosing the
+    shortest alternative every time. 0 = no prerequisites. Corequisites do
+    not lengthen chains."""
+    lv = {}
+    for c in nx.topological_sort(prereq_net):
+        if c in removed:
+            continue
+        routes = prereq.get(c)
+        if not routes:
+            lv[c] = 0
+            continue
+        best = None
+        for route in routes:
+            need = 0
+            for group in route:
+                opts = [0 if m in SPECIAL else lv[m] + 1 for m in group if m in SPECIAL or m in lv]
+                if not opts:
+                    need = None
+                    break
+                need = max(need, min(opts))
+            if need is not None:
+                best = need if best is None else min(best, need)
+        if best is not None:
+            lv[c] = best
+    return lv
+
+
+LEVELS = min_levels()
+
+
+def critical_chain(c, lv=LEVELS):
+    """The shortest chain a student is forced through to reach course c."""
+    routes = PREREQ.get(c)
+    if not routes or lv[c] == 0:
+        return [c]
+    for route in routes:
+        groups = [[m for m in g if m in SPECIAL or m in lv] for g in route]
+        if all(groups) and max(min(0 if m in SPECIAL else lv[m] + 1 for m in g) for g in groups) == lv[c]:
+            g = max(groups, key=lambda g: min(0 if m in SPECIAL else lv[m] + 1 for m in g))
+            m = min((m for m in g if m not in SPECIAL), key=lambda m: (lv[m], m not in BSC | BA, m))
+            return critical_chain(m, lv) + [c]
+    return [c]
+
+
+def requirements_broken(program, available):
+    """Degree requirements (mandatory/choice rows) that can no longer be met."""
+    rows = [r for r in degree_reqs if r["program"] == program and r["kind"] in ("mandatory", "choice")]
+    broken = []
+    for r in rows:
+        opts = r["options"].split("|")
+        if sum(o in available for o in opts) < int(r["pick"]):
+            broken.append(r["req_id"])
+    # BSc English can be met by either BSC03_A or BSC03_B
+    if "BSC03_A" in broken and "BSC03_B" in broken:
+        broken = [b for b in broken if b not in ("BSC03_A", "BSC03_B")] + ["BSC03"]
+    else:
+        broken = [b for b in broken if b not in ("BSC03_A", "BSC03_B")]
+    return broken
+
+
+blocked_by = {}       # course -> courses that can no longer be taken without it
+for c in all_courses:
+    blocked_by[c] = BASE_TAKEABLE - takeable(frozenset([c])) - {c}
 
 
 def degree_subnetwork(req):
-    keep = set()
-    for c in req:
-        keep.add(c)
-        if c in full:
-            keep |= nx.ancestors(full, c)
-    H = full.subgraph(keep).copy()
-    H.add_nodes_from(c for c in req if c not in H)
+    """Core network of a degree: its required courses and the prerequisite
+    links between them (same definition as REVIEW_CHECKLIST.md)."""
+    H = full.subgraph(req).copy()
     for n in H.nodes:
         H.nodes[n].update(node_attrs(n))
-        H.nodes[n]["required"] = n in req
+        H.nodes[n]["required"] = True
     return H
 
 
@@ -178,10 +316,10 @@ for s, t, d in W.edges(data=True):
     d.update(w_fail_src=fs, w_pass_src=1 - fs, w_cost_src=1 / (1 - fs), w_fail_tgt=ft)
 NETWORKS["N7_grade_weighted"] = W
 
-# Node-removal variants for the top COSC courses by number of downstream courses
-# (non-COSC entry prereqs like MATH 125 are "one of" alternatives, so skipped).
+# Node-removal variants for the three courses that block the most other courses
+# (AND/OR-aware: alternatives are respected).
 desc_count = {n: len(nx.descendants(full, n)) for n in full}
-top_removed = sorted((n for n in full if n.startswith("COSC")), key=desc_count.get, reverse=True)[:3]
+top_removed = sorted(full, key=lambda n: (len(blocked_by[n]), desc_count[n]), reverse=True)[:3]
 for c in top_removed:
     H = full.copy()
     H.remove_node(c)
@@ -273,14 +411,19 @@ metrics = {
     "ancestors": {n: len(nx.ancestors(G, n)) for n in G},
 }
 
-# OR-semantics blocking: add a virtual root pointing at every course with no
-# prerequisites; a node X "blocks" Y if every path root->Y goes through X
-# (X dominates Y). AND-semantics blocking is just descendants.
-R = G.copy()
-R.add_edges_from(("__ROOT__", n) for n in G if G.in_degree(n) == 0)
-idom = nx.immediate_dominators(R, "__ROOT__")
-dom_tree = nx.DiGraph((v, u) for u, v in idom.items() if u != v)
-metrics["blocked_or"] = {n: len(nx.descendants(dom_tree, n)) if n in dom_tree else 0 for n in G}
+# Removal impact, read from the AND/OR formulas:
+#   blocked_if_removed : courses that can no longer be taken at all
+#   delayed_if_removed : courses still possible, but only through a longer chain
+#   bsc/ba_reqs_broken : degree requirements that can no longer be met
+metrics["blocked_if_removed"] = {n: len(blocked_by[n]) for n in G}
+delayed = {}
+for n in G:
+    lv = min_levels(removed=frozenset([n]))
+    delayed[n] = sum(1 for c, v in lv.items() if v > LEVELS[c])
+metrics["delayed_if_removed"] = delayed
+metrics["bsc_reqs_broken"] = {n: len(requirements_broken("BSc", BASE_TAKEABLE - blocked_by[n] - {n})) for n in G}
+metrics["ba_reqs_broken"] = {n: len(requirements_broken("BA", BASE_TAKEABLE - blocked_by[n] - {n})) for n in G}
+metrics["min_levels"] = LEVELS
 
 pr_plain = _pagerank_python(rev, weight=None)
 rev_w = rev.copy()
@@ -299,16 +442,19 @@ if DAG:
         for n in gen:
             generation[n] = i
 metrics["topo_generation"] = generation
+# Longest path over prerequisite links only (corequisites do not lengthen
+# chains). This follows every alternative, so it is an upper bound; min_levels
+# is the chain a student is actually forced through.
 depth = {}
-for n in nx.topological_sort(G):
-    preds = list(G.predecessors(n))
+for n in nx.topological_sort(prereq_net):
+    preds = list(prereq_net.predecessors(n))
     depth[n] = 1 + max(depth[p] for p in preds) if preds else 0
 metrics["longest_chain_to_node"] = depth
 
 with open(NET_DIR / "node_metrics_full.csv", "w", newline="") as f:
     w = csv.writer(f)
     cols = list(metrics)
-    attrs = ["title", "group", "year_level", "in_bsc", "in_ba", "avg_grade", "fail_rate", "terms_offered"]
+    attrs = ["title", "group", "role", "year_level", "in_bsc", "in_ba", "avg_grade", "fail_rate", "terms_offered"]
     w.writerow(["course"] + attrs + cols)
     for n in sorted(G):
         d = G.nodes[n]
@@ -358,7 +504,8 @@ def draw_prereq(H, title, fname, color_fn, legend, size_fn=None, pos=None,
     nx.draw_networkx_edges(H, pos, edgelist=[e for e in co if e not in hl], edge_color=GRAY, width=0.8,
                            style="dashed", **kw)
     if hl:
-        nx.draw_networkx_edges(H, pos, edgelist=list(hl), edge_color=INK, width=2.4, **kw)
+        nx.draw_networkx_edges(H, pos, edgelist=list(hl), edge_color=INK, width=2.4,
+                               **{**kw, "connectionstyle": "arc3,rad=-0.25"})
     sizes = [size_fn(n) for n in H] if size_fn else 700
     nx.draw_networkx_nodes(H, pos, ax=ax, node_color=[color_fn(n) for n in H],
                            node_size=sizes, edgecolors=SURFACE, linewidths=2)
@@ -387,10 +534,10 @@ draw_prereq(NETWORKS["N3_cosc_only"], "N3 COSC-only prerequisite network",
 
 for name, label in [("N4_bsc", "BSc"), ("N5_ba", "BA")]:
     H = NETWORKS[name]
-    draw_prereq(H, f"{name} {label} required courses + all their prerequisites",
+    draw_prereq(H, f"{name} {label} core: required courses and the links between them",
                 f"04_{label.lower()}_network.png",
-                lambda n, H=H: BLUE if H.nodes[n]["required"] else GRAY,
-                [("required", BLUE), ("prerequisite of a required course", GRAY)],
+                lambda n, H=H: BLUE if n.startswith("COSC") else ORANGE,
+                [("COSC course", BLUE), ("other subject", ORANGE)],
                 figsize=(16, 10), drop_isolates=False)
 
 MEM_COLOR = {"both": BLUE, "BSc only": ORANGE, "BA only": AQUA}
@@ -398,9 +545,12 @@ draw_prereq(union, "N6 BSc / BA union, coloured by which degree network the cour
             "05_bsc_vs_ba_union.png", lambda n: MEM_COLOR[union.nodes[n]["membership"]],
             list(MEM_COLOR.items()), figsize=(18, 11), drop_isolates=False)
 
-# Longest chain highlighted
-lp = nx.dag_longest_path(full)
-draw_prereq(full, f"Longest prerequisite chain highlighted ({len(lp) - 1} edges: {' -> '.join(lp)})",
+# Longest forced chain highlighted: the course whose shortest possible route is
+# longest, and that route.
+deepest = max(sorted(LEVELS), key=lambda c: (LEVELS[c], c in BSC | BA, c.startswith("COSC")))
+lp = critical_chain(deepest)
+draw_prereq(full, f"Longest forced prerequisite chain ({len(lp) - 1} levels: {' -> '.join(lp)})\n"
+                  "taking the shortest alternative at every step",
             "06_longest_chain.png", lambda n: BLUE if n in lp else GRAY,
             [("on longest chain", BLUE), ("other", GRAY)],
             highlight_edges=list(zip(lp, lp[1:])))
@@ -462,7 +612,8 @@ def ranks(x):
 
 active = [n for n in full if full.degree(n) > 0]
 corr_keys = ["in_degree", "out_degree", "betweenness", "closeness_in", "closeness_out",
-             "descendants", "ancestors", "blocked_or", "pagerank_rev", "katz_rev"]
+             "descendants", "ancestors", "blocked_if_removed", "delayed_if_removed",
+             "min_levels", "pagerank_rev", "katz_rev"]
 X = np.array([[metrics[k][n] for n in active] for k in corr_keys], dtype=float)
 Rk = np.array([ranks(row) for row in X])
 C = np.corrcoef(Rk)
@@ -482,8 +633,8 @@ save(fig, "10_measure_correlation.png")
 
 # Q2 removal impact
 fig, axes = plt.subplots(1, 2, figsize=(14, 6))
-top_bar(axes[0], metrics["descendants"], "Courses blocked if removed - AND reading\n(every downstream course)")
-top_bar(axes[1], metrics["blocked_or"], "Courses blocked if removed - OR reading\n(no alternative path left; dominator tree)",
+top_bar(axes[0], metrics["descendants"], "Downstream courses (every course reachable by arrows)\nupper bound: ignores alternatives")
+top_bar(axes[1], metrics["blocked_if_removed"], "Courses blocked if removed\n(read from the AND/OR formulas: no alternative left)",
         color=ORANGE)
 fig.suptitle("Node removal impact (Q2)", x=0.01, ha="left", fontweight="bold")
 fig.tight_layout()
@@ -493,13 +644,13 @@ save(fig, "11_removal_impact.png")
 fig, axes = plt.subplots(1, 3, figsize=(16, 5), sharey=True)
 for ax, k in zip(axes, ["betweenness", "out_degree", "closeness_out"]):
     xs = [metrics[k][n] for n in active]
-    ys = [metrics["descendants"][n] for n in active]
+    ys = [metrics["blocked_if_removed"][n] for n in active]
     ax.scatter(xs, ys, s=60, color=BLUE, edgecolors=SURFACE, linewidths=1.5, alpha=0.9)
-    for n in sorted(active, key=lambda n: metrics["descendants"][n], reverse=True)[:6]:
-        ax.annotate(n, (metrics[k][n], metrics["descendants"][n]), fontsize=8, color=INK2,
+    for n in sorted(active, key=lambda n: metrics["blocked_if_removed"][n], reverse=True)[:6]:
+        ax.annotate(n, (metrics[k][n], metrics["blocked_if_removed"][n]), fontsize=8, color=INK2,
                     xytext=(4, 2), textcoords="offset points")
     ax.set_xlabel(k)
-axes[0].set_ylabel("downstream courses (removal impact, AND)")
+axes[0].set_ylabel("courses blocked if removed (AND/OR-aware)")
 fig.suptitle("Centrality vs removal impact (Q2)", x=0.01, ha="left", fontweight="bold")
 save(fig, "12_centrality_vs_removal.png")
 
@@ -512,10 +663,10 @@ axes[0].bar(list(gen_counts), list(gen_counts.values()), color=BLUE, width=0.7)
 axes[0].set_title("Courses per topological generation (N1)", loc="left")
 axes[0].set_xlabel("generation (0 = no prerequisites)")
 axes[0].set_ylabel("courses")
-dep = [depth[n] for n in active]
+dep = [LEVELS[n] for n in active if n in LEVELS]
 axes[1].hist(dep, bins=range(0, max(dep) + 2), color=BLUE, edgecolor=SURFACE, linewidth=2, align="left")
-axes[1].set_title("Longest prerequisite chain ending at each course", loc="left")
-axes[1].set_xlabel("chain length (edges)")
+axes[1].set_title("Prerequisite levels needed before each course\n(shortest alternative at every step)", loc="left")
+axes[1].set_xlabel("levels (0 = no prerequisites)")
 save(fig, "13_chain_structure.png")
 
 # Q3/Q5 chain depth by degree
@@ -523,43 +674,44 @@ fig, ax = plt.subplots(figsize=(9, 4.5))
 width = 0.38
 for off, (lab, name, col) in zip([-width / 2, width / 2], [("BSc", "N4_bsc", BLUE), ("BA", "N5_ba", ORANGE)]):
     H = NETWORKS[name]
-    d = {}
-    for n in nx.topological_sort(H):
-        ps = list(H.predecessors(n))
-        d[n] = 1 + max(d[p] for p in ps) if ps else 0
     cnt = defaultdict(int)
     for n in H:
-        cnt[d[n]] += 1
+        cnt[LEVELS[n]] += 1
     xs = sorted(cnt)
     ax.bar([x + off for x in xs], [cnt[x] for x in xs], width=width - 0.03, color=col, label=lab)
-ax.set_xlabel("longest chain ending at course (edges)")
+ax.set_xlabel("prerequisite levels needed before the course (from the full network)")
 ax.set_ylabel("courses")
 ax.legend(frameon=False)
 ax.set_title("Chain depth of courses in the BSc vs BA networks", loc="left")
 save(fig, "14_chain_depth_bsc_vs_ba.png")
 
 
-# Q4 sensitivity: edge removal and node removal effects on reachability
-def reachable_pairs(H):
-    return sum(len(nx.descendants(H, n)) for n in H)
+# Q4 sensitivity, read from the AND/OR formulas:
+#   left : drop one prerequisite option (one arrow) -> courses that become impossible
+#   right: remove a course -> courses blocked vs courses that need a longer chain
+def without_option(course, member):
+    p = {c: [[set(g) for g in r] for r in routes] for c, routes in PREREQ.items()}
+    p[course] = [[g - {member} for g in r] for r in p[course]]
+    return p
 
 
-base_pairs = reachable_pairs(full)
-base_lp = nx.dag_longest_path_length(full)
 edge_effect = {}
-for u, v in list(full.edges):
-    H = full.copy()
-    H.remove_edge(u, v)
-    edge_effect[f"{u} -> {v}"] = base_pairs - reachable_pairs(H)
-node_lp = {}
-for n in active:
-    H = full.copy()
-    H.remove_node(n)
-    node_lp[n] = base_lp - nx.dag_longest_path_length(H)
+for e in edges:
+    if e["relation"] != "prereq":
+        continue
+    lost = BASE_TAKEABLE - takeable(prereq=without_option(e["target"], e["source"]))
+    edge_effect[f"{e['source']} -> {e['target']}"] = len(lost)
 fig, axes = plt.subplots(1, 2, figsize=(16, 6.5))
-top_bar(axes[0], edge_effect, f"Drop in reachable (prereq, course) pairs\nwhen one edge is removed (baseline {base_pairs})", n=20)
-top_bar(axes[1], node_lp, f"Drop in longest chain length when a course is removed\n(baseline {base_lp} edges)",
-        n=15, color=ORANGE)
+top_bar(axes[0], edge_effect, "Courses that become impossible when one\nprerequisite option (arrow) is removed", n=20)
+both = {n: metrics["blocked_if_removed"][n] + metrics["delayed_if_removed"][n] for n in active}
+top = sorted(both, key=both.get, reverse=True)[:15][::-1]
+axes[1].barh(top, [metrics["blocked_if_removed"][n] for n in top], color=BLUE, height=0.7, label="blocked")
+axes[1].barh(top, [metrics["delayed_if_removed"][n] for n in top], left=[metrics["blocked_if_removed"][n] for n in top],
+             color=ORANGE, height=0.7, label="still possible, longer chain")
+axes[1].set_title("When a course is removed: courses blocked vs courses delayed", loc="left")
+axes[1].grid(axis="y", visible=False)
+axes[1].tick_params(axis="y", labelsize=8)
+axes[1].legend(frameon=False, loc="lower right")
 fig.suptitle("Sensitivity to single removals (Q4)", x=0.01, ha="left", fontweight="bold")
 fig.tight_layout()
 save(fig, "15_sensitivity_removals.png")
@@ -575,16 +727,16 @@ for pat, col in pat_color.items():
            "Summer only": full.nodes[n]["offered_summer"] and not full.nodes[n]["offered_winter"]}[pat]]
     if not ns:
         continue
-    ax.scatter([full.nodes[n]["terms_offered"] for n in ns], [metrics["descendants"][n] for n in ns],
+    ax.scatter([full.nodes[n]["terms_offered"] for n in ns], [metrics["blocked_if_removed"][n] for n in ns],
                s=[30 + 12 * full.nodes[n].get("fail_rate", 0) for n in ns], color=col,
                edgecolors=SURFACE, linewidths=1.5, label=pat, alpha=0.9)
-for n in sorted((n for n in graded if n.startswith("COSC")), key=lambda n: metrics["descendants"][n], reverse=True)[:6]:
-    ax.annotate(n, (full.nodes[n]["terms_offered"], metrics["descendants"][n]), fontsize=8,
+for n in sorted((n for n in graded if n.startswith("COSC")), key=lambda n: metrics["blocked_if_removed"][n], reverse=True)[:6]:
+    ax.annotate(n, (full.nodes[n]["terms_offered"], metrics["blocked_if_removed"][n]), fontsize=8,
                 color=INK2, xytext=(5, 3), textcoords="offset points")
 ax.set_xlabel("terms offered, 2021S-2025W (max 10)")
-ax.set_ylabel("downstream courses")
+ax.set_ylabel("courses blocked if removed")
 ax.legend(frameon=False, title="offered in", loc="upper left")
-ax.set_title("Offering frequency vs downstream courses (marker size = fail rate)", loc="left")
+ax.set_title("Offering frequency vs courses blocked if removed (marker size = fail rate)", loc="left")
 save(fig, "16_offering_vs_downstream.png")
 
 # Q5 BSc vs BA metrics (small multiples, one scale per panel)
@@ -592,10 +744,10 @@ def summary(H):
     act = [n for n in H]
     return {
         "nodes": H.number_of_nodes(), "edges": H.number_of_edges(),
-        "density": nx.density(H), "longest chain": nx.dag_longest_path_length(H),
+        "density": nx.density(H), "levels needed (max)": max(LEVELS[n] for n in H),
         "generations": len(list(nx.topological_generations(H))),
         "% no prereqs": 100 * sum(H.in_degree(n) == 0 for n in act) / len(act),
-        "required courses": sum(H.nodes[n]["required"] for n in H),
+        "linked courses": sum(H.degree(n) > 0 for n in H),
     }
 
 
@@ -613,11 +765,12 @@ fig.suptitle("BSc vs BA network summary (Q5)", x=0.01, ha="left", fontweight="bo
 fig.tight_layout()
 save(fig, "17_bsc_vs_ba_summary.png")
 
-# Q5 top courses side by side
+# Q5 which courses each degree depends on most: degree requirements that can
+# no longer be met if the course disappears (AND/OR-aware, full network)
 fig, axes = plt.subplots(1, 2, figsize=(13, 6))
-for ax, (lab, name, col) in zip(axes, [("BSc", "N4_bsc", BLUE), ("BA", "N5_ba", ORANGE)]):
-    H = NETWORKS[name]
-    top_bar(ax, {n: len(nx.descendants(H, n)) for n in H}, f"{lab}: top 15 by downstream courses", color=col)
+for ax, (lab, key, col) in zip(axes, [("BSc", "bsc_reqs_broken", BLUE), ("BA", "ba_reqs_broken", ORANGE)]):
+    vals = {n: v for n, v in metrics[key].items() if v > 0}
+    top_bar(ax, vals, f"{lab}: requirements that can no longer be met\nif this course is removed", color=col)
 fig.tight_layout()
 save(fig, "18_bsc_vs_ba_top_downstream.png")
 
@@ -753,6 +906,6 @@ with open(NET_DIR / "network_summary.csv", "w", newline="") as f:
         w.writerow([name, H.is_directed(), H.number_of_nodes(), H.number_of_edges(),
                     f"{nx.density(H):.4f}", comps, dag, nx.dag_longest_path_length(H) if dag else ""])
 
-print("DAG:", DAG, "| longest path:", lp)
+print("DAG:", DAG, "| longest forced chain:", " -> ".join(lp))
 print("removed variants:", top_removed)
 print("figures:", len(list(FIG_DIR.glob('*.png'))), "| networks:", len(NETWORKS))
