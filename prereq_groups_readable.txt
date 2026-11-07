@@ -1,0 +1,247 @@
+PREREQUISITE GROUPS - READABLE VERSION (for checking prereq_groups.csv)
+
+How to read it:
+  AND            both sides are required
+  OR             any one of the options is enough
+  [ ... ]  ||  [ ... ]   two alternative routes; either route unlocks the course
+  STANDING_3 / STANDING_4   third / fourth-year standing (treated as always satisfied)
+  HS_ENTRY       high-school entry courses (treated as always satisfied)
+Each course shows the formula we encoded, then the original calendar text so you can compare.
+Corequisites are not included. Please check each formula against the calendar line under it.
+
+COSC 111 = [(HS_ENTRY OR MATH 125 OR MATH 126)]  ||  [(MATH 100 OR MATH 101 OR MATH 103 OR MATH 116)]
+    calendar: A score of 70% or higher in one of PREC 12, MATH 12, MATH_O 125, MATH_O 126; or one of MATH_O 100, 101, 103, 116.
+
+COSC 121 = (COSC 111 OR COSC 123 OR APSC 177)
+    calendar: A score of 60% or higher in one of COSC 111, COSC 123, APSC 177.
+
+COSC 123 = (COSC 111 OR COSC 122)
+    calendar: One of COSC 111, COSC 122.
+
+COSC 211 = COSC 121
+    calendar: COSC 121.
+
+COSC 221 = (MATH 101 OR MATH 103 OR MATH 142 OR APSC 173)
+    calendar: One of MATH 101, MATH 103, MATH 142, APSC 173.
+
+COSC 222 = COSC 121
+    calendar: A score of 60% or higher in COSC_O 121.
+
+COSC 223 = (COSC 114 OR APSC 171) AND (COSC 123 OR COSC 111)
+    calendar: One of COSC 114, APSC 171 and one of COSC 123, COSC 111.
+
+COSC 247 = COSC 223
+    calendar: COSC 223.
+
+COSC 264 = (COSC 121 OR COSC 223)
+    calendar: One of COSC 121, COSC 223.
+
+COSC 303 = MATH 200 AND MATH 221 AND (COSC 111 OR DATA 301)
+    calendar: All of MATH 200, MATH 221 and either (a) COSC 111 or (b) DATA 301.
+
+COSC 304 = [COSC 222]  ||  [STANDING_3 AND (COSC 111 OR COSC 121 OR COSC 123)]
+    calendar: Either (a) COSC_O 222 or (b) third-year standing and one of COSC_O 111, COSC_O 121, COSC_O 123.
+
+COSC 310 = STANDING_3 AND (COSC 222 OR COSC 223)
+    calendar: Either (a) COSC_O 210 and one of COSC_O 222, COSC_O 223 or (b) third-year standing and one of COSC_O 210, COSC_O 222, COSC_O 223.
+    note: COSC 210 removed from the model (not in last year's plan); route (a) needed it and was dropped, so only the third-year-standing route is left
+
+COSC 315 = COSC 221 AND COSC 222
+    calendar: All of COSC 221, COSC 222.
+
+COSC 320 = COSC 221 AND COSC 222 AND (MATH 221 OR APSC 179)
+    calendar: All of COSC 221, COSC 222 and one of MATH 221, APSC 179.
+
+COSC 322 = COSC 221 AND COSC 222
+    calendar: All of COSC 221, COSC 222.
+
+COSC 328 = COSC 211 AND COSC 222
+    calendar: All of COSC 211, COSC 222.
+
+COSC 329 = COSC 222 AND (STAT 121 OR STAT 124 OR STAT 205 OR STAT 230)
+    calendar: COSC_O 222 and one of STAT_O 121, STAT_O 124, STAT_O 205, STAT_O 230.
+
+COSC 335 = COSC 222 AND (PHYS 121 OR PHYS 122)
+    calendar: A score more than 60% in COSC 222 and a score more than 60% in one of PHYS 121, PHYS 122. PHYS 121 preferred.
+
+COSC 341 = (COSC 111 OR COSC 121 OR COSC 123 OR DATA 301) AND STANDING_3
+    calendar: One of COSC 111, COSC 121, COSC 123, DATA 301. and Third-year standing.
+
+COSC 344 = COSC 222 AND (MATH 200 OR APSC 248) AND (MATH 221 OR APSC 179)
+    calendar: One of COSC_O 210, COSC_O 222 and one of MATH_O 200, APSC_O 248 and one of MATH_O 221, APSC_O 179.
+    note: COSC 210 removed from the model (not in last year's plan)
+
+COSC 360 = COSC 121 AND COSC 304 AND STANDING_3
+    calendar: All of COSC_O 121, COSC_O 304. And third-year standing.
+
+COSC 404 = COSC 304 AND STANDING_3
+    calendar: COSC 304. and third-year standing.
+
+COSC 405 = COSC 221 AND COSC 222
+    calendar: All of COSC 221, COSC 222.
+
+COSC 406 = (MATH 200 OR APSC 248) AND (MATH 221 OR APSC 179)
+    calendar: One of MATH 200, APSC 248 and one of MATH 221, APSC 179.
+
+COSC 407 = COSC 222
+    calendar: One of COSC 222, COSC 210.
+    note: COSC 210 removed from the model (not in last year's plan)
+
+COSC 412 = COSC 310
+    calendar: COSC_O 310 and DATA_O 311.
+    note: DATA 311 removed from the model (not in last year's plan); that requirement is dropped
+
+COSC 413 = [STANDING_4]  ||  [COSC 310]
+    calendar: Fourth year standing or COSC_O 310.
+
+COSC 414 = COSC 221 AND COSC 222 AND (MATH 221 OR APSC 179)
+    calendar: All of COSC 221, COSC 222 and one of MATH 221, APSC 179.
+
+COSC 416 = COSC 304 AND STANDING_3
+    calendar: COSC_O 304 and third-year standing.
+
+COSC 417 = COSC 315 AND COSC 328
+    calendar: All of COSC 315, COSC 328.
+
+COSC 421 = COSC 221 AND COSC 222 AND (STAT 230 OR STAT 205)
+    calendar: All of COSC_O 221, COSC_O 222 and one of STAT_O 230, STAT_O 205.
+
+COSC 431 = COSC 304 AND STANDING_3
+    calendar: COSC 304. and third-year standing.
+
+COSC 432 = COSC 304 AND STANDING_3
+    calendar: COSC 304 and third-year standing.
+
+COSC 433 = COSC 315 AND COSC 328
+    calendar: All of COSC 315, COSC 328.
+
+COSC 434 = COSC 315 AND COSC 328
+    calendar: All of COSC_O 315, COSC_O 328.
+
+COSC 441 = COSC 341 AND STANDING_4
+    calendar: COSC 341. and Fourth-year standing.
+
+COSC 442 = COSC 341 AND COSC 310
+    calendar: All of COSC_O 341, COSC_O 310.
+
+COSC 444 = COSC 344
+    calendar: COSC 344.
+
+COSC 451 = COSC 450
+    calendar: COSC _O 450.
+
+COSC 499 = COSC 304 AND COSC 310 AND COSC 341
+    calendar: All of COSC 304, COSC 310, COSC 341.
+
+==== NEW SECTION: MATH / STAT / DATA / PHYS / APSC courses and high-school-only courses ====
+(calendar text taken from what you pasted; review these the same way)
+Rule used everywhere: "one of A, B, C" (with or without the word "or") means A OR B OR C.
+Courses with no prerequisites (DATA 101, APSC 171, 172, 177, 179) have no row; they are roots of the network.
+
+COSC 114 = HS_ENTRY
+    calendar: One of MATH 12, PREC 12, CALC 12.
+
+MATH 125 = HS_ENTRY
+    calendar: One of Principles of Mathematics 11, Pre-Calculus 11, Foundations of Mathematics 12.
+
+MATH 126 = HS_ENTRY
+    calendar: One of Principles of Mathematics 11, Pre-Calculus 11, Foundations of Mathematics 12, or permission of the Department.
+
+MATH 100 = (HS_ENTRY OR MATH 125 OR MATH 126)
+    calendar: Either (a) a score of 67% or higher in one of MATH 12, PREC 12 or (b) a score of 60% or higher in one of MATH 125, MATH 126. Equivalency: MATH 116.
+
+MATH 116 = (HS_ENTRY OR MATH 125 OR MATH 126)
+    calendar: Either (a) a score of 67% or higher in one of MATH 12, PREC 12 or (b) a score of 60% or higher in one of MATH 125, MATH 126. Equivalency: MATH 100.
+
+MATH 101 = (MATH 100 OR MATH 116)
+    calendar: One of MATH 100, MATH 116.
+
+MATH 103 = (MATH 100 OR MATH 116)
+    calendar: One of MATH 100, MATH 116.
+
+MATH 142 = (MATH 100 OR MATH 116)
+    calendar: One of MATH 100, MATH 116.
+
+MATH 200 = (MATH 101 OR MATH 103)
+    calendar: Either (a) MATH 101 or (b) a score of 65% or higher in MATH 103.
+
+MATH 221 = (MATH 100 OR MATH 116)
+    calendar: One of MATH 100, MATH 116.
+
+STAT 121 = (MATH 125 OR MATH 126 OR HS_ENTRY OR MATH 100)
+    calendar: Either (a) a score of 60% or higher in one of MATH 125, MATH 126 or (b) a score of 67% or higher in one of MATH 12, PREC 12, or (c) MATH 100.
+
+STAT 124 = (HS_ENTRY OR MATH 125 OR MATH 126 OR MATH 100)
+    calendar: One of Principles of Mathematics 11, Pre-Calculus 11, Foundations of Mathematics 12, MATH 125, MATH 126, MATH 100.
+
+STAT 203 = (MATH 101 OR MATH 103 OR MATH 142)
+    calendar: One of MATH 101, MATH 103, MATH 142. Corequisite: DATA 101 (not modeled).
+
+STAT 205 = STAT 203
+    calendar: STAT 203. (Credit will be granted for only one of STAT 205 or STAT 230.)
+
+STAT 230 = (MATH 101 OR MATH 103 OR MATH 142) AND (DATA 101 OR COSC 221)
+    calendar: One of MATH 101, MATH 103, MATH 142 and one of DATA 101, COSC 221.
+
+DATA 301 = STANDING_3
+    calendar: Third-year standing.
+
+PHYS 111 = HS_ENTRY AND (HS_ENTRY OR MATH 125 OR MATH 126)
+    calendar: One of PHYS 11, PHYS 12 and one of MATH 12, PREC 12, MATH 125, MATH 126. Corequisite: One of MATH 100, MATH 116 (not modeled).
+
+PHYS 112 = (HS_ENTRY OR MATH 125 OR MATH 126)
+    calendar: One of MATH 12, PREC 12, MATH 125, MATH 126. (Concurrently taking MATH 100 is recommended; not modeled.)
+
+PHYS 121 = (MATH 100 OR MATH 116) AND (PHYS 111 OR PHYS 112)
+    calendar: One of MATH 100, MATH 116 and one of PHYS 111, PHYS 112. Corequisite: One of MATH 101, MATH 103 (not modeled).
+
+PHYS 122 = (MATH 100 OR MATH 116) AND (PHYS 111 OR PHYS 112)
+    calendar: One of MATH 100, MATH 116 and one of PHYS 111, PHYS 112. Corequisite: One of MATH 101, MATH 103 (not modeled).
+
+APSC 173 = APSC 172
+    calendar: APSC 172.
+
+APSC 248 = APSC 173
+    calendar: APSC 173.
+
+==== NEW SECTION 2: English / CORH / APSC 176 and 201 / PHIL 331 ====
+No prerequisites (per the team; no row, they are roots): ENGL 109, 112, 113, 114, 150, 151, 153, 154, 155, 156, CORH 205, APSC 176.
+
+ENGL 203 = (ENGL 109 OR ENGL 112 OR ENGL 114 OR ENGL 150 OR ENGL 151 OR ENGL 153 OR ENGL 154 OR ENGL 155 OR ENGL 156)
+    calendar: One of ENGL 109, ENGL 112, ENGL 114, ENGL 150, ENGL 151, ENGL 153, ENGL 154, ENGL 155, ENGL 156.
+
+CORH 203 = (ENGL 109 OR ENGL 112 OR ENGL 114 OR ENGL 150 OR ENGL 151 OR ENGL 153 OR ENGL 155 OR ENGL 156 OR APSC 176)
+    calendar: One of ENGL 109, ENGL 112, ENGL 114, ENGL 150, ENGL 151, ENGL 153, ENGL 155, ENGL 156, APSC 176.
+
+APSC 201 = APSC 176
+    calendar: APSC 176.
+
+PHIL 331 = STANDING_3
+    calendar: Third-year standing in an Arts program; or third-year standing in a Science program; or third-year standing in the B.Sust. degree.
+
+==== NEW SECTION 3: COREQUISITES (file coreq_groups.csv) ====
+A corequisite can be taken in the SAME term or earlier. Same notation as above.
+
+COSC 150 [coreq] = (COSC 111 OR COSC 122 OR APSC 177)
+    calendar: One of COSC 111, COSC 122, APSC 177.
+
+COSC 221 [coreq] = COSC 121
+    calendar: COSC 121.
+
+COSC 301 [coreq] = COSC 304
+    calendar: COSC 304.
+
+COSC 305 [coreq] = COSC 310
+    calendar: COSC 310.
+
+STAT 203 [coreq] = DATA 101
+    calendar: DATA 101.
+
+PHYS 111 [coreq] = (MATH 100 OR MATH 116)
+    calendar: One of MATH 100, MATH 116.
+
+PHYS 121 [coreq] = (MATH 101 OR MATH 103)
+    calendar: One of MATH 101, MATH 103.
+
+PHYS 122 [coreq] = (MATH 101 OR MATH 103)
+    calendar: One of MATH 101, MATH 103.

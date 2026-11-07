@@ -1,0 +1,138 @@
+source,target,sections
+COSC 101,Vsevolod Lynov,3
+COSC 101,Fuxiang Chen;Vsevolod Lynov,1
+COSC 101,Fuxiang Chen,1
+COSC 101,Mohamad Khajezade,1
+COSC 101,Charles-Olivier Dufresne-Camaro,2
+Vsevolod Lynov,COSC 111,1
+Vsevolod Lynov,COSC 122,3
+COSC 111,Abdallah Mohamed,5
+COSC 111,Jeff Bulmer,3
+COSC 111,Scott Fazackerley,4
+COSC 111,Chaoping Guo,1
+COSC 111,Bradley Rey,1
+COSC 111,James Nastos,3
+COSC 111,Mohamad Khajezade,1
+COSC 111,Mostafa Mohamed,1
+COSC 111,Ken Chidlow,1
+COSC 111,Patricia Lasserre,2
+COSC 121,Jeff Bulmer,2
+COSC 121,Abdallah Mohamed,3
+COSC 121,Ifeoma Adaji,1
+COSC 121,Scott Fazackerley,3
+COSC 121,Ken Chidlow,3
+COSC 121,Mostafa Mohamed,3
+COSC 121,Mostafa Mohamed;Abdallah Mohamed,1
+COSC 121,Bowen Hui,1
+COSC 122,Firas Moosvi,1
+COSC 122,James Nastos,1
+COSC 122,Congsong Zhang,1
+COSC 122,Sarah Foss,1
+COSC 122,Bowen Hui,1
+COSC 211,Vladimir Grebenyuk,1
+COSC 211,Abdallah Mohamed,4
+COSC 211,Scott Fazackerley,1
+COSC 211,A K M Amanat Ullah,1
+COSC 221,Jeewon Yoo,1
+COSC 221,Yong Gao,11
+COSC 221,Paul Lee,1
+COSC 221,Stephen Brown,1
+COSC 222,Seyyed Hosseini,1
+COSC 222,Mohammad Khalad Hasan,1
+COSC 222,Fuxiang Chen,1
+COSC 222,Yves Lucet,4
+COSC 222,Mohamed Shehata,2
+COSC 222,Barrett Ens,3
+Seyyed Hosseini,COSC 320,1
+COSC 301,Firas Moosvi,2
+COSC 301,Scott Fazackerley,1
+COSC 301,Youry Khmelevsky,1
+COSC 301,Mostafa Mohamed,3
+Firas Moosvi,COSC 123,2
+COSC 304,Youry Khmelevsky;Ramon Lawrence,2
+COSC 304,Youry Khmelevsky,1
+COSC 304,Ramon Lawrence,4
+COSC 304,Mostafa Mohamed,3
+COSC 320,Mohamed Abdelpakey,1
+COSC 320,Fatemeh Hendijani Fard,3
+COSC 320,Jie Wu,1
+COSC 320,Fatemeh Fard,1
+COSC 322,Congsong Zhang,2
+COSC 322,Yong Gao,5
+COSC 322,Mostafa Mohamed,1
+COSC 360,Mohamed Abdelpakey,1
+COSC 360,Scott Fazackerley,3
+COSC 360,Ifeoma Adaji,4
+Mohamed Abdelpakey,COSC 328,1
+COSC 405,Yas Yamin,2
+COSC 405,John Braun,2
+COSC 445,Mohamed Shehata,2
+Mohamed Shehata,COSC 210,2
+Mohamed Shehata,COSC 545,1
+Mohamed Shehata,COSC 444,3
+Mohamed Shehata,COSC 544,3
+Mohamed Shehata,COSC 419,2
+Mohamed Shehata,COSC 519,1
+COSC 499,Mandeep Pannu,1
+COSC 499,Gema Rodriguez-Perez,2
+COSC 499,Scott Fazackerley,3
+COSC 499,Bowen Hui,2
+Fuxiang Chen,COSC 310,1
+Abdallah Mohamed,COSC 407,1
+Abdallah Mohamed,COSC 507,1
+Abdallah Mohamed,COSC 123,1
+Ifeoma Adaji,COSC 419,1
+Ifeoma Adaji,COSC 519,2
+Ifeoma Adaji,COSC 421,4
+Ifeoma Adaji,COSC 521,1
+COSC 123,Youry Khmelevsky,2
+COSC 210,Gema Rodriguez-Perez,1
+COSC 210,Gema Rodriguez Perez,1
+Mohammad Khalad Hasan,COSC 341,4
+Scott Fazackerley,COSC 407,1
+Scott Fazackerley,COSC 507,1
+Scott Fazackerley,COSC 328,5
+Scott Fazackerley,COSC 310,2
+Scott Fazackerley,COSC 315,1
+COSC 303,Warren Hare,4
+COSC 303,Shawn Wang,1
+COSC 305,Patricia Lasserre,3
+COSC 305,Mostafa Mohamed,2
+COSC 310,Shan Du,1
+COSC 310,Shan du,1
+COSC 310,Gema Rodriguez-Perez,2
+COSC 310,Gema Rodriguez Perez,2
+Shan Du,COSC 414,3
+Shan Du,COSC 344,2
+Shan Du,COSC 536,1
+COSC 315,Apurva Narayan,1
+COSC 315,Reece Walsh,1
+COSC 328,Fatemeh Hendijani Fard,2
+COSC 329,Bowen Hui,1
+Bowen Hui,COSC 541,1
+COSC 335,Thor Bjarnason;Rasika Rajapakshe,2
+COSC 335,Michael Kudla-Hooper;Rasika Rajapakshe,1
+COSC 404,Ramon Lawrence,2
+Ramon Lawrence,COSC 504,1
+Ramon Lawrence,COSC 516,1
+COSC 407,Yves Lucet,2
+COSC 407,A K M Amanat Ullah,1
+COSC 414,Shan du,2
+COSC 419,Gema Rodriguez-Perez,1
+COSC 490,Yves Lucet,3
+Yves Lucet,COSC 520,2
+Yves Lucet,COSC 507,1
+Yves Lucet,COSC 406,1
+Yves Lucet,COSC 506,1
+Gema Rodriguez-Perez,COSC 536,1
+COSC 519,Shan du,2
+COSC 520,Islam Osman,1
+COSC 520,Fatemeh Hendijani Fard,1
+Shan du,COSC 344,2
+Fatemeh Hendijani Fard,COSC 548,1
+COSC 341,Arshad Nasser,1
+COSC 341,A K M Amanat Ullah,1
+COSC 341,Pourang Irani,2
+Barrett Ens,COSC 441,1
+John Braun,COSC 505,1
+COSC 416,Iman Jalilvand,1

@@ -128,12 +128,13 @@ Key columns: `Avg Grade`, `Fail Rate %`, `Students`, `Students_With_Fail_Data`, 
 
 | Column | Meaning |
 |---|---|
-| `blocked_if_removed` | courses that can no longer be taken at all without this course |
-| `delayed_if_removed` | courses still possible without it, but only through a longer chain |
+| `blocked_if_removed` | courses that can no longer be taken at all if this course did not exist (alternatives are respected) |
+| `delayed_if_removed` | courses that are still possible without it, but only through a longer chain |
 | `bsc_reqs_broken`, `ba_reqs_broken` | degree requirements that can no longer be met without this course |
-| `min_levels` | fewest prerequisite levels needed before the course, taking the shortest option each time (0 = none) |
+| `min_levels` | fewest prerequisite levels needed before a course, taking the shortest alternative each time (0 = no prerequisites; corequisites do not count) |
+| `descendants`, `longest_chain_to_node` | plain graph measures that follow every arrow; upper bounds that ignore alternatives |
 
-`descendants` and `longest_chain_to_node` follow every arrow, so they are upper bounds that ignore alternatives.
+**BSc and BA networks** (N4, N5) are the core networks defined in `REVIEW_CHECKLIST.md`: the mandatory and choice courses of each degree (BSc English choice left out) and the links between them.
 
 ## Modelling decisions and limitations
 
@@ -141,7 +142,7 @@ Key columns: `Avg Grade`, `Fail Rate %`, `Students`, `Students_With_Fail_Data`, 
 - **Always satisfied:** high-school entry and year-standing requirements are treated as met. Minimum grades are not modelled.
 - **Corequisites** decide whether a course can be taken, but don't add to chain length.
 - **Hidden small counts:** UBC hides grade counts below 6 students, so some sections have no fail count and are left out of the fail rate.
-- **Missing fail rates:** 17 of the 92 courses have no fail rate (not offered in 2021–2025, or counts hidden). They currently use the median fail rate.
+- **Missing fail rates:** 17 of the 92 courses have no fail rate (not offered in 2021–2025, or counts hidden). They currently use the median fail rate (see `REVIEW_CHECKLIST.md`, decision 6).
 - **Offering data** only distinguishes Winter and Summer sessions; courses never offered in 2021–2025 are assumed not to run.
 - **Still being checked:** the prerequisite formulas are being reviewed against the calendar (see `REVIEW_CHECKLIST.md`). Any fix means re-running `build_networks.py`.
 
