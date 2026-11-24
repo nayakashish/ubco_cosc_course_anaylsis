@@ -144,6 +144,7 @@ Key columns: `Avg Grade`, `Fail Rate %`, `Students`, `Students_With_Fail_Data`, 
 - **Historical plan:** the BSc requirements follow last year's plan, not the current calendar, because we only use historical data. COSC 210, COSC 270 and DATA 311 (new requirements in the current calendar) are left out.
 - **Always satisfied:** high-school entry and year-standing requirements are treated as met. Minimum grades are not modelled.
 - **Corequisites** decide whether a course can be taken, but don't add to chain length.
+- **Courses with no data** courses like COSC 223, 413 and 417 are never offered in UBCO workday (2021S-2025W).
 - **Hidden small counts:** UBC hides grade counts below 6 students, so some sections have no fail count and are left out of the fail rate.
 - **Missing fail rates:** 17 of the 92 courses have no fail rate (not offered in 2021–2025, or counts hidden). They currently use the median fail rate (see `REVIEW_CHECKLIST.md`, decision 6).
 - **Offering data** only distinguishes Winter and Summer sessions; courses never offered in 2021–2025 are assumed not to run.
