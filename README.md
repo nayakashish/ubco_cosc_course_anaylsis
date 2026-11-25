@@ -44,9 +44,8 @@ The project combines three data sources in one network:
 | `output/figures/` | 26 figures used in the report |
 | `README_data_files.md` | Detailed guide to the prerequisite and degree data files |
 | `REVIEW_CHECKLIST.md` | What still needs checking against the calendar, and modelling decisions to confirm |
-| `rq4_sim.java`,`rq4_sim.py` | COSC mandatory/choice requirements, term-offering simulation|
-| `rq4_results.txt` | term-offering courses and extra terms vs the same shedule if missed/failed once|
-
+| `rq4_term_simulation.py`, `rq4_term_simulation.java` | RQ4 term-by-term simulation: terms to graduate and extra terms if one course is missed once (same rules and output in both)
+| `rq4_results.txt`, `output/rq4_term_delay.csv` | Summary and full results of the RQ4 simulation 
 
 ## How to run
 
