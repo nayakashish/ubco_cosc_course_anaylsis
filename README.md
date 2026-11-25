@@ -41,11 +41,13 @@ The project combines three data sources in one network:
 | `UBC Pair Grade Data/` | Grade data script and the three combined grade files |
 | `build_networks.py` | Builds all networks, computes the measures and draws the figures |
 | `output/networks/` | Networks (`.graphml` and edge lists), `node_metrics_full.csv` and `network_summary.csv` |
-| `output/figures/` | 26 figures used in the report |
+| `output/figures/` | 27 figures used in the report |
 | `README_data_files.md` | Detailed guide to the prerequisite and degree data files |
 | `REVIEW_CHECKLIST.md` | What still needs checking against the calendar, and modelling decisions to confirm |
-| `rq4_term_simulation.py`, `rq4_term_simulation.java` | RQ4 term-by-term simulation: terms to graduate and extra terms if one course is missed once (same rules and output in both)
-| `rq4_results.txt`, `output/rq4_term_delay.csv` | Summary and full results of the RQ4 simulation 
+| `rq4_term_simulation.py`, `rq4_term_simulation.java` | RQ4 term-by-term simulation: terms to graduate and extra terms if one course is missed once (same rules and output in both) |
+| `course_offerings.csv` | Terms (T1, T2, Summer) in which each key COSC course ran, for the 2025-26 and 2022-23 patterns; COSC 223, 413 and 417 have no sections found |
+| `rq4_results.txt`, `output/rq4_term_delay.csv` | Summary and full results of the RQ4 simulation |
+| `rq4_chart.py` | Draws `output/figures/26_rq4_term_delay.png` (extra terms to graduate per missed course) from the RQ4 results |
 
 ## How to run
 
@@ -74,7 +76,16 @@ python build_networks.py
 ```
 This reads the data files above and writes everything to `output/networks/` and `output/figures/` (about 15 seconds).
 
-**3. (Optional) Re-scrape the calendar**
+**3. Run the RQ4 term simulation**
+```bash
+python rq4_term_simulation.py       # or: java rq4_term_simulation.java
+```
+Both read the CSV files in the project root and write `output/rq4_term_delay.csv`. Then draw the RQ4 chart:
+```bash
+python rq4_chart.py                 # writes output/figures/26_rq4_term_delay.png
+```
+
+**4. (Optional) Re-scrape the calendar**
 ```bash
 python scrape_courses.py              # scrape COSC, write output/courses.csv, edges.csv and GraphML
 python scrape_courses.py --plot       # also save a PNG of the graph
@@ -154,7 +165,7 @@ Key columns: `Avg Grade`, `Fail Rate %`, `Students`, `Students_With_Fail_Data`, 
 | Proposal timeline | Status |
 |---|---|
 | Weeks 1–2 (Oct 19–30): collect and clean data, build BSc and BA networks | Done |
-| Weeks 3–4 (Nov 2–13): centrality, chains, bottlenecks, RQ4 simulations | Mostly done; term-offering delay estimates still to do |
+| Weeks 3–4 (Nov 2–13): centrality, chains, bottlenecks, RQ4 simulations | Done |
 | Weeks 5–6 (Nov 16–27): BSc vs. BA comparison, grade-weighted analysis | Started; results to be analysed |
 | Weeks 7–8 (Nov 30–Dec 8): video presentation (Dec 3) and final report (Dec 8) | Not started |
 

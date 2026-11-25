@@ -1,0 +1,33 @@
+pattern,course,terms_offered,note
+2025-26,COSC 111,T1 T2 S,
+2025-26,COSC 121,T1 T2 S,
+2025-26,COSC 122,T1,
+2025-26,COSC 123,T2,
+2025-26,COSC 211,T1,
+2025-26,COSC 221,T1 T2,Summer from PAIR 2025S (COSC 221 Summer 2025 unresolved; assumed not offered)
+2025-26,COSC 222,T1 T2 S,
+2025-26,COSC 304,T1 S,
+2025-26,COSC 310,T1 T2,
+2025-26,COSC 315,T2,
+2025-26,COSC 320,T2,
+2025-26,COSC 341,T1 T2,
+2025-26,COSC 499,T1 S,
+2022-23,COSC 111,T1 T2 S,
+2022-23,COSC 121,T2 S,
+2022-23,COSC 122,T1,
+2022-23,COSC 123,T2,
+2022-23,COSC 211,T2,
+2022-23,COSC 221,T1 T2,Summer from PAIR 2025S (COSC 221 Summer 2025 unresolved; assumed not offered)
+2022-23,COSC 222,T1 S,
+2022-23,COSC 304,T1 S,
+2022-23,COSC 310,T2,
+2022-23,COSC 315,T2,
+2022-23,COSC 320,T2,
+2022-23,COSC 341,T2,
+2022-23,COSC 499,T1 S,
+2025-26,COSC 223,,no sections found 2021-22 to 2025-26; treated as unavailable
+2022-23,COSC 223,,no sections found 2021-22 to 2025-26; treated as unavailable
+2025-26,COSC 413,,no sections found 2021-22 to 2025-26; treated as unavailable
+2022-23,COSC 413,,no sections found 2021-22 to 2025-26; treated as unavailable
+2025-26,COSC 417,,no sections found 2021-22 to 2025-26; treated as unavailable
+2022-23,COSC 417,,no sections found 2021-22 to 2025-26; treated as unavailable

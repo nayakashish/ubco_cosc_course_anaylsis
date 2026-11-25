@@ -1,112 +1,20 @@
+RQ4 term simulation: terms to graduate and extra terms if one course is missed once.
+Load: 5 courses (15 credits) = usual, 6 courses (18 credits) = university maximum. 'Terms' = terms attended.
+Winter-only rows (Summer no) are the main result. Summer rows are exploratory: the simulated Summer student is not optimal (see report limitations).
 
-=== offering 2025-26 | no Summer ===
-BSc: min terms to finish core (ideal, all offered every term) = 6; with real offerings = 7  (+1)
-BA: min terms to finish core (ideal, all offered every term) = 6; with real offerings = 7  (+1)
---- BSc: extra terms vs the same schedule if the course is missed/failed once
-  COSC 304: +2 terms (real offerings)   +0 (if offered every term)
-  COSC 111: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 121: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 122: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 123: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 211: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 221: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 222: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 310: +0 terms (real offerings)   +1 (if offered every term)
-  COSC 320: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 341: +0 terms (real offerings)   +1 (if offered every term)
---- BA: extra terms vs the same schedule if the course is missed/failed once
-  COSC 304: +2 terms (real offerings)   +0 (if offered every term)
-  COSC 111: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 121: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 122: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 123: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 211: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 221: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 222: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 310: +0 terms (real offerings)   +1 (if offered every term)
-  COSC 320: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 341: +0 terms (real offerings)   +1 (if offered every term)
-
-=== offering 2025-26 | with Summer ===
-BSc: min terms to finish core (ideal, all offered every term) = 8; with real offerings = 9  (+1)
-BA: min terms to finish core (ideal, all offered every term) = 8; with real offerings = 9  (+1)
---- BSc: extra terms vs the same schedule if the course is missed/failed once
-  COSC 111: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 121: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 122: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 123: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 211: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 221: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 222: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 304: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 310: +0 terms (real offerings)   +1 (if offered every term)
-  COSC 320: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 341: +0 terms (real offerings)   +1 (if offered every term)
---- BA: extra terms vs the same schedule if the course is missed/failed once
-  COSC 111: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 121: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 122: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 123: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 211: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 221: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 222: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 304: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 310: +0 terms (real offerings)   +1 (if offered every term)
-  COSC 320: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 341: +0 terms (real offerings)   +1 (if offered every term)
-
-=== offering 2022-23 | no Summer ===
-BSc: min terms to finish core (ideal, all offered every term) = 6; with real offerings = 7  (+1)
-BA: min terms to finish core (ideal, all offered every term) = 6; with real offerings = 7  (+1)
---- BSc: extra terms vs the same schedule if the course is missed/failed once
-  COSC 304: +2 terms (real offerings)   +0 (if offered every term)
-  COSC 310: +2 terms (real offerings)   +1 (if offered every term)
-  COSC 341: +2 terms (real offerings)   +1 (if offered every term)
-  COSC 111: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 121: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 122: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 123: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 211: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 221: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 222: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 320: +0 terms (real offerings)   +0 (if offered every term)
---- BA: extra terms vs the same schedule if the course is missed/failed once
-  COSC 304: +2 terms (real offerings)   +0 (if offered every term)
-  COSC 310: +2 terms (real offerings)   +1 (if offered every term)
-  COSC 341: +2 terms (real offerings)   +1 (if offered every term)
-  COSC 111: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 121: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 122: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 123: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 211: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 221: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 222: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 320: +0 terms (real offerings)   +0 (if offered every term)
-
-=== offering 2022-23 | with Summer ===
-BSc: min terms to finish core (ideal, all offered every term) = 8; with real offerings = 9  (+1)
-BA: min terms to finish core (ideal, all offered every term) = 8; with real offerings = 9  (+1)
---- BSc: extra terms vs the same schedule if the course is missed/failed once
-  COSC 310: +3 terms (real offerings)   +1 (if offered every term)
-  COSC 341: +3 terms (real offerings)   +1 (if offered every term)
-  COSC 111: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 121: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 122: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 123: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 211: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 221: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 222: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 304: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 320: +0 terms (real offerings)   +0 (if offered every term)
---- BA: extra terms vs the same schedule if the course is missed/failed once
-  COSC 310: +3 terms (real offerings)   +1 (if offered every term)
-  COSC 341: +3 terms (real offerings)   +1 (if offered every term)
-  COSC 111: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 121: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 122: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 123: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 211: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 221: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 222: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 304: +0 terms (real offerings)   +0 (if offered every term)
-  COSC 320: +0 terms (real offerings)   +0 (if offered every term)
+2025-26 | Summer no | 5 courses | BSc: graduate in 8 terms | COSC 304 +1
+2025-26 | Summer no | 5 courses | BA: graduate in 8 terms | COSC 304 +1
+2025-26 | Summer no | 6 courses | BSc: graduate in 7 terms | COSC 304 +2
+2025-26 | Summer no | 6 courses | BA: graduate in 7 terms | COSC 304 +2
+2025-26 | Summer yes | 5 courses | BSc: graduate in 10 terms | COSC 304 +-1
+2025-26 | Summer yes | 5 courses | BA: graduate in 10 terms | COSC 121 +1, COSC 222 +1
+2025-26 | Summer yes | 6 courses | BSc: graduate in 8 terms | COSC 121 +1, COSC 222 +1, COSC 304 +1
+2025-26 | Summer yes | 6 courses | BA: graduate in 9 terms | no delay
+2022-23 | Summer no | 5 courses | BSc: graduate in 8 terms | COSC 222 +1, COSC 304 +1, COSC 310 +1, COSC 341 +1
+2022-23 | Summer no | 5 courses | BA: graduate in 8 terms | COSC 304 +1, COSC 310 +1, COSC 341 +1
+2022-23 | Summer no | 6 courses | BSc: graduate in 7 terms | COSC 304 +2, COSC 310 +2, COSC 341 +2
+2022-23 | Summer no | 6 courses | BA: graduate in 7 terms | COSC 304 +2, COSC 310 +2, COSC 341 +2
+2022-23 | Summer yes | 5 courses | BSc: graduate in 10 terms | COSC 310 +1, COSC 341 +1
+2022-23 | Summer yes | 5 courses | BA: graduate in 10 terms | COSC 121 +1, COSC 222 +1
+2022-23 | Summer yes | 6 courses | BSc: graduate in 8 terms | COSC 121 +1, COSC 222 +1, COSC 304 +1, COSC 310 +2, COSC 341 +2
+2022-23 | Summer yes | 6 courses | BA: graduate in 9 terms | COSC 310 +1, COSC 341 +1
