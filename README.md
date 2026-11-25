@@ -8,7 +8,7 @@ Rather than finding one shortest path to graduation, we study how the structure 
 
 The project combines three data sources in one network:
 - **Prerequisites and degree requirements** from the UBCO Academic Calendar
-- **How often each course is offered** (every term vs. once a year), from Workday
+- **How often each course is offered** (every term or only in some terms), from Workday
 - **Historical grades and fail rates** from UBC PAIR (2021S–2025W)
 
 A **bottleneck** here is a course whose removal, failure or delay blocks other courses, after accounting for alternative prerequisite routes.
