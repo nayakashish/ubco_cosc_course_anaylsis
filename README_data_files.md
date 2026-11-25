@@ -43,7 +43,7 @@ Columns: `program, req_id, kind, options, pick, credits, note`.
 
 ## Modeling decisions
 
-1. Offering data uses Winter / Summer (the PAIR data has no Term 1 / Term 2 split).
+1. Grade data only distinguishes Winter and Summer sessions (the PAIR data has no Term 1 / Term 2 split); Term 1 / Term 2 / Summer offerings come from Workday (see course_offerings.csv).
 2. Three networks: the full network, the BSc core (mandatory + choice courses) and the BA core.
 3. Courses that never appear in the 2021-2025 section data are assumed not offered. They stay in the network but are excluded from the scheduler's elective pool.
 4. Elective baseline: any upper-level COSC course that is offered. The 21 foundational and 12 distribution BA credits are treated as free credits.
