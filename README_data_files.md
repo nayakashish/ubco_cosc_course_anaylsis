@@ -81,7 +81,7 @@ Effects to check:
 ## Known data issues
 
 - 15 network courses have no grade data: COSC 114, 150, 223, 247, 264, 412, 413, 417, 431, 432, 433, 434, 442, 450, 451. COSC 329 has grades but no fail rate.
-- ENGL 113 is in the BSc English list but has no grade data and never appears in the 2021-2025 section data, so it is probably not offered at UBCO.
+- ENGL 113 is in the BSc English list but has no grade data and never appears in the 2021-2025 section data. A manual check of past Workday listings also found no sections of it at UBCO, so it is treated as not offered.
 - BSc core, computer-science side: 19 courses and 30 edges in 4 connected components (PHYS 111, PHYS 112 and STAT 205 have no edge to another core course). Including the English/CORH/APSC 176 and 201 courses from the English choice gives 32 courses and 49 edges in 5 components.
 - Fail rates cover only students with fail data (`Students_With_Fail_Data` is below `Students` for 11 of the 43 required courses).
 - Courses with no prerequisites: APSC 171, 172, 176, 177, 179, DATA 101, COSC 122, CORH 205 and ENGL 109, 112, 113, 114, 150, 151, 153, 154, 155, 156 (per the calendar and the team).
