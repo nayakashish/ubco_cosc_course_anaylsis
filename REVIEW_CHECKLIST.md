@@ -39,11 +39,14 @@ COSC 111, 121, 123, 211, 221, 222, 304, 310, 320, 341, 499, MATH 100, 101, 103, 
 2. **COSC 210, COSC 270 and DATA 311 are deleted** from the network (requirements in the current calendar but not in last year's plan). Electives are always kept, including COSC 412, 442 and the others that only appear in the current calendar's concentration lists.
 3. **COSC 445** is excluded; COSC 344 is used instead.
 4. **Corequisites** are a separate edge type: they affect whether a course can be taken and the scheduler, but not chain length.
-5. **Offering data: Winter / Summer only.** Courses never offered 2021-2025 are assumed not offered.
+5. **Offering data: Winter / Summer only.** Courses never offered 2021-2025 are assumed not offered; COSC 223, 413 and 417 are excluded from all networks and figures.
 6. **Missing grades:** fill with the mean of same-level COSC courses and flag them (no neighboring years exist for those courses).
 7. **Elective rules:** we use the pre-2024 rule (12 non-science credits). Confirm which entry cohort the project models.
 
 ## 5. Checks already done (no need to repeat)
+
+These counts describe the input files, before never-offered courses are filtered out. The analysed network has 89 courses (see the README).
+
 
 - Every original prerequisite edge is in `prereq_groups.csv` (except those that involve the deleted courses), and every member has an edge (no extra, no missing).
 - 66 courses, 183 rows, no duplicate rows. The formulas in the readable file match the CSV exactly.

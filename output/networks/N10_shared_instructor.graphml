@@ -1,1415 +1,1472 @@
-<?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d15" for="edge" attr.name="shared_instructors" attr.type="long"/>
-<key id="d14" for="node" attr.name="offered_summer" attr.type="boolean"/>
-<key id="d13" for="node" attr.name="offered_winter" attr.type="boolean"/>
-<key id="d12" for="node" attr.name="terms_offered" attr.type="double"/>
-<key id="d11" for="node" attr.name="students" attr.type="double"/>
-<key id="d10" for="node" attr.name="fail_rate" attr.type="double"/>
-<key id="d9" for="node" attr.name="avg_grade" attr.type="double"/>
-<key id="d8" for="node" attr.name="has_grades" attr.type="boolean"/>
-<key id="d7" for="node" attr.name="role" attr.type="string"/>
-<key id="d6" for="node" attr.name="in_ba" attr.type="boolean"/>
-<key id="d5" for="node" attr.name="in_bsc" attr.type="boolean"/>
-<key id="d4" for="node" attr.name="year_level" attr.type="long"/>
-<key id="d3" for="node" attr.name="group" attr.type="string"/>
-<key id="d2" for="node" attr.name="subject" attr.type="string"/>
-<key id="d1" for="node" attr.name="title" attr.type="string"/>
-<key id="d0" for="node" attr.name="bipartite" attr.type="string"/>
-<graph edgedefault="undirected"><node id="COSC 101">
-  <data key="d0">course</data>
-  <data key="d1">Digital Citizenship</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">1</data>
-  <data key="d5">False</data>
-  <data key="d6">False</data>
-  <data key="d7">elective (offered 2021-2025)</data>
-  <data key="d8">True</data>
-  <data key="d9">81.2</data>
-  <data key="d10">7.3</data>
-  <data key="d11">823.0</data>
-  <data key="d12">7.0</data>
-  <data key="d13">True</data>
-  <data key="d14">True</data>
-</node>
-<node id="COSC 111">
-  <data key="d0">course</data>
-  <data key="d1">Computer Programming I</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">1</data>
-  <data key="d5">True</data>
-  <data key="d6">True</data>
-  <data key="d7">plan course</data>
-  <data key="d8">True</data>
-  <data key="d9">72.2</data>
-  <data key="d10">19.5</data>
-  <data key="d11">2618.0</data>
-  <data key="d12">10.0</data>
-  <data key="d13">True</data>
-  <data key="d14">True</data>
-</node>
-<node id="COSC 121">
-  <data key="d0">course</data>
-  <data key="d1">Computer Programming II</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">1</data>
-  <data key="d5">True</data>
-  <data key="d6">True</data>
-  <data key="d7">plan course</data>
-  <data key="d8">True</data>
-  <data key="d9">72.3</data>
-  <data key="d10">14.5</data>
-  <data key="d11">1953.0</data>
-  <data key="d12">10.0</data>
-  <data key="d13">True</data>
-  <data key="d14">True</data>
-</node>
-<node id="COSC 122">
-  <data key="d0">course</data>
-  <data key="d1">AI and Computer Fluency</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">1</data>
-  <data key="d5">False</data>
-  <data key="d6">False</data>
-  <data key="d7">elective (offered 2021-2025)</data>
-  <data key="d8">True</data>
-  <data key="d9">81.2</data>
-  <data key="d10">6.5</data>
-  <data key="d11">1089.0</data>
-  <data key="d12">8.0</data>
-  <data key="d13">True</data>
-  <data key="d14">True</data>
-</node>
-<node id="COSC 211">
-  <data key="d0">course</data>
-  <data key="d1">Machine Architecture</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">2</data>
-  <data key="d5">True</data>
-  <data key="d6">False</data>
-  <data key="d7">plan course</data>
-  <data key="d8">True</data>
-  <data key="d9">75.2</data>
-  <data key="d10">13.1</data>
-  <data key="d11">936.0</data>
-  <data key="d12">7.0</data>
-  <data key="d13">True</data>
-  <data key="d14">True</data>
-</node>
-<node id="COSC 221">
-  <data key="d0">course</data>
-  <data key="d1">Discrete Structures in Computing</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">2</data>
-  <data key="d5">True</data>
-  <data key="d6">False</data>
-  <data key="d7">plan course</data>
-  <data key="d8">True</data>
-  <data key="d9">74.6</data>
-  <data key="d10">5.9</data>
-  <data key="d11">1200.0</data>
-  <data key="d12">9.0</data>
-  <data key="d13">True</data>
-  <data key="d14">True</data>
-</node>
-<node id="COSC 222">
-  <data key="d0">course</data>
-  <data key="d1">Data Structures</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">2</data>
-  <data key="d5">True</data>
-  <data key="d6">True</data>
-  <data key="d7">plan course</data>
-  <data key="d8">True</data>
-  <data key="d9">75.5</data>
-  <data key="d10">6.4</data>
-  <data key="d11">1315.0</data>
-  <data key="d12">10.0</data>
-  <data key="d13">True</data>
-  <data key="d14">True</data>
-</node>
-<node id="COSC 301">
-  <data key="d0">course</data>
-  <data key="d1">Introduction to Data Analytics</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">3</data>
-  <data key="d5">False</data>
-  <data key="d6">False</data>
-  <data key="d7">elective (offered 2021-2025)</data>
-  <data key="d8">True</data>
-  <data key="d9">79.1</data>
-  <data key="d10">5.9</data>
-  <data key="d11">689.0</data>
-  <data key="d12">7.0</data>
-  <data key="d13">True</data>
-  <data key="d14">True</data>
-</node>
-<node id="COSC 304">
-  <data key="d0">course</data>
-  <data key="d1">Introduction to Databases</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">3</data>
-  <data key="d5">True</data>
-  <data key="d6">True</data>
-  <data key="d7">plan course</data>
-  <data key="d8">True</data>
-  <data key="d9">80.6</data>
-  <data key="d10">5.6</data>
-  <data key="d11">1235.0</data>
-  <data key="d12">10.0</data>
-  <data key="d13">True</data>
-  <data key="d14">True</data>
-</node>
-<node id="COSC 320">
-  <data key="d0">course</data>
-  <data key="d1">Analysis of Algorithms</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">3</data>
-  <data key="d5">True</data>
-  <data key="d6">False</data>
-  <data key="d7">plan course</data>
-  <data key="d8">True</data>
-  <data key="d9">79.7</data>
-  <data key="d10">4.9</data>
-  <data key="d11">813.0</data>
-  <data key="d12">6.0</data>
-  <data key="d13">True</data>
-  <data key="d14">True</data>
-</node>
-<node id="COSC 322">
-  <data key="d0">course</data>
-  <data key="d1">Introduction to Artificial Intelligence</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">3</data>
-  <data key="d5">False</data>
-  <data key="d6">False</data>
-  <data key="d7">elective (offered 2021-2025)</data>
-  <data key="d8">True</data>
-  <data key="d9">76.1</data>
-  <data key="d10">1.9</data>
-  <data key="d11">499.0</data>
-  <data key="d12">8.0</data>
-  <data key="d13">True</data>
-  <data key="d14">True</data>
-</node>
-<node id="COSC 360">
-  <data key="d0">course</data>
-  <data key="d1">Web Programming</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">3</data>
-  <data key="d5">False</data>
-  <data key="d6">False</data>
-  <data key="d7">elective (offered 2021-2025)</data>
-  <data key="d8">True</data>
-  <data key="d9">74.4</data>
-  <data key="d10">7.7</data>
-  <data key="d11">733.0</data>
-  <data key="d12">8.0</data>
-  <data key="d13">True</data>
-  <data key="d14">True</data>
-</node>
-<node id="COSC 405">
-  <data key="d0">course</data>
-  <data key="d1">Modelling and Simulation</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">4</data>
-  <data key="d5">False</data>
-  <data key="d6">False</data>
-  <data key="d7">elective (offered 2021-2025)</data>
-  <data key="d8">True</data>
-  <data key="d9">83.1</data>
-  <data key="d10">2.4</data>
-  <data key="d11">101.0</data>
-  <data key="d12">4.0</data>
-  <data key="d13">True</data>
-  <data key="d14">True</data>
-</node>
-<node id="COSC 445">
-  <data key="d0">course</data>
-  <data key="d1">Computer Vision</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">4</data>
-  <data key="d5">False</data>
-  <data key="d6">False</data>
-  <data key="d7"></data>
-  <data key="d8">True</data>
-  <data key="d9">72.0</data>
-  <data key="d11">56.0</data>
-  <data key="d12">2.0</data>
-  <data key="d13">True</data>
-  <data key="d14">True</data>
-</node>
-<node id="COSC 499">
-  <data key="d0">course</data>
-  <data key="d1">Capstone Software Engineering Project</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">4</data>
-  <data key="d5">True</data>
-  <data key="d6">True</data>
-  <data key="d7">plan course</data>
-  <data key="d8">True</data>
-  <data key="d9">83.5</data>
-  <data key="d10">4.0</data>
-  <data key="d11">786.0</data>
-  <data key="d12">10.0</data>
-  <data key="d13">True</data>
-  <data key="d14">True</data>
-</node>
-<node id="COSC 123">
-  <data key="d0">course</data>
-  <data key="d1">Computer Creativity</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">1</data>
-  <data key="d5">True</data>
-  <data key="d6">True</data>
-  <data key="d7">plan course</data>
-  <data key="d8">True</data>
-  <data key="d9">83.0</data>
-  <data key="d10">6.6</data>
-  <data key="d11">785.0</data>
-  <data key="d12">5.0</data>
-  <data key="d13">True</data>
-  <data key="d14">False</data>
-</node>
-<node id="COSC 210">
-  <data key="d0">course</data>
-  <data key="d1">Software Construction</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">2</data>
-  <data key="d5">False</data>
-  <data key="d6">False</data>
-  <data key="d7"></data>
-  <data key="d8">True</data>
-  <data key="d9">69.6</data>
-  <data key="d10">11.9</data>
-  <data key="d11">95.0</data>
-  <data key="d12">4.0</data>
-  <data key="d13">True</data>
-  <data key="d14">False</data>
-</node>
-<node id="COSC 303">
-  <data key="d0">course</data>
-  <data key="d1">Numerical Analysis</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">3</data>
-  <data key="d5">False</data>
-  <data key="d6">False</data>
-  <data key="d7">elective (offered 2021-2025)</data>
-  <data key="d8">True</data>
-  <data key="d9">78.0</data>
-  <data key="d10">3.3</data>
-  <data key="d11">135.0</data>
-  <data key="d12">5.0</data>
-  <data key="d13">True</data>
-  <data key="d14">False</data>
-</node>
-<node id="COSC 305">
-  <data key="d0">course</data>
-  <data key="d1">Project Management</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">3</data>
-  <data key="d5">False</data>
-  <data key="d6">False</data>
-  <data key="d7">elective (offered 2021-2025)</data>
-  <data key="d8">True</data>
-  <data key="d9">78.5</data>
-  <data key="d10">3.4</data>
-  <data key="d11">436.0</data>
-  <data key="d12">5.0</data>
-  <data key="d13">True</data>
-  <data key="d14">False</data>
-</node>
-<node id="COSC 310">
-  <data key="d0">course</data>
-  <data key="d1">Software Engineering</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">3</data>
-  <data key="d5">True</data>
-  <data key="d6">True</data>
-  <data key="d7">plan course</data>
-  <data key="d8">True</data>
-  <data key="d9">78.5</data>
-  <data key="d10">6.7</data>
-  <data key="d11">1036.0</data>
-  <data key="d12">6.0</data>
-  <data key="d13">True</data>
-  <data key="d14">True</data>
-</node>
-<node id="COSC 315">
-  <data key="d0">course</data>
-  <data key="d1">Introduction to Operating Systems</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">3</data>
-  <data key="d5">False</data>
-  <data key="d6">False</data>
-  <data key="d7">elective (offered 2021-2025)</data>
-  <data key="d8">True</data>
-  <data key="d9">77.7</data>
-  <data key="d10">5.3</data>
-  <data key="d11">377.0</data>
-  <data key="d12">3.0</data>
-  <data key="d13">True</data>
-  <data key="d14">False</data>
-</node>
-<node id="COSC 328">
-  <data key="d0">course</data>
-  <data key="d1">Introduction to Networks</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">3</data>
-  <data key="d5">False</data>
-  <data key="d6">False</data>
-  <data key="d7">elective (offered 2021-2025)</data>
-  <data key="d8">True</data>
-  <data key="d9">74.8</data>
-  <data key="d10">6.5</data>
-  <data key="d11">583.0</data>
-  <data key="d12">8.0</data>
-  <data key="d13">True</data>
-  <data key="d14">True</data>
-</node>
-<node id="COSC 329">
-  <data key="d0">course</data>
-  <data key="d1">Learning Analytics</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">3</data>
-  <data key="d5">False</data>
-  <data key="d6">False</data>
-  <data key="d7">elective (offered 2021-2025)</data>
-  <data key="d8">True</data>
-  <data key="d9">83.1</data>
-  <data key="d11">52.0</data>
-  <data key="d12">1.0</data>
-  <data key="d13">True</data>
-  <data key="d14">False</data>
-</node>
-<node id="COSC 335">
-  <data key="d0">course</data>
-  <data key="d1">Introduction to Medical Imaging and Imaging Informatics</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">3</data>
-  <data key="d5">False</data>
-  <data key="d6">False</data>
-  <data key="d7">elective (offered 2021-2025)</data>
-  <data key="d8">True</data>
-  <data key="d9">77.2</data>
-  <data key="d10">0.0</data>
-  <data key="d11">33.0</data>
-  <data key="d12">3.0</data>
-  <data key="d13">True</data>
-  <data key="d14">False</data>
-</node>
-<node id="COSC 404">
-  <data key="d0">course</data>
-  <data key="d1">Database System Implementation</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">4</data>
-  <data key="d5">False</data>
-  <data key="d6">False</data>
-  <data key="d7">elective (offered 2021-2025)</data>
-  <data key="d8">True</data>
-  <data key="d9">80.9</data>
-  <data key="d10">6.1</data>
-  <data key="d11">198.0</data>
-  <data key="d12">2.0</data>
-  <data key="d13">True</data>
-  <data key="d14">False</data>
-</node>
-<node id="COSC 407">
-  <data key="d0">course</data>
-  <data key="d1">Introduction to Parallel Computing</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">4</data>
-  <data key="d5">False</data>
-  <data key="d6">False</data>
-  <data key="d7">elective (offered 2021-2025)</data>
-  <data key="d8">True</data>
-  <data key="d9">73.7</data>
-  <data key="d10">8.6</data>
-  <data key="d11">499.0</data>
-  <data key="d12">5.0</data>
-  <data key="d13">True</data>
-  <data key="d14">False</data>
-</node>
-<node id="COSC 414">
-  <data key="d0">course</data>
-  <data key="d1">Computer Graphics</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">4</data>
-  <data key="d5">False</data>
-  <data key="d6">False</data>
-  <data key="d7">elective (offered 2021-2025)</data>
-  <data key="d8">True</data>
-  <data key="d9">75.2</data>
-  <data key="d10">5.3</data>
-  <data key="d11">425.0</data>
-  <data key="d12">5.0</data>
-  <data key="d13">True</data>
-  <data key="d14">False</data>
-</node>
-<node id="COSC 419">
-  <data key="d0">course</data>
-  <data key="d1">Topics in Computer Science</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">4</data>
-  <data key="d5">False</data>
-  <data key="d6">False</data>
-  <data key="d7">elective (offered 2021-2025)</data>
-  <data key="d8">True</data>
-  <data key="d9">79.5</data>
-  <data key="d10">2.6</data>
-  <data key="d11">143.0</data>
-  <data key="d12">3.0</data>
-  <data key="d13">True</data>
-  <data key="d14">False</data>
-</node>
-<node id="COSC 490">
-  <data key="d0">course</data>
-  <data key="d1">Student-Directed Seminar</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">4</data>
-  <data key="d5">False</data>
-  <data key="d6">False</data>
-  <data key="d7">elective (offered 2021-2025)</data>
-  <data key="d8">True</data>
-  <data key="d9">90.3</data>
-  <data key="d10">0.0</data>
-  <data key="d11">42.0</data>
-  <data key="d12">3.0</data>
-  <data key="d13">True</data>
-  <data key="d14">False</data>
-</node>
-<node id="COSC 507">
-  <data key="d0">course</data>
-  <data key="d1">Parallel Computing</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">5</data>
-  <data key="d5">False</data>
-  <data key="d6">False</data>
-  <data key="d7"></data>
-  <data key="d8">True</data>
-  <data key="d9">88.1</data>
-  <data key="d10">0.0</data>
-  <data key="d11">26.0</data>
-  <data key="d12">3.0</data>
-  <data key="d13">True</data>
-  <data key="d14">False</data>
-</node>
-<node id="COSC 519">
-  <data key="d0">course</data>
-  <data key="d1">Topics in Computer Science</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">5</data>
-  <data key="d5">False</data>
-  <data key="d6">False</data>
-  <data key="d7"></data>
-  <data key="d8">True</data>
-  <data key="d9">85.6</data>
-  <data key="d10">0.0</data>
-  <data key="d11">48.0</data>
-  <data key="d12">4.0</data>
-  <data key="d13">True</data>
-  <data key="d14">False</data>
-</node>
-<node id="COSC 520">
-  <data key="d0">course</data>
-  <data key="d1">Advanced Algorithms</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">5</data>
-  <data key="d5">False</data>
-  <data key="d6">False</data>
-  <data key="d7"></data>
-  <data key="d8">True</data>
-  <data key="d9">91.4</data>
-  <data key="d10">0.0</data>
-  <data key="d11">52.0</data>
-  <data key="d12">4.0</data>
-  <data key="d13">True</data>
-  <data key="d14">False</data>
-</node>
-<node id="COSC 541">
-  <data key="d0">course</data>
-  <data key="d1">Advanced Human Computer Interaction</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">5</data>
-  <data key="d5">False</data>
-  <data key="d6">False</data>
-  <data key="d7"></data>
-  <data key="d8">True</data>
-  <data key="d9">88.0</data>
-  <data key="d10">0.0</data>
-  <data key="d11">20.0</data>
-  <data key="d12">2.0</data>
-  <data key="d13">True</data>
-  <data key="d14">True</data>
-</node>
-<node id="COSC 545">
-  <data key="d0">course</data>
-  <data key="d1">Computer Vision</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">5</data>
-  <data key="d5">False</data>
-  <data key="d6">False</data>
-  <data key="d7"></data>
-  <data key="d8">True</data>
-  <data key="d9">80.4</data>
-  <data key="d11">14.0</data>
-  <data key="d12">1.0</data>
-  <data key="d13">True</data>
-  <data key="d14">False</data>
-</node>
-<node id="COSC 341">
-  <data key="d0">course</data>
-  <data key="d1">Human Computer Interaction</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">3</data>
-  <data key="d5">True</data>
-  <data key="d6">True</data>
-  <data key="d7">plan course</data>
-  <data key="d8">True</data>
-  <data key="d9">84.1</data>
-  <data key="d10">0.9</data>
-  <data key="d11">864.0</data>
-  <data key="d12">5.0</data>
-  <data key="d13">True</data>
-  <data key="d14">True</data>
-</node>
-<node id="COSC 344">
-  <data key="d0">course</data>
-  <data key="d1">Image Processing and Applications</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">3</data>
-  <data key="d5">False</data>
-  <data key="d6">False</data>
-  <data key="d7">elective (offered 2021-2025)</data>
-  <data key="d8">True</data>
-  <data key="d9">81.9</data>
-  <data key="d10">1.5</data>
-  <data key="d11">270.0</data>
-  <data key="d12">4.0</data>
-  <data key="d13">True</data>
-  <data key="d14">False</data>
-</node>
-<node id="COSC 421">
-  <data key="d0">course</data>
-  <data key="d1">Network Science</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">4</data>
-  <data key="d5">False</data>
-  <data key="d6">False</data>
-  <data key="d7">elective (offered 2021-2025)</data>
-  <data key="d8">True</data>
-  <data key="d9">80.6</data>
-  <data key="d10">1.9</data>
-  <data key="d11">258.0</data>
-  <data key="d12">4.0</data>
-  <data key="d13">True</data>
-  <data key="d14">False</data>
-</node>
-<node id="COSC 444">
-  <data key="d0">course</data>
-  <data key="d1">Computer Vision</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">4</data>
-  <data key="d5">False</data>
-  <data key="d6">False</data>
-  <data key="d7">elective (offered 2021-2025)</data>
-  <data key="d8">True</data>
-  <data key="d9">76.8</data>
-  <data key="d10">1.6</data>
-  <data key="d11">62.0</data>
-  <data key="d12">3.0</data>
-  <data key="d13">True</data>
-  <data key="d14">False</data>
-</node>
-<node id="COSC 504">
-  <data key="d0">course</data>
-  <data key="d1">Database System Implementation</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">5</data>
-  <data key="d5">False</data>
-  <data key="d6">False</data>
-  <data key="d7"></data>
-  <data key="d8">True</data>
-  <data key="d9">86.0</data>
-  <data key="d10">0.0</data>
-  <data key="d11">8.0</data>
-  <data key="d12">1.0</data>
-  <data key="d13">True</data>
-  <data key="d14">False</data>
-</node>
-<node id="COSC 516">
-  <data key="d0">course</data>
-  <data key="d1">Special Topics in Databases</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">5</data>
-  <data key="d5">False</data>
-  <data key="d6">False</data>
-  <data key="d7"></data>
-  <data key="d8">True</data>
-  <data key="d9">93.5</data>
-  <data key="d10">0.0</data>
-  <data key="d11">13.0</data>
-  <data key="d12">1.0</data>
-  <data key="d13">True</data>
-  <data key="d14">False</data>
-</node>
-<node id="COSC 544">
-  <data key="d0">course</data>
-  <data key="d1">Computer Vision</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">5</data>
-  <data key="d5">False</data>
-  <data key="d6">False</data>
-  <data key="d7"></data>
-  <data key="d8">True</data>
-  <data key="d9">83.4</data>
-  <data key="d10">0.0</data>
-  <data key="d11">33.0</data>
-  <data key="d12">3.0</data>
-  <data key="d13">True</data>
-  <data key="d14">False</data>
-</node>
-<node id="COSC 521">
-  <data key="d0">course</data>
-  <data key="d1">Network Science</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">5</data>
-  <data key="d5">False</data>
-  <data key="d6">False</data>
-  <data key="d7"></data>
-  <data key="d8">True</data>
-  <data key="d9">87.8</data>
-  <data key="d10">0.0</data>
-  <data key="d11">13.0</data>
-  <data key="d12">1.0</data>
-  <data key="d13">True</data>
-  <data key="d14">False</data>
-</node>
-<node id="COSC 548">
-  <data key="d0">course</data>
-  <data key="d1">Directed Studies</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">5</data>
-  <data key="d5">False</data>
-  <data key="d6">False</data>
-  <data key="d7"></data>
-  <data key="d8">True</data>
-  <data key="d9">100.0</data>
-  <data key="d10">0.0</data>
-  <data key="d11">6.0</data>
-  <data key="d12">1.0</data>
-  <data key="d13">True</data>
-  <data key="d14">False</data>
-</node>
-<node id="COSC 406">
-  <data key="d0">course</data>
-  <data key="d1">Numerical Optimization</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">4</data>
-  <data key="d5">False</data>
-  <data key="d6">False</data>
-  <data key="d7">elective (offered 2021-2025)</data>
-  <data key="d8">True</data>
-  <data key="d9">74.7</data>
-  <data key="d10">0.0</data>
-  <data key="d11">18.0</data>
-  <data key="d12">1.0</data>
-  <data key="d13">True</data>
-  <data key="d14">False</data>
-</node>
-<node id="COSC 416">
-  <data key="d0">course</data>
-  <data key="d1">Special Topics in Databases</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">4</data>
-  <data key="d5">False</data>
-  <data key="d6">False</data>
-  <data key="d7">elective (offered 2021-2025)</data>
-  <data key="d8">True</data>
-  <data key="d9">89.1</data>
-  <data key="d10">0.0</data>
-  <data key="d11">142.0</data>
-  <data key="d12">1.0</data>
-  <data key="d13">True</data>
-  <data key="d14">False</data>
-</node>
-<node id="COSC 441">
-  <data key="d0">course</data>
-  <data key="d1">Advanced Human Computer Interaction</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">4</data>
-  <data key="d5">False</data>
-  <data key="d6">False</data>
-  <data key="d7">elective (offered 2021-2025)</data>
-  <data key="d8">True</data>
-  <data key="d9">81.5</data>
-  <data key="d10">2.5</data>
-  <data key="d11">81.0</data>
-  <data key="d12">2.0</data>
-  <data key="d13">True</data>
-  <data key="d14">True</data>
-</node>
-<node id="COSC 505">
-  <data key="d0">course</data>
-  <data key="d1">Modelling and Simulation</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">5</data>
-  <data key="d5">False</data>
-  <data key="d6">False</data>
-  <data key="d7"></data>
-  <data key="d8">True</data>
-  <data key="d9">90.1</data>
-  <data key="d10">0.0</data>
-  <data key="d11">9.0</data>
-  <data key="d12">1.0</data>
-  <data key="d13">True</data>
-  <data key="d14">False</data>
-</node>
-<node id="COSC 506">
-  <data key="d0">course</data>
-  <data key="d1">Numerical Optimization</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">5</data>
-  <data key="d5">False</data>
-  <data key="d6">False</data>
-  <data key="d7"></data>
-  <data key="d8">True</data>
-  <data key="d9">88.7</data>
-  <data key="d10">0.0</data>
-  <data key="d11">9.0</data>
-  <data key="d12">1.0</data>
-  <data key="d13">True</data>
-  <data key="d14">False</data>
-</node>
-<node id="COSC 536">
-  <data key="d0">course</data>
-  <data key="d1">Topics in Computer Science, Lecture Format</data>
-  <data key="d2">COSC</data>
-  <data key="d3">COSC</data>
-  <data key="d4">5</data>
-  <data key="d5">False</data>
-  <data key="d6">False</data>
-  <data key="d7"></data>
-  <data key="d8">True</data>
-  <data key="d9">92.8</data>
-  <data key="d10">0.0</data>
-  <data key="d11">16.0</data>
-  <data key="d12">1.0</data>
-  <data key="d13">True</data>
-  <data key="d14">False</data>
-</node>
-<edge source="COSC 101" target="COSC 111">
-  <data key="d15">2</data>
-</edge>
-<edge source="COSC 101" target="COSC 122">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 101" target="COSC 222">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 101" target="COSC 310">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 111" target="COSC 122">
-  <data key="d15">2</data>
-</edge>
-<edge source="COSC 111" target="COSC 121">
-  <data key="d15">5</data>
-</edge>
-<edge source="COSC 111" target="COSC 123">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 111" target="COSC 211">
-  <data key="d15">2</data>
-</edge>
-<edge source="COSC 111" target="COSC 407">
-  <data key="d15">2</data>
-</edge>
-<edge source="COSC 111" target="COSC 507">
-  <data key="d15">2</data>
-</edge>
-<edge source="COSC 111" target="COSC 301">
-  <data key="d15">2</data>
-</edge>
-<edge source="COSC 111" target="COSC 310">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 111" target="COSC 315">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 111" target="COSC 328">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 111" target="COSC 360">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 111" target="COSC 499">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 111" target="COSC 305">
-  <data key="d15">2</data>
-</edge>
-<edge source="COSC 111" target="COSC 304">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 111" target="COSC 322">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 121" target="COSC 123">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 121" target="COSC 211">
-  <data key="d15">2</data>
-</edge>
-<edge source="COSC 121" target="COSC 407">
-  <data key="d15">2</data>
-</edge>
-<edge source="COSC 121" target="COSC 507">
-  <data key="d15">2</data>
-</edge>
-<edge source="COSC 121" target="COSC 360">
-  <data key="d15">2</data>
-</edge>
-<edge source="COSC 121" target="COSC 419">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 121" target="COSC 421">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 121" target="COSC 519">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 121" target="COSC 521">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 121" target="COSC 301">
-  <data key="d15">2</data>
-</edge>
-<edge source="COSC 121" target="COSC 310">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 121" target="COSC 315">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 121" target="COSC 328">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 121" target="COSC 499">
-  <data key="d15">2</data>
-</edge>
-<edge source="COSC 121" target="COSC 122">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 121" target="COSC 329">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 121" target="COSC 541">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 121" target="COSC 304">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 121" target="COSC 305">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 121" target="COSC 322">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 122" target="COSC 123">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 122" target="COSC 301">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 122" target="COSC 322">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 122" target="COSC 329">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 122" target="COSC 499">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 122" target="COSC 541">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 211" target="COSC 123">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 211" target="COSC 407">
-  <data key="d15">3</data>
-</edge>
-<edge source="COSC 211" target="COSC 507">
-  <data key="d15">2</data>
-</edge>
-<edge source="COSC 211" target="COSC 301">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 211" target="COSC 310">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 211" target="COSC 315">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 211" target="COSC 328">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 211" target="COSC 360">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 211" target="COSC 499">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 211" target="COSC 341">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 221" target="COSC 322">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 222" target="COSC 320">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 222" target="COSC 210">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 222" target="COSC 419">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 222" target="COSC 444">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 222" target="COSC 445">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 222" target="COSC 519">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 222" target="COSC 544">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 222" target="COSC 545">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 222" target="COSC 310">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 222" target="COSC 341">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 222" target="COSC 406">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 222" target="COSC 407">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 222" target="COSC 490">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 222" target="COSC 506">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 222" target="COSC 507">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 222" target="COSC 520">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 222" target="COSC 441">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 301" target="COSC 123">
-  <data key="d15">2</data>
-</edge>
-<edge source="COSC 301" target="COSC 310">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 301" target="COSC 315">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 301" target="COSC 328">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 301" target="COSC 360">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 301" target="COSC 407">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 301" target="COSC 499">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 301" target="COSC 507">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 301" target="COSC 304">
-  <data key="d15">2</data>
-</edge>
-<edge source="COSC 301" target="COSC 305">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 301" target="COSC 322">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 304" target="COSC 404">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 304" target="COSC 504">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 304" target="COSC 516">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 304" target="COSC 123">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 304" target="COSC 305">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 304" target="COSC 322">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 320" target="COSC 328">
-  <data key="d15">2</data>
-</edge>
-<edge source="COSC 320" target="COSC 360">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 320" target="COSC 520">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 320" target="COSC 548">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 322" target="COSC 305">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 360" target="COSC 328">
-  <data key="d15">2</data>
-</edge>
-<edge source="COSC 360" target="COSC 419">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 360" target="COSC 421">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 360" target="COSC 519">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 360" target="COSC 521">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 360" target="COSC 310">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 360" target="COSC 315">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 360" target="COSC 407">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 360" target="COSC 499">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 360" target="COSC 507">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 405" target="COSC 505">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 445" target="COSC 210">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 445" target="COSC 419">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 445" target="COSC 444">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 445" target="COSC 519">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 445" target="COSC 544">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 445" target="COSC 545">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 499" target="COSC 310">
-  <data key="d15">2</data>
-</edge>
-<edge source="COSC 499" target="COSC 315">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 499" target="COSC 328">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 499" target="COSC 407">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 499" target="COSC 507">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 499" target="COSC 329">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 499" target="COSC 541">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 499" target="COSC 210">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 499" target="COSC 419">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 499" target="COSC 536">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 123" target="COSC 407">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 123" target="COSC 507">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 210" target="COSC 419">
-  <data key="d15">2</data>
-</edge>
-<edge source="COSC 210" target="COSC 444">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 210" target="COSC 519">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 210" target="COSC 544">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 210" target="COSC 545">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 210" target="COSC 310">
-  <data key="d15">2</data>
-</edge>
-<edge source="COSC 210" target="COSC 536">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 310" target="COSC 315">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 310" target="COSC 328">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 310" target="COSC 407">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 310" target="COSC 507">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 310" target="COSC 344">
-  <data key="d15">2</data>
-</edge>
-<edge source="COSC 310" target="COSC 414">
-  <data key="d15">2</data>
-</edge>
-<edge source="COSC 310" target="COSC 536">
-  <data key="d15">2</data>
-</edge>
-<edge source="COSC 310" target="COSC 419">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 310" target="COSC 519">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 315" target="COSC 328">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 315" target="COSC 407">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 315" target="COSC 507">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 328" target="COSC 407">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 328" target="COSC 507">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 328" target="COSC 520">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 328" target="COSC 548">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 329" target="COSC 541">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 404" target="COSC 504">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 404" target="COSC 516">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 407" target="COSC 507">
-  <data key="d15">3</data>
-</edge>
-<edge source="COSC 407" target="COSC 406">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 407" target="COSC 490">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 407" target="COSC 506">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 407" target="COSC 520">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 407" target="COSC 341">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 414" target="COSC 344">
-  <data key="d15">2</data>
-</edge>
-<edge source="COSC 414" target="COSC 536">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 414" target="COSC 519">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 419" target="COSC 444">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 419" target="COSC 519">
-  <data key="d15">2</data>
-</edge>
-<edge source="COSC 419" target="COSC 544">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 419" target="COSC 545">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 419" target="COSC 421">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 419" target="COSC 521">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 419" target="COSC 536">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 490" target="COSC 406">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 490" target="COSC 506">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 490" target="COSC 507">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 490" target="COSC 520">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 507" target="COSC 406">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 507" target="COSC 506">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 507" target="COSC 520">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 519" target="COSC 444">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 519" target="COSC 544">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 519" target="COSC 545">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 519" target="COSC 421">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 519" target="COSC 521">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 519" target="COSC 344">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 520" target="COSC 406">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 520" target="COSC 506">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 520" target="COSC 548">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 545" target="COSC 444">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 545" target="COSC 544">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 344" target="COSC 536">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 421" target="COSC 521">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 444" target="COSC 544">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 504" target="COSC 516">
-  <data key="d15">1</data>
-</edge>
-<edge source="COSC 406" target="COSC 506">
-  <data key="d15">1</data>
-</edge>
-</graph></graphml>
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_title" for="node" attr.name="title" attr.type="string"/>
+  <key id="v_subject" for="node" attr.name="subject" attr.type="string"/>
+  <key id="v_group" for="node" attr.name="group" attr.type="string"/>
+  <key id="v_year_level" for="node" attr.name="year_level" attr.type="double"/>
+  <key id="v_in_bsc" for="node" attr.name="in_bsc" attr.type="boolean"/>
+  <key id="v_in_ba" for="node" attr.name="in_ba" attr.type="boolean"/>
+  <key id="v_role" for="node" attr.name="role" attr.type="string"/>
+  <key id="v_has_grades" for="node" attr.name="has_grades" attr.type="boolean"/>
+  <key id="v_avg_grade" for="node" attr.name="avg_grade" attr.type="double"/>
+  <key id="v_fail_rate" for="node" attr.name="fail_rate" attr.type="double"/>
+  <key id="v_students" for="node" attr.name="students" attr.type="double"/>
+  <key id="v_terms_offered" for="node" attr.name="terms_offered" attr.type="double"/>
+  <key id="v_offered_winter" for="node" attr.name="offered_winter" attr.type="boolean"/>
+  <key id="v_offered_summer" for="node" attr.name="offered_summer" attr.type="boolean"/>
+  <key id="v_bipartite" for="node" attr.name="bipartite" attr.type="string"/>
+  <key id="e_shared_instructors" for="edge" attr.name="shared_instructors" attr.type="double"/>
+  <graph id="G" edgedefault="undirected">
+    <node id="n0">
+      <data key="v_name">COSC 101</data>
+      <data key="v_title">Digital Citizenship</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">1</data>
+      <data key="v_in_bsc">false</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role">elective (offered 2021-2025)</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">81.2</data>
+      <data key="v_fail_rate">7.3</data>
+      <data key="v_students">823</data>
+      <data key="v_terms_offered">7</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">true</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">COSC 111</data>
+      <data key="v_title">Computer Programming I</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">1</data>
+      <data key="v_in_bsc">true</data>
+      <data key="v_in_ba">true</data>
+      <data key="v_role">plan course</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">72.2</data>
+      <data key="v_fail_rate">19.5</data>
+      <data key="v_students">2618</data>
+      <data key="v_terms_offered">10</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">true</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n2">
+      <data key="v_name">COSC 121</data>
+      <data key="v_title">Computer Programming II</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">1</data>
+      <data key="v_in_bsc">true</data>
+      <data key="v_in_ba">true</data>
+      <data key="v_role">plan course</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">72.3</data>
+      <data key="v_fail_rate">14.5</data>
+      <data key="v_students">1953</data>
+      <data key="v_terms_offered">10</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">true</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n3">
+      <data key="v_name">COSC 122</data>
+      <data key="v_title">AI and Computer Fluency</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">1</data>
+      <data key="v_in_bsc">false</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role">elective (offered 2021-2025)</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">81.2</data>
+      <data key="v_fail_rate">6.5</data>
+      <data key="v_students">1089</data>
+      <data key="v_terms_offered">8</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">true</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n4">
+      <data key="v_name">COSC 211</data>
+      <data key="v_title">Machine Architecture</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">2</data>
+      <data key="v_in_bsc">true</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role">plan course</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">75.2</data>
+      <data key="v_fail_rate">13.1</data>
+      <data key="v_students">936</data>
+      <data key="v_terms_offered">7</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">true</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n5">
+      <data key="v_name">COSC 221</data>
+      <data key="v_title">Discrete Structures in Computing</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">2</data>
+      <data key="v_in_bsc">true</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role">plan course</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">74.6</data>
+      <data key="v_fail_rate">5.9</data>
+      <data key="v_students">1200</data>
+      <data key="v_terms_offered">9</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">true</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n6">
+      <data key="v_name">COSC 222</data>
+      <data key="v_title">Data Structures</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">2</data>
+      <data key="v_in_bsc">true</data>
+      <data key="v_in_ba">true</data>
+      <data key="v_role">plan course</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">75.5</data>
+      <data key="v_fail_rate">6.4</data>
+      <data key="v_students">1315</data>
+      <data key="v_terms_offered">10</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">true</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n7">
+      <data key="v_name">COSC 301</data>
+      <data key="v_title">Introduction to Data Analytics</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">3</data>
+      <data key="v_in_bsc">false</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role">elective (offered 2021-2025)</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">79.1</data>
+      <data key="v_fail_rate">5.9</data>
+      <data key="v_students">689</data>
+      <data key="v_terms_offered">7</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">true</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n8">
+      <data key="v_name">COSC 304</data>
+      <data key="v_title">Introduction to Databases</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">3</data>
+      <data key="v_in_bsc">true</data>
+      <data key="v_in_ba">true</data>
+      <data key="v_role">plan course</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">80.6</data>
+      <data key="v_fail_rate">5.6</data>
+      <data key="v_students">1235</data>
+      <data key="v_terms_offered">10</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">true</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n9">
+      <data key="v_name">COSC 320</data>
+      <data key="v_title">Analysis of Algorithms</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">3</data>
+      <data key="v_in_bsc">true</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role">plan course</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">79.7</data>
+      <data key="v_fail_rate">4.9</data>
+      <data key="v_students">813</data>
+      <data key="v_terms_offered">6</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">true</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n10">
+      <data key="v_name">COSC 322</data>
+      <data key="v_title">Introduction to Artificial Intelligence</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">3</data>
+      <data key="v_in_bsc">false</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role">elective (offered 2021-2025)</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">76.1</data>
+      <data key="v_fail_rate">1.9</data>
+      <data key="v_students">499</data>
+      <data key="v_terms_offered">8</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">true</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n11">
+      <data key="v_name">COSC 360</data>
+      <data key="v_title">Web Programming</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">3</data>
+      <data key="v_in_bsc">false</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role">elective (offered 2021-2025)</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">74.4</data>
+      <data key="v_fail_rate">7.7</data>
+      <data key="v_students">733</data>
+      <data key="v_terms_offered">8</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">true</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n12">
+      <data key="v_name">COSC 405</data>
+      <data key="v_title">Modelling and Simulation</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">4</data>
+      <data key="v_in_bsc">false</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role">elective (offered 2021-2025)</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">83.1</data>
+      <data key="v_fail_rate">2.4</data>
+      <data key="v_students">101</data>
+      <data key="v_terms_offered">4</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">true</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n13">
+      <data key="v_name">COSC 445</data>
+      <data key="v_title">Computer Vision</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">4</data>
+      <data key="v_in_bsc">false</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role"></data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">72</data>
+      <data key="v_students">56</data>
+      <data key="v_terms_offered">2</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">true</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n14">
+      <data key="v_name">COSC 499</data>
+      <data key="v_title">Capstone Software Engineering Project</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">4</data>
+      <data key="v_in_bsc">true</data>
+      <data key="v_in_ba">true</data>
+      <data key="v_role">plan course</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">83.5</data>
+      <data key="v_fail_rate">4</data>
+      <data key="v_students">786</data>
+      <data key="v_terms_offered">10</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">true</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n15">
+      <data key="v_name">COSC 123</data>
+      <data key="v_title">Computer Creativity</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">1</data>
+      <data key="v_in_bsc">true</data>
+      <data key="v_in_ba">true</data>
+      <data key="v_role">plan course</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">83</data>
+      <data key="v_fail_rate">6.6</data>
+      <data key="v_students">785</data>
+      <data key="v_terms_offered">5</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">false</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n16">
+      <data key="v_name">COSC 210</data>
+      <data key="v_title">Software Construction</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">2</data>
+      <data key="v_in_bsc">false</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role"></data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">69.6</data>
+      <data key="v_fail_rate">11.9</data>
+      <data key="v_students">95</data>
+      <data key="v_terms_offered">4</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">false</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n17">
+      <data key="v_name">COSC 303</data>
+      <data key="v_title">Numerical Analysis</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">3</data>
+      <data key="v_in_bsc">false</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role">elective (offered 2021-2025)</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">78</data>
+      <data key="v_fail_rate">3.3</data>
+      <data key="v_students">135</data>
+      <data key="v_terms_offered">5</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">false</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n18">
+      <data key="v_name">COSC 305</data>
+      <data key="v_title">Project Management</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">3</data>
+      <data key="v_in_bsc">false</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role">elective (offered 2021-2025)</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">78.5</data>
+      <data key="v_fail_rate">3.4</data>
+      <data key="v_students">436</data>
+      <data key="v_terms_offered">5</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">false</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n19">
+      <data key="v_name">COSC 310</data>
+      <data key="v_title">Software Engineering</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">3</data>
+      <data key="v_in_bsc">true</data>
+      <data key="v_in_ba">true</data>
+      <data key="v_role">plan course</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">78.5</data>
+      <data key="v_fail_rate">6.7</data>
+      <data key="v_students">1036</data>
+      <data key="v_terms_offered">6</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">true</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n20">
+      <data key="v_name">COSC 315</data>
+      <data key="v_title">Introduction to Operating Systems</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">3</data>
+      <data key="v_in_bsc">false</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role">elective (offered 2021-2025)</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">77.7</data>
+      <data key="v_fail_rate">5.3</data>
+      <data key="v_students">377</data>
+      <data key="v_terms_offered">3</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">false</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n21">
+      <data key="v_name">COSC 328</data>
+      <data key="v_title">Introduction to Networks</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">3</data>
+      <data key="v_in_bsc">false</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role">elective (offered 2021-2025)</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">74.8</data>
+      <data key="v_fail_rate">6.5</data>
+      <data key="v_students">583</data>
+      <data key="v_terms_offered">8</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">true</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n22">
+      <data key="v_name">COSC 329</data>
+      <data key="v_title">Learning Analytics</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">3</data>
+      <data key="v_in_bsc">false</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role">elective (offered 2021-2025)</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">83.1</data>
+      <data key="v_students">52</data>
+      <data key="v_terms_offered">1</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">false</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n23">
+      <data key="v_name">COSC 335</data>
+      <data key="v_title">Introduction to Medical Imaging and Imaging Informatics</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">3</data>
+      <data key="v_in_bsc">false</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role">elective (offered 2021-2025)</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">77.2</data>
+      <data key="v_fail_rate">0</data>
+      <data key="v_students">33</data>
+      <data key="v_terms_offered">3</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">false</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n24">
+      <data key="v_name">COSC 404</data>
+      <data key="v_title">Database System Implementation</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">4</data>
+      <data key="v_in_bsc">false</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role">elective (offered 2021-2025)</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">80.9</data>
+      <data key="v_fail_rate">6.1</data>
+      <data key="v_students">198</data>
+      <data key="v_terms_offered">2</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">false</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n25">
+      <data key="v_name">COSC 407</data>
+      <data key="v_title">Introduction to Parallel Computing</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">4</data>
+      <data key="v_in_bsc">false</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role">elective (offered 2021-2025)</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">73.7</data>
+      <data key="v_fail_rate">8.6</data>
+      <data key="v_students">499</data>
+      <data key="v_terms_offered">5</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">false</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n26">
+      <data key="v_name">COSC 414</data>
+      <data key="v_title">Computer Graphics</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">4</data>
+      <data key="v_in_bsc">false</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role">elective (offered 2021-2025)</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">75.2</data>
+      <data key="v_fail_rate">5.3</data>
+      <data key="v_students">425</data>
+      <data key="v_terms_offered">5</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">false</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n27">
+      <data key="v_name">COSC 419</data>
+      <data key="v_title">Topics in Computer Science</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">4</data>
+      <data key="v_in_bsc">false</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role">elective (offered 2021-2025)</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">79.5</data>
+      <data key="v_fail_rate">2.6</data>
+      <data key="v_students">143</data>
+      <data key="v_terms_offered">3</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">false</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n28">
+      <data key="v_name">COSC 490</data>
+      <data key="v_title">Student-Directed Seminar</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">4</data>
+      <data key="v_in_bsc">false</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role">elective (offered 2021-2025)</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">90.3</data>
+      <data key="v_fail_rate">0</data>
+      <data key="v_students">42</data>
+      <data key="v_terms_offered">3</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">false</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n29">
+      <data key="v_name">COSC 507</data>
+      <data key="v_title">Parallel Computing</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">5</data>
+      <data key="v_in_bsc">false</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role"></data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">88.1</data>
+      <data key="v_fail_rate">0</data>
+      <data key="v_students">26</data>
+      <data key="v_terms_offered">3</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">false</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n30">
+      <data key="v_name">COSC 519</data>
+      <data key="v_title">Topics in Computer Science</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">5</data>
+      <data key="v_in_bsc">false</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role"></data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">85.6</data>
+      <data key="v_fail_rate">0</data>
+      <data key="v_students">48</data>
+      <data key="v_terms_offered">4</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">false</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n31">
+      <data key="v_name">COSC 520</data>
+      <data key="v_title">Advanced Algorithms</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">5</data>
+      <data key="v_in_bsc">false</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role"></data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">91.4</data>
+      <data key="v_fail_rate">0</data>
+      <data key="v_students">52</data>
+      <data key="v_terms_offered">4</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">false</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n32">
+      <data key="v_name">COSC 541</data>
+      <data key="v_title">Advanced Human Computer Interaction</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">5</data>
+      <data key="v_in_bsc">false</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role"></data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">88</data>
+      <data key="v_fail_rate">0</data>
+      <data key="v_students">20</data>
+      <data key="v_terms_offered">2</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">true</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n33">
+      <data key="v_name">COSC 545</data>
+      <data key="v_title">Computer Vision</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">5</data>
+      <data key="v_in_bsc">false</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role"></data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">80.4</data>
+      <data key="v_students">14</data>
+      <data key="v_terms_offered">1</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">false</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n34">
+      <data key="v_name">COSC 341</data>
+      <data key="v_title">Human Computer Interaction</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">3</data>
+      <data key="v_in_bsc">true</data>
+      <data key="v_in_ba">true</data>
+      <data key="v_role">plan course</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">84.1</data>
+      <data key="v_fail_rate">0.9</data>
+      <data key="v_students">864</data>
+      <data key="v_terms_offered">5</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">true</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n35">
+      <data key="v_name">COSC 344</data>
+      <data key="v_title">Image Processing and Applications</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">3</data>
+      <data key="v_in_bsc">false</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role">elective (offered 2021-2025)</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">81.9</data>
+      <data key="v_fail_rate">1.5</data>
+      <data key="v_students">270</data>
+      <data key="v_terms_offered">4</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">false</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n36">
+      <data key="v_name">COSC 421</data>
+      <data key="v_title">Network Science</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">4</data>
+      <data key="v_in_bsc">false</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role">elective (offered 2021-2025)</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">80.6</data>
+      <data key="v_fail_rate">1.9</data>
+      <data key="v_students">258</data>
+      <data key="v_terms_offered">4</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">false</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n37">
+      <data key="v_name">COSC 444</data>
+      <data key="v_title">Computer Vision</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">4</data>
+      <data key="v_in_bsc">false</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role">elective (offered 2021-2025)</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">76.8</data>
+      <data key="v_fail_rate">1.6</data>
+      <data key="v_students">62</data>
+      <data key="v_terms_offered">3</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">false</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n38">
+      <data key="v_name">COSC 504</data>
+      <data key="v_title">Database System Implementation</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">5</data>
+      <data key="v_in_bsc">false</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role"></data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">86</data>
+      <data key="v_fail_rate">0</data>
+      <data key="v_students">8</data>
+      <data key="v_terms_offered">1</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">false</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n39">
+      <data key="v_name">COSC 516</data>
+      <data key="v_title">Special Topics in Databases</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">5</data>
+      <data key="v_in_bsc">false</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role"></data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">93.5</data>
+      <data key="v_fail_rate">0</data>
+      <data key="v_students">13</data>
+      <data key="v_terms_offered">1</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">false</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n40">
+      <data key="v_name">COSC 544</data>
+      <data key="v_title">Computer Vision</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">5</data>
+      <data key="v_in_bsc">false</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role"></data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">83.4</data>
+      <data key="v_fail_rate">0</data>
+      <data key="v_students">33</data>
+      <data key="v_terms_offered">3</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">false</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n41">
+      <data key="v_name">COSC 521</data>
+      <data key="v_title">Network Science</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">5</data>
+      <data key="v_in_bsc">false</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role"></data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">87.8</data>
+      <data key="v_fail_rate">0</data>
+      <data key="v_students">13</data>
+      <data key="v_terms_offered">1</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">false</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n42">
+      <data key="v_name">COSC 548</data>
+      <data key="v_title">Directed Studies</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">5</data>
+      <data key="v_in_bsc">false</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role"></data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">100</data>
+      <data key="v_fail_rate">0</data>
+      <data key="v_students">6</data>
+      <data key="v_terms_offered">1</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">false</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n43">
+      <data key="v_name">COSC 406</data>
+      <data key="v_title">Numerical Optimization</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">4</data>
+      <data key="v_in_bsc">false</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role">elective (offered 2021-2025)</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">74.7</data>
+      <data key="v_fail_rate">0</data>
+      <data key="v_students">18</data>
+      <data key="v_terms_offered">1</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">false</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n44">
+      <data key="v_name">COSC 416</data>
+      <data key="v_title">Special Topics in Databases</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">4</data>
+      <data key="v_in_bsc">false</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role">elective (offered 2021-2025)</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">89.1</data>
+      <data key="v_fail_rate">0</data>
+      <data key="v_students">142</data>
+      <data key="v_terms_offered">1</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">false</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n45">
+      <data key="v_name">COSC 441</data>
+      <data key="v_title">Advanced Human Computer Interaction</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">4</data>
+      <data key="v_in_bsc">false</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role">elective (offered 2021-2025)</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">81.5</data>
+      <data key="v_fail_rate">2.5</data>
+      <data key="v_students">81</data>
+      <data key="v_terms_offered">2</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">true</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n46">
+      <data key="v_name">COSC 505</data>
+      <data key="v_title">Modelling and Simulation</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">5</data>
+      <data key="v_in_bsc">false</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role"></data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">90.1</data>
+      <data key="v_fail_rate">0</data>
+      <data key="v_students">9</data>
+      <data key="v_terms_offered">1</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">false</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n47">
+      <data key="v_name">COSC 506</data>
+      <data key="v_title">Numerical Optimization</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">5</data>
+      <data key="v_in_bsc">false</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role"></data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">88.7</data>
+      <data key="v_fail_rate">0</data>
+      <data key="v_students">9</data>
+      <data key="v_terms_offered">1</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">false</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <node id="n48">
+      <data key="v_name">COSC 536</data>
+      <data key="v_title">Topics in Computer Science, Lecture Format</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">5</data>
+      <data key="v_in_bsc">false</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role"></data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">92.8</data>
+      <data key="v_fail_rate">0</data>
+      <data key="v_students">16</data>
+      <data key="v_terms_offered">1</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">false</data>
+      <data key="v_bipartite">course</data>
+    </node>
+    <edge source="n0" target="n1">
+      <data key="e_shared_instructors">2</data>
+    </edge>
+    <edge source="n0" target="n3">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n0" target="n6">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n0" target="n19">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n1" target="n2">
+      <data key="e_shared_instructors">5</data>
+    </edge>
+    <edge source="n1" target="n3">
+      <data key="e_shared_instructors">2</data>
+    </edge>
+    <edge source="n1" target="n4">
+      <data key="e_shared_instructors">2</data>
+    </edge>
+    <edge source="n1" target="n7">
+      <data key="e_shared_instructors">2</data>
+    </edge>
+    <edge source="n1" target="n8">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n1" target="n10">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n1" target="n11">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n1" target="n14">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n1" target="n15">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n1" target="n18">
+      <data key="e_shared_instructors">2</data>
+    </edge>
+    <edge source="n1" target="n19">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n1" target="n20">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n1" target="n21">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n1" target="n25">
+      <data key="e_shared_instructors">2</data>
+    </edge>
+    <edge source="n1" target="n29">
+      <data key="e_shared_instructors">2</data>
+    </edge>
+    <edge source="n2" target="n3">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n2" target="n4">
+      <data key="e_shared_instructors">2</data>
+    </edge>
+    <edge source="n2" target="n7">
+      <data key="e_shared_instructors">2</data>
+    </edge>
+    <edge source="n2" target="n8">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n2" target="n10">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n2" target="n11">
+      <data key="e_shared_instructors">2</data>
+    </edge>
+    <edge source="n2" target="n14">
+      <data key="e_shared_instructors">2</data>
+    </edge>
+    <edge source="n2" target="n15">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n2" target="n18">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n2" target="n19">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n2" target="n20">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n2" target="n21">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n2" target="n22">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n2" target="n25">
+      <data key="e_shared_instructors">2</data>
+    </edge>
+    <edge source="n2" target="n27">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n2" target="n29">
+      <data key="e_shared_instructors">2</data>
+    </edge>
+    <edge source="n2" target="n30">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n2" target="n32">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n2" target="n36">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n2" target="n41">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n3" target="n7">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n3" target="n10">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n3" target="n14">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n3" target="n15">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n3" target="n22">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n3" target="n32">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n4" target="n7">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n4" target="n11">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n4" target="n14">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n4" target="n15">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n4" target="n19">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n4" target="n20">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n4" target="n21">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n4" target="n25">
+      <data key="e_shared_instructors">3</data>
+    </edge>
+    <edge source="n4" target="n29">
+      <data key="e_shared_instructors">2</data>
+    </edge>
+    <edge source="n4" target="n34">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n5" target="n10">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n6" target="n9">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n6" target="n13">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n6" target="n16">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n6" target="n19">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n6" target="n25">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n6" target="n27">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n6" target="n28">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n6" target="n29">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n6" target="n30">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n6" target="n31">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n6" target="n33">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n6" target="n34">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n6" target="n37">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n6" target="n40">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n6" target="n43">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n6" target="n45">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n6" target="n47">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n7" target="n8">
+      <data key="e_shared_instructors">2</data>
+    </edge>
+    <edge source="n7" target="n10">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n7" target="n11">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n7" target="n14">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n7" target="n15">
+      <data key="e_shared_instructors">2</data>
+    </edge>
+    <edge source="n7" target="n18">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n7" target="n19">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n7" target="n20">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n7" target="n21">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n7" target="n25">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n7" target="n29">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n8" target="n10">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n8" target="n15">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n8" target="n18">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n8" target="n24">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n8" target="n38">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n8" target="n39">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n9" target="n11">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n9" target="n21">
+      <data key="e_shared_instructors">2</data>
+    </edge>
+    <edge source="n9" target="n31">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n9" target="n42">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n10" target="n18">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n11" target="n14">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n11" target="n19">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n11" target="n20">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n11" target="n21">
+      <data key="e_shared_instructors">2</data>
+    </edge>
+    <edge source="n11" target="n25">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n11" target="n27">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n11" target="n29">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n11" target="n30">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n11" target="n36">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n11" target="n41">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n12" target="n46">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n13" target="n16">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n13" target="n27">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n13" target="n30">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n13" target="n33">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n13" target="n37">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n13" target="n40">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n14" target="n16">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n14" target="n19">
+      <data key="e_shared_instructors">2</data>
+    </edge>
+    <edge source="n14" target="n20">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n14" target="n21">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n14" target="n22">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n14" target="n25">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n14" target="n27">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n14" target="n29">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n14" target="n32">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n14" target="n48">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n15" target="n25">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n15" target="n29">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n16" target="n19">
+      <data key="e_shared_instructors">2</data>
+    </edge>
+    <edge source="n16" target="n27">
+      <data key="e_shared_instructors">2</data>
+    </edge>
+    <edge source="n16" target="n30">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n16" target="n33">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n16" target="n37">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n16" target="n40">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n16" target="n48">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n19" target="n20">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n19" target="n21">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n19" target="n25">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n19" target="n26">
+      <data key="e_shared_instructors">2</data>
+    </edge>
+    <edge source="n19" target="n27">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n19" target="n29">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n19" target="n30">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n19" target="n35">
+      <data key="e_shared_instructors">2</data>
+    </edge>
+    <edge source="n19" target="n48">
+      <data key="e_shared_instructors">2</data>
+    </edge>
+    <edge source="n20" target="n21">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n20" target="n25">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n20" target="n29">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n21" target="n25">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n21" target="n29">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n21" target="n31">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n21" target="n42">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n22" target="n32">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n24" target="n38">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n24" target="n39">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n25" target="n28">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n25" target="n29">
+      <data key="e_shared_instructors">3</data>
+    </edge>
+    <edge source="n25" target="n31">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n25" target="n34">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n25" target="n43">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n25" target="n47">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n26" target="n30">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n26" target="n35">
+      <data key="e_shared_instructors">2</data>
+    </edge>
+    <edge source="n26" target="n48">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n27" target="n30">
+      <data key="e_shared_instructors">2</data>
+    </edge>
+    <edge source="n27" target="n33">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n27" target="n36">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n27" target="n37">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n27" target="n40">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n27" target="n41">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n27" target="n48">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n28" target="n29">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n28" target="n31">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n28" target="n43">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n28" target="n47">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n29" target="n31">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n29" target="n43">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n29" target="n47">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n30" target="n33">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n30" target="n35">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n30" target="n36">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n30" target="n37">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n30" target="n40">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n30" target="n41">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n31" target="n42">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n31" target="n43">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n31" target="n47">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n33" target="n37">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n33" target="n40">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n35" target="n48">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n36" target="n41">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n37" target="n40">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n38" target="n39">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+    <edge source="n43" target="n47">
+      <data key="e_shared_instructors">1</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,520 +1,548 @@
-<?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d17" for="edge" attr.name="alternatives" attr.type="long"/>
-<key id="d16" for="edge" attr.name="route" attr.type="long"/>
-<key id="d15" for="edge" attr.name="relation" attr.type="string"/>
-<key id="d14" for="node" attr.name="required" attr.type="boolean"/>
-<key id="d13" for="node" attr.name="offered_summer" attr.type="boolean"/>
-<key id="d12" for="node" attr.name="offered_winter" attr.type="boolean"/>
-<key id="d11" for="node" attr.name="terms_offered" attr.type="double"/>
-<key id="d10" for="node" attr.name="students" attr.type="double"/>
-<key id="d9" for="node" attr.name="fail_rate" attr.type="double"/>
-<key id="d8" for="node" attr.name="avg_grade" attr.type="double"/>
-<key id="d7" for="node" attr.name="has_grades" attr.type="boolean"/>
-<key id="d6" for="node" attr.name="role" attr.type="string"/>
-<key id="d5" for="node" attr.name="in_ba" attr.type="boolean"/>
-<key id="d4" for="node" attr.name="in_bsc" attr.type="boolean"/>
-<key id="d3" for="node" attr.name="year_level" attr.type="long"/>
-<key id="d2" for="node" attr.name="group" attr.type="string"/>
-<key id="d1" for="node" attr.name="subject" attr.type="string"/>
-<key id="d0" for="node" attr.name="title" attr.type="string"/>
-<graph edgedefault="directed"><node id="COSC 123">
-  <data key="d0">Computer Creativity</data>
-  <data key="d1">COSC</data>
-  <data key="d2">COSC</data>
-  <data key="d3">1</data>
-  <data key="d4">True</data>
-  <data key="d5">True</data>
-  <data key="d6">plan course</data>
-  <data key="d7">True</data>
-  <data key="d8">83.0</data>
-  <data key="d9">6.6</data>
-  <data key="d10">785.0</data>
-  <data key="d11">5.0</data>
-  <data key="d12">True</data>
-  <data key="d13">False</data>
-  <data key="d14">True</data>
-</node>
-<node id="STAT 205">
-  <data key="d0">Introduction to Mathematical Statistics</data>
-  <data key="d1">STAT</data>
-  <data key="d2">MATH / STAT / DATA</data>
-  <data key="d3">2</data>
-  <data key="d4">True</data>
-  <data key="d5">False</data>
-  <data key="d6">plan course</data>
-  <data key="d7">True</data>
-  <data key="d8">71.7</data>
-  <data key="d9">6.9</data>
-  <data key="d10">144.0</data>
-  <data key="d11">3.0</data>
-  <data key="d12">True</data>
-  <data key="d13">False</data>
-  <data key="d14">True</data>
-</node>
-<node id="COSC 111">
-  <data key="d0">Computer Programming I</data>
-  <data key="d1">COSC</data>
-  <data key="d2">COSC</data>
-  <data key="d3">1</data>
-  <data key="d4">True</data>
-  <data key="d5">True</data>
-  <data key="d6">plan course</data>
-  <data key="d7">True</data>
-  <data key="d8">72.2</data>
-  <data key="d9">19.5</data>
-  <data key="d10">2618.0</data>
-  <data key="d11">10.0</data>
-  <data key="d12">True</data>
-  <data key="d13">True</data>
-  <data key="d14">True</data>
-</node>
-<node id="MATH 221">
-  <data key="d0">Matrix Algebra</data>
-  <data key="d1">MATH</data>
-  <data key="d2">MATH / STAT / DATA</data>
-  <data key="d3">2</data>
-  <data key="d4">True</data>
-  <data key="d5">False</data>
-  <data key="d6">plan course</data>
-  <data key="d7">True</data>
-  <data key="d8">72.2</data>
-  <data key="d9">10.2</data>
-  <data key="d10">1426.0</data>
-  <data key="d11">9.0</data>
-  <data key="d12">True</data>
-  <data key="d13">True</data>
-  <data key="d14">True</data>
-</node>
-<node id="COSC 499">
-  <data key="d0">Capstone Software Engineering Project</data>
-  <data key="d1">COSC</data>
-  <data key="d2">COSC</data>
-  <data key="d3">4</data>
-  <data key="d4">True</data>
-  <data key="d5">True</data>
-  <data key="d6">plan course</data>
-  <data key="d7">True</data>
-  <data key="d8">83.5</data>
-  <data key="d9">4.0</data>
-  <data key="d10">786.0</data>
-  <data key="d11">10.0</data>
-  <data key="d12">True</data>
-  <data key="d13">True</data>
-  <data key="d14">True</data>
-</node>
-<node id="COSC 211">
-  <data key="d0">Machine Architecture</data>
-  <data key="d1">COSC</data>
-  <data key="d2">COSC</data>
-  <data key="d3">2</data>
-  <data key="d4">True</data>
-  <data key="d5">False</data>
-  <data key="d6">plan course</data>
-  <data key="d7">True</data>
-  <data key="d8">75.2</data>
-  <data key="d9">13.1</data>
-  <data key="d10">936.0</data>
-  <data key="d11">7.0</data>
-  <data key="d12">True</data>
-  <data key="d13">True</data>
-  <data key="d14">True</data>
-</node>
-<node id="PHYS 112">
-  <data key="d0">Introductory Physics for the Life Sciences I</data>
-  <data key="d1">PHYS</data>
-  <data key="d2">Other (APSC, PHYS, ...)</data>
-  <data key="d3">1</data>
-  <data key="d4">True</data>
-  <data key="d5">False</data>
-  <data key="d6">plan course</data>
-  <data key="d7">True</data>
-  <data key="d8">76.4</data>
-  <data key="d9">7.4</data>
-  <data key="d10">1611.0</data>
-  <data key="d11">8.0</data>
-  <data key="d12">True</data>
-  <data key="d13">True</data>
-  <data key="d14">True</data>
-</node>
-<node id="COSC 304">
-  <data key="d0">Introduction to Databases</data>
-  <data key="d1">COSC</data>
-  <data key="d2">COSC</data>
-  <data key="d3">3</data>
-  <data key="d4">True</data>
-  <data key="d5">True</data>
-  <data key="d6">plan course</data>
-  <data key="d7">True</data>
-  <data key="d8">80.6</data>
-  <data key="d9">5.6</data>
-  <data key="d10">1235.0</data>
-  <data key="d11">10.0</data>
-  <data key="d12">True</data>
-  <data key="d13">True</data>
-  <data key="d14">True</data>
-</node>
-<node id="COSC 222">
-  <data key="d0">Data Structures</data>
-  <data key="d1">COSC</data>
-  <data key="d2">COSC</data>
-  <data key="d3">2</data>
-  <data key="d4">True</data>
-  <data key="d5">True</data>
-  <data key="d6">plan course</data>
-  <data key="d7">True</data>
-  <data key="d8">75.5</data>
-  <data key="d9">6.4</data>
-  <data key="d10">1315.0</data>
-  <data key="d11">10.0</data>
-  <data key="d12">True</data>
-  <data key="d13">True</data>
-  <data key="d14">True</data>
-</node>
-<node id="MATH 101">
-  <data key="d0">Integral Calculus with Applications to Physical Sciences and Engineering</data>
-  <data key="d1">MATH</data>
-  <data key="d2">MATH / STAT / DATA</data>
-  <data key="d3">1</data>
-  <data key="d4">True</data>
-  <data key="d5">False</data>
-  <data key="d6">plan course</data>
-  <data key="d7">True</data>
-  <data key="d8">67.2</data>
-  <data key="d9">21.7</data>
-  <data key="d10">3230.0</data>
-  <data key="d11">10.0</data>
-  <data key="d12">True</data>
-  <data key="d13">True</data>
-  <data key="d14">True</data>
-</node>
-<node id="COSC 341">
-  <data key="d0">Human Computer Interaction</data>
-  <data key="d1">COSC</data>
-  <data key="d2">COSC</data>
-  <data key="d3">3</data>
-  <data key="d4">True</data>
-  <data key="d5">True</data>
-  <data key="d6">plan course</data>
-  <data key="d7">True</data>
-  <data key="d8">84.1</data>
-  <data key="d9">0.9</data>
-  <data key="d10">864.0</data>
-  <data key="d11">5.0</data>
-  <data key="d12">True</data>
-  <data key="d13">True</data>
-  <data key="d14">True</data>
-</node>
-<node id="PHYS 111">
-  <data key="d0">Introductory Physics for the Physical Sciences I</data>
-  <data key="d1">PHYS</data>
-  <data key="d2">Other (APSC, PHYS, ...)</data>
-  <data key="d3">1</data>
-  <data key="d4">True</data>
-  <data key="d5">False</data>
-  <data key="d6">plan course</data>
-  <data key="d7">True</data>
-  <data key="d8">78.0</data>
-  <data key="d9">7.1</data>
-  <data key="d10">1347.0</data>
-  <data key="d11">5.0</data>
-  <data key="d12">True</data>
-  <data key="d13">False</data>
-  <data key="d14">True</data>
-</node>
-<node id="STAT 230">
-  <data key="d0">Introductory Statistics</data>
-  <data key="d1">STAT</data>
-  <data key="d2">MATH / STAT / DATA</data>
-  <data key="d3">2</data>
-  <data key="d4">True</data>
-  <data key="d5">False</data>
-  <data key="d6">plan course</data>
-  <data key="d7">True</data>
-  <data key="d8">70.2</data>
-  <data key="d9">8.5</data>
-  <data key="d10">1002.0</data>
-  <data key="d11">10.0</data>
-  <data key="d12">True</data>
-  <data key="d13">True</data>
-  <data key="d14">True</data>
-</node>
-<node id="MATH 100">
-  <data key="d0">Differential Calculus with Applications to Physical Sciences and Engineering</data>
-  <data key="d1">MATH</data>
-  <data key="d2">MATH / STAT / DATA</data>
-  <data key="d3">1</data>
-  <data key="d4">True</data>
-  <data key="d5">True</data>
-  <data key="d6">plan course</data>
-  <data key="d7">True</data>
-  <data key="d8">68.1</data>
-  <data key="d9">19.6</data>
-  <data key="d10">4792.0</data>
-  <data key="d11">10.0</data>
-  <data key="d12">True</data>
-  <data key="d13">True</data>
-  <data key="d14">True</data>
-</node>
-<node id="COSC 121">
-  <data key="d0">Computer Programming II</data>
-  <data key="d1">COSC</data>
-  <data key="d2">COSC</data>
-  <data key="d3">1</data>
-  <data key="d4">True</data>
-  <data key="d5">True</data>
-  <data key="d6">plan course</data>
-  <data key="d7">True</data>
-  <data key="d8">72.3</data>
-  <data key="d9">14.5</data>
-  <data key="d10">1953.0</data>
-  <data key="d11">10.0</data>
-  <data key="d12">True</data>
-  <data key="d13">True</data>
-  <data key="d14">True</data>
-</node>
-<node id="COSC 221">
-  <data key="d0">Discrete Structures in Computing</data>
-  <data key="d1">COSC</data>
-  <data key="d2">COSC</data>
-  <data key="d3">2</data>
-  <data key="d4">True</data>
-  <data key="d5">False</data>
-  <data key="d6">plan course</data>
-  <data key="d7">True</data>
-  <data key="d8">74.6</data>
-  <data key="d9">5.9</data>
-  <data key="d10">1200.0</data>
-  <data key="d11">9.0</data>
-  <data key="d12">True</data>
-  <data key="d13">True</data>
-  <data key="d14">True</data>
-</node>
-<node id="COSC 320">
-  <data key="d0">Analysis of Algorithms</data>
-  <data key="d1">COSC</data>
-  <data key="d2">COSC</data>
-  <data key="d3">3</data>
-  <data key="d4">True</data>
-  <data key="d5">False</data>
-  <data key="d6">plan course</data>
-  <data key="d7">True</data>
-  <data key="d8">79.7</data>
-  <data key="d9">4.9</data>
-  <data key="d10">813.0</data>
-  <data key="d11">6.0</data>
-  <data key="d12">True</data>
-  <data key="d13">True</data>
-  <data key="d14">True</data>
-</node>
-<node id="PHIL 331">
-  <data key="d0">Computer Ethics</data>
-  <data key="d1">PHIL</data>
-  <data key="d2">Other (APSC, PHYS, ...)</data>
-  <data key="d3">3</data>
-  <data key="d4">True</data>
-  <data key="d5">True</data>
-  <data key="d6">plan course</data>
-  <data key="d7">True</data>
-  <data key="d8">81.0</data>
-  <data key="d9">1.6</data>
-  <data key="d10">1305.0</data>
-  <data key="d11">10.0</data>
-  <data key="d12">True</data>
-  <data key="d13">True</data>
-  <data key="d14">True</data>
-</node>
-<node id="COSC 310">
-  <data key="d0">Software Engineering</data>
-  <data key="d1">COSC</data>
-  <data key="d2">COSC</data>
-  <data key="d3">3</data>
-  <data key="d4">True</data>
-  <data key="d5">True</data>
-  <data key="d6">plan course</data>
-  <data key="d7">True</data>
-  <data key="d8">78.5</data>
-  <data key="d9">6.7</data>
-  <data key="d10">1036.0</data>
-  <data key="d11">6.0</data>
-  <data key="d12">True</data>
-  <data key="d13">True</data>
-  <data key="d14">True</data>
-</node>
-<node id="MATH 103">
-  <data key="d0">Integral Calculus with Applications to Life Sciences</data>
-  <data key="d1">MATH</data>
-  <data key="d2">MATH / STAT / DATA</data>
-  <data key="d3">1</data>
-  <data key="d4">True</data>
-  <data key="d5">False</data>
-  <data key="d6">plan course</data>
-  <data key="d7">True</data>
-  <data key="d8">72.0</data>
-  <data key="d9">13.0</data>
-  <data key="d10">869.0</data>
-  <data key="d11">5.0</data>
-  <data key="d12">True</data>
-  <data key="d13">False</data>
-  <data key="d14">True</data>
-</node>
-<edge source="COSC 123" target="COSC 121">
-  <data key="d15">prereq</data>
-  <data key="d16">1</data>
-  <data key="d17">3</data>
-</edge>
-<edge source="COSC 123" target="COSC 304">
-  <data key="d15">prereq</data>
-  <data key="d16">2</data>
-  <data key="d17">3</data>
-</edge>
-<edge source="COSC 123" target="COSC 341">
-  <data key="d15">prereq</data>
-  <data key="d16">1</data>
-  <data key="d17">4</data>
-</edge>
-<edge source="COSC 111" target="COSC 121">
-  <data key="d15">prereq</data>
-  <data key="d16">1</data>
-  <data key="d17">3</data>
-</edge>
-<edge source="COSC 111" target="COSC 123">
-  <data key="d15">prereq</data>
-  <data key="d16">1</data>
-  <data key="d17">2</data>
-</edge>
-<edge source="COSC 111" target="COSC 304">
-  <data key="d15">prereq</data>
-  <data key="d16">2</data>
-  <data key="d17">3</data>
-</edge>
-<edge source="COSC 111" target="COSC 341">
-  <data key="d15">prereq</data>
-  <data key="d16">1</data>
-  <data key="d17">4</data>
-</edge>
-<edge source="MATH 221" target="COSC 320">
-  <data key="d15">prereq</data>
-  <data key="d16">1</data>
-  <data key="d17">2</data>
-</edge>
-<edge source="COSC 304" target="COSC 499">
-  <data key="d15">prereq</data>
-  <data key="d16">1</data>
-  <data key="d17">1</data>
-</edge>
-<edge source="COSC 222" target="COSC 304">
-  <data key="d15">prereq</data>
-  <data key="d16">1</data>
-  <data key="d17">1</data>
-</edge>
-<edge source="COSC 222" target="COSC 310">
-  <data key="d15">prereq</data>
-  <data key="d16">1</data>
-  <data key="d17">2</data>
-</edge>
-<edge source="COSC 222" target="COSC 320">
-  <data key="d15">prereq</data>
-  <data key="d16">1</data>
-  <data key="d17">1</data>
-</edge>
-<edge source="MATH 101" target="COSC 111">
-  <data key="d15">prereq</data>
-  <data key="d16">2</data>
-  <data key="d17">4</data>
-</edge>
-<edge source="MATH 101" target="COSC 221">
-  <data key="d15">prereq</data>
-  <data key="d16">1</data>
-  <data key="d17">4</data>
-</edge>
-<edge source="MATH 101" target="STAT 230">
-  <data key="d15">prereq</data>
-  <data key="d16">1</data>
-  <data key="d17">3</data>
-</edge>
-<edge source="COSC 341" target="COSC 499">
-  <data key="d15">prereq</data>
-  <data key="d16">1</data>
-  <data key="d17">1</data>
-</edge>
-<edge source="MATH 100" target="COSC 111">
-  <data key="d15">prereq</data>
-  <data key="d16">2</data>
-  <data key="d17">4</data>
-</edge>
-<edge source="MATH 100" target="MATH 101">
-  <data key="d15">prereq</data>
-  <data key="d16">1</data>
-  <data key="d17">2</data>
-</edge>
-<edge source="MATH 100" target="MATH 103">
-  <data key="d15">prereq</data>
-  <data key="d16">1</data>
-  <data key="d17">2</data>
-</edge>
-<edge source="MATH 100" target="MATH 221">
-  <data key="d15">prereq</data>
-  <data key="d16">1</data>
-  <data key="d17">2</data>
-</edge>
-<edge source="MATH 100" target="PHYS 111">
-  <data key="d15">coreq</data>
-  <data key="d16">1</data>
-  <data key="d17">2</data>
-</edge>
-<edge source="COSC 121" target="COSC 211">
-  <data key="d15">prereq</data>
-  <data key="d16">1</data>
-  <data key="d17">1</data>
-</edge>
-<edge source="COSC 121" target="COSC 222">
-  <data key="d15">prereq</data>
-  <data key="d16">1</data>
-  <data key="d17">1</data>
-</edge>
-<edge source="COSC 121" target="COSC 304">
-  <data key="d15">prereq</data>
-  <data key="d16">2</data>
-  <data key="d17">3</data>
-</edge>
-<edge source="COSC 121" target="COSC 341">
-  <data key="d15">prereq</data>
-  <data key="d16">1</data>
-  <data key="d17">4</data>
-</edge>
-<edge source="COSC 121" target="COSC 221">
-  <data key="d15">coreq</data>
-  <data key="d16">1</data>
-  <data key="d17">1</data>
-</edge>
-<edge source="COSC 221" target="COSC 320">
-  <data key="d15">prereq</data>
-  <data key="d16">1</data>
-  <data key="d17">1</data>
-</edge>
-<edge source="COSC 221" target="STAT 230">
-  <data key="d15">prereq</data>
-  <data key="d16">1</data>
-  <data key="d17">2</data>
-</edge>
-<edge source="COSC 310" target="COSC 499">
-  <data key="d15">prereq</data>
-  <data key="d16">1</data>
-  <data key="d17">1</data>
-</edge>
-<edge source="MATH 103" target="COSC 111">
-  <data key="d15">prereq</data>
-  <data key="d16">2</data>
-  <data key="d17">4</data>
-</edge>
-<edge source="MATH 103" target="COSC 221">
-  <data key="d15">prereq</data>
-  <data key="d16">1</data>
-  <data key="d17">4</data>
-</edge>
-<edge source="MATH 103" target="STAT 230">
-  <data key="d15">prereq</data>
-  <data key="d16">1</data>
-  <data key="d17">3</data>
-</edge>
-</graph></graphml>
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_title" for="node" attr.name="title" attr.type="string"/>
+  <key id="v_subject" for="node" attr.name="subject" attr.type="string"/>
+  <key id="v_group" for="node" attr.name="group" attr.type="string"/>
+  <key id="v_year_level" for="node" attr.name="year_level" attr.type="double"/>
+  <key id="v_in_bsc" for="node" attr.name="in_bsc" attr.type="boolean"/>
+  <key id="v_in_ba" for="node" attr.name="in_ba" attr.type="boolean"/>
+  <key id="v_role" for="node" attr.name="role" attr.type="string"/>
+  <key id="v_has_grades" for="node" attr.name="has_grades" attr.type="boolean"/>
+  <key id="v_avg_grade" for="node" attr.name="avg_grade" attr.type="double"/>
+  <key id="v_fail_rate" for="node" attr.name="fail_rate" attr.type="double"/>
+  <key id="v_students" for="node" attr.name="students" attr.type="double"/>
+  <key id="v_terms_offered" for="node" attr.name="terms_offered" attr.type="double"/>
+  <key id="v_offered_winter" for="node" attr.name="offered_winter" attr.type="boolean"/>
+  <key id="v_offered_summer" for="node" attr.name="offered_summer" attr.type="boolean"/>
+  <key id="v_required" for="node" attr.name="required" attr.type="boolean"/>
+  <key id="e_relation" for="edge" attr.name="relation" attr.type="string"/>
+  <key id="e_route" for="edge" attr.name="route" attr.type="double"/>
+  <key id="e_alternatives" for="edge" attr.name="alternatives" attr.type="double"/>
+  <graph id="G" edgedefault="directed">
+    <node id="n0">
+      <data key="v_name">COSC 111</data>
+      <data key="v_title">Computer Programming I</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">1</data>
+      <data key="v_in_bsc">true</data>
+      <data key="v_in_ba">true</data>
+      <data key="v_role">plan course</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">72.2</data>
+      <data key="v_fail_rate">19.5</data>
+      <data key="v_students">2618</data>
+      <data key="v_terms_offered">10</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">true</data>
+      <data key="v_required">true</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">COSC 121</data>
+      <data key="v_title">Computer Programming II</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">1</data>
+      <data key="v_in_bsc">true</data>
+      <data key="v_in_ba">true</data>
+      <data key="v_role">plan course</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">72.3</data>
+      <data key="v_fail_rate">14.5</data>
+      <data key="v_students">1953</data>
+      <data key="v_terms_offered">10</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">true</data>
+      <data key="v_required">true</data>
+    </node>
+    <node id="n2">
+      <data key="v_name">COSC 123</data>
+      <data key="v_title">Computer Creativity</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">1</data>
+      <data key="v_in_bsc">true</data>
+      <data key="v_in_ba">true</data>
+      <data key="v_role">plan course</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">83</data>
+      <data key="v_fail_rate">6.6</data>
+      <data key="v_students">785</data>
+      <data key="v_terms_offered">5</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">false</data>
+      <data key="v_required">true</data>
+    </node>
+    <node id="n3">
+      <data key="v_name">COSC 211</data>
+      <data key="v_title">Machine Architecture</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">2</data>
+      <data key="v_in_bsc">true</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role">plan course</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">75.2</data>
+      <data key="v_fail_rate">13.1</data>
+      <data key="v_students">936</data>
+      <data key="v_terms_offered">7</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">true</data>
+      <data key="v_required">true</data>
+    </node>
+    <node id="n4">
+      <data key="v_name">COSC 221</data>
+      <data key="v_title">Discrete Structures in Computing</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">2</data>
+      <data key="v_in_bsc">true</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role">plan course</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">74.6</data>
+      <data key="v_fail_rate">5.9</data>
+      <data key="v_students">1200</data>
+      <data key="v_terms_offered">9</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">true</data>
+      <data key="v_required">true</data>
+    </node>
+    <node id="n5">
+      <data key="v_name">COSC 222</data>
+      <data key="v_title">Data Structures</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">2</data>
+      <data key="v_in_bsc">true</data>
+      <data key="v_in_ba">true</data>
+      <data key="v_role">plan course</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">75.5</data>
+      <data key="v_fail_rate">6.4</data>
+      <data key="v_students">1315</data>
+      <data key="v_terms_offered">10</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">true</data>
+      <data key="v_required">true</data>
+    </node>
+    <node id="n6">
+      <data key="v_name">COSC 304</data>
+      <data key="v_title">Introduction to Databases</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">3</data>
+      <data key="v_in_bsc">true</data>
+      <data key="v_in_ba">true</data>
+      <data key="v_role">plan course</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">80.6</data>
+      <data key="v_fail_rate">5.6</data>
+      <data key="v_students">1235</data>
+      <data key="v_terms_offered">10</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">true</data>
+      <data key="v_required">true</data>
+    </node>
+    <node id="n7">
+      <data key="v_name">COSC 310</data>
+      <data key="v_title">Software Engineering</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">3</data>
+      <data key="v_in_bsc">true</data>
+      <data key="v_in_ba">true</data>
+      <data key="v_role">plan course</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">78.5</data>
+      <data key="v_fail_rate">6.7</data>
+      <data key="v_students">1036</data>
+      <data key="v_terms_offered">6</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">true</data>
+      <data key="v_required">true</data>
+    </node>
+    <node id="n8">
+      <data key="v_name">COSC 320</data>
+      <data key="v_title">Analysis of Algorithms</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">3</data>
+      <data key="v_in_bsc">true</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role">plan course</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">79.7</data>
+      <data key="v_fail_rate">4.9</data>
+      <data key="v_students">813</data>
+      <data key="v_terms_offered">6</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">true</data>
+      <data key="v_required">true</data>
+    </node>
+    <node id="n9">
+      <data key="v_name">COSC 341</data>
+      <data key="v_title">Human Computer Interaction</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">3</data>
+      <data key="v_in_bsc">true</data>
+      <data key="v_in_ba">true</data>
+      <data key="v_role">plan course</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">84.1</data>
+      <data key="v_fail_rate">0.9</data>
+      <data key="v_students">864</data>
+      <data key="v_terms_offered">5</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">true</data>
+      <data key="v_required">true</data>
+    </node>
+    <node id="n10">
+      <data key="v_name">COSC 499</data>
+      <data key="v_title">Capstone Software Engineering Project</data>
+      <data key="v_subject">COSC</data>
+      <data key="v_group">COSC</data>
+      <data key="v_year_level">4</data>
+      <data key="v_in_bsc">true</data>
+      <data key="v_in_ba">true</data>
+      <data key="v_role">plan course</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">83.5</data>
+      <data key="v_fail_rate">4</data>
+      <data key="v_students">786</data>
+      <data key="v_terms_offered">10</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">true</data>
+      <data key="v_required">true</data>
+    </node>
+    <node id="n11">
+      <data key="v_name">MATH 100</data>
+      <data key="v_title">Differential Calculus with Applications to Physical Sciences and Engineering</data>
+      <data key="v_subject">MATH</data>
+      <data key="v_group">MATH / STAT / DATA</data>
+      <data key="v_year_level">1</data>
+      <data key="v_in_bsc">true</data>
+      <data key="v_in_ba">true</data>
+      <data key="v_role">plan course</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">68.1</data>
+      <data key="v_fail_rate">19.6</data>
+      <data key="v_students">4792</data>
+      <data key="v_terms_offered">10</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">true</data>
+      <data key="v_required">true</data>
+    </node>
+    <node id="n12">
+      <data key="v_name">MATH 101</data>
+      <data key="v_title">Integral Calculus with Applications to Physical Sciences and Engineering</data>
+      <data key="v_subject">MATH</data>
+      <data key="v_group">MATH / STAT / DATA</data>
+      <data key="v_year_level">1</data>
+      <data key="v_in_bsc">true</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role">plan course</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">67.2</data>
+      <data key="v_fail_rate">21.7</data>
+      <data key="v_students">3230</data>
+      <data key="v_terms_offered">10</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">true</data>
+      <data key="v_required">true</data>
+    </node>
+    <node id="n13">
+      <data key="v_name">MATH 103</data>
+      <data key="v_title">Integral Calculus with Applications to Life Sciences</data>
+      <data key="v_subject">MATH</data>
+      <data key="v_group">MATH / STAT / DATA</data>
+      <data key="v_year_level">1</data>
+      <data key="v_in_bsc">true</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role">plan course</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">72</data>
+      <data key="v_fail_rate">13</data>
+      <data key="v_students">869</data>
+      <data key="v_terms_offered">5</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">false</data>
+      <data key="v_required">true</data>
+    </node>
+    <node id="n14">
+      <data key="v_name">MATH 221</data>
+      <data key="v_title">Matrix Algebra</data>
+      <data key="v_subject">MATH</data>
+      <data key="v_group">MATH / STAT / DATA</data>
+      <data key="v_year_level">2</data>
+      <data key="v_in_bsc">true</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role">plan course</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">72.2</data>
+      <data key="v_fail_rate">10.2</data>
+      <data key="v_students">1426</data>
+      <data key="v_terms_offered">9</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">true</data>
+      <data key="v_required">true</data>
+    </node>
+    <node id="n15">
+      <data key="v_name">PHIL 331</data>
+      <data key="v_title">Computer Ethics</data>
+      <data key="v_subject">PHIL</data>
+      <data key="v_group">Other (APSC, PHYS, ...)</data>
+      <data key="v_year_level">3</data>
+      <data key="v_in_bsc">true</data>
+      <data key="v_in_ba">true</data>
+      <data key="v_role">plan course</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">81</data>
+      <data key="v_fail_rate">1.6</data>
+      <data key="v_students">1305</data>
+      <data key="v_terms_offered">10</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">true</data>
+      <data key="v_required">true</data>
+    </node>
+    <node id="n16">
+      <data key="v_name">PHYS 111</data>
+      <data key="v_title">Introductory Physics for the Physical Sciences I</data>
+      <data key="v_subject">PHYS</data>
+      <data key="v_group">Other (APSC, PHYS, ...)</data>
+      <data key="v_year_level">1</data>
+      <data key="v_in_bsc">true</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role">plan course</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">78</data>
+      <data key="v_fail_rate">7.1</data>
+      <data key="v_students">1347</data>
+      <data key="v_terms_offered">5</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">false</data>
+      <data key="v_required">true</data>
+    </node>
+    <node id="n17">
+      <data key="v_name">PHYS 112</data>
+      <data key="v_title">Introductory Physics for the Life Sciences I</data>
+      <data key="v_subject">PHYS</data>
+      <data key="v_group">Other (APSC, PHYS, ...)</data>
+      <data key="v_year_level">1</data>
+      <data key="v_in_bsc">true</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role">plan course</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">76.4</data>
+      <data key="v_fail_rate">7.4</data>
+      <data key="v_students">1611</data>
+      <data key="v_terms_offered">8</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">true</data>
+      <data key="v_required">true</data>
+    </node>
+    <node id="n18">
+      <data key="v_name">STAT 205</data>
+      <data key="v_title">Introduction to Mathematical Statistics</data>
+      <data key="v_subject">STAT</data>
+      <data key="v_group">MATH / STAT / DATA</data>
+      <data key="v_year_level">2</data>
+      <data key="v_in_bsc">true</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role">plan course</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">71.7</data>
+      <data key="v_fail_rate">6.9</data>
+      <data key="v_students">144</data>
+      <data key="v_terms_offered">3</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">false</data>
+      <data key="v_required">true</data>
+    </node>
+    <node id="n19">
+      <data key="v_name">STAT 230</data>
+      <data key="v_title">Introductory Statistics</data>
+      <data key="v_subject">STAT</data>
+      <data key="v_group">MATH / STAT / DATA</data>
+      <data key="v_year_level">2</data>
+      <data key="v_in_bsc">true</data>
+      <data key="v_in_ba">false</data>
+      <data key="v_role">plan course</data>
+      <data key="v_has_grades">true</data>
+      <data key="v_avg_grade">70.2</data>
+      <data key="v_fail_rate">8.5</data>
+      <data key="v_students">1002</data>
+      <data key="v_terms_offered">10</data>
+      <data key="v_offered_winter">true</data>
+      <data key="v_offered_summer">true</data>
+      <data key="v_required">true</data>
+    </node>
+    <edge source="n0" target="n1">
+      <data key="e_relation">prereq</data>
+      <data key="e_route">1</data>
+      <data key="e_alternatives">3</data>
+    </edge>
+    <edge source="n0" target="n2">
+      <data key="e_relation">prereq</data>
+      <data key="e_route">1</data>
+      <data key="e_alternatives">2</data>
+    </edge>
+    <edge source="n0" target="n6">
+      <data key="e_relation">prereq</data>
+      <data key="e_route">2</data>
+      <data key="e_alternatives">3</data>
+    </edge>
+    <edge source="n0" target="n9">
+      <data key="e_relation">prereq</data>
+      <data key="e_route">1</data>
+      <data key="e_alternatives">4</data>
+    </edge>
+    <edge source="n1" target="n3">
+      <data key="e_relation">prereq</data>
+      <data key="e_route">1</data>
+      <data key="e_alternatives">1</data>
+    </edge>
+    <edge source="n1" target="n4">
+      <data key="e_relation">coreq</data>
+      <data key="e_route">1</data>
+      <data key="e_alternatives">1</data>
+    </edge>
+    <edge source="n1" target="n5">
+      <data key="e_relation">prereq</data>
+      <data key="e_route">1</data>
+      <data key="e_alternatives">1</data>
+    </edge>
+    <edge source="n1" target="n6">
+      <data key="e_relation">prereq</data>
+      <data key="e_route">2</data>
+      <data key="e_alternatives">3</data>
+    </edge>
+    <edge source="n1" target="n9">
+      <data key="e_relation">prereq</data>
+      <data key="e_route">1</data>
+      <data key="e_alternatives">4</data>
+    </edge>
+    <edge source="n2" target="n1">
+      <data key="e_relation">prereq</data>
+      <data key="e_route">1</data>
+      <data key="e_alternatives">3</data>
+    </edge>
+    <edge source="n2" target="n6">
+      <data key="e_relation">prereq</data>
+      <data key="e_route">2</data>
+      <data key="e_alternatives">3</data>
+    </edge>
+    <edge source="n2" target="n9">
+      <data key="e_relation">prereq</data>
+      <data key="e_route">1</data>
+      <data key="e_alternatives">4</data>
+    </edge>
+    <edge source="n4" target="n8">
+      <data key="e_relation">prereq</data>
+      <data key="e_route">1</data>
+      <data key="e_alternatives">1</data>
+    </edge>
+    <edge source="n4" target="n19">
+      <data key="e_relation">prereq</data>
+      <data key="e_route">1</data>
+      <data key="e_alternatives">2</data>
+    </edge>
+    <edge source="n5" target="n6">
+      <data key="e_relation">prereq</data>
+      <data key="e_route">1</data>
+      <data key="e_alternatives">1</data>
+    </edge>
+    <edge source="n5" target="n7">
+      <data key="e_relation">prereq</data>
+      <data key="e_route">1</data>
+      <data key="e_alternatives">1</data>
+    </edge>
+    <edge source="n5" target="n8">
+      <data key="e_relation">prereq</data>
+      <data key="e_route">1</data>
+      <data key="e_alternatives">1</data>
+    </edge>
+    <edge source="n6" target="n10">
+      <data key="e_relation">prereq</data>
+      <data key="e_route">1</data>
+      <data key="e_alternatives">1</data>
+    </edge>
+    <edge source="n7" target="n10">
+      <data key="e_relation">prereq</data>
+      <data key="e_route">1</data>
+      <data key="e_alternatives">1</data>
+    </edge>
+    <edge source="n9" target="n10">
+      <data key="e_relation">prereq</data>
+      <data key="e_route">1</data>
+      <data key="e_alternatives">1</data>
+    </edge>
+    <edge source="n11" target="n0">
+      <data key="e_relation">prereq</data>
+      <data key="e_route">2</data>
+      <data key="e_alternatives">4</data>
+    </edge>
+    <edge source="n11" target="n12">
+      <data key="e_relation">prereq</data>
+      <data key="e_route">1</data>
+      <data key="e_alternatives">2</data>
+    </edge>
+    <edge source="n11" target="n13">
+      <data key="e_relation">prereq</data>
+      <data key="e_route">1</data>
+      <data key="e_alternatives">2</data>
+    </edge>
+    <edge source="n11" target="n14">
+      <data key="e_relation">prereq</data>
+      <data key="e_route">1</data>
+      <data key="e_alternatives">2</data>
+    </edge>
+    <edge source="n11" target="n16">
+      <data key="e_relation">coreq</data>
+      <data key="e_route">1</data>
+      <data key="e_alternatives">2</data>
+    </edge>
+    <edge source="n12" target="n0">
+      <data key="e_relation">prereq</data>
+      <data key="e_route">2</data>
+      <data key="e_alternatives">4</data>
+    </edge>
+    <edge source="n12" target="n4">
+      <data key="e_relation">prereq</data>
+      <data key="e_route">1</data>
+      <data key="e_alternatives">4</data>
+    </edge>
+    <edge source="n12" target="n19">
+      <data key="e_relation">prereq</data>
+      <data key="e_route">1</data>
+      <data key="e_alternatives">3</data>
+    </edge>
+    <edge source="n13" target="n0">
+      <data key="e_relation">prereq</data>
+      <data key="e_route">2</data>
+      <data key="e_alternatives">4</data>
+    </edge>
+    <edge source="n13" target="n4">
+      <data key="e_relation">prereq</data>
+      <data key="e_route">1</data>
+      <data key="e_alternatives">4</data>
+    </edge>
+    <edge source="n13" target="n19">
+      <data key="e_relation">prereq</data>
+      <data key="e_route">1</data>
+      <data key="e_alternatives">3</data>
+    </edge>
+    <edge source="n14" target="n8">
+      <data key="e_relation">prereq</data>
+      <data key="e_route">1</data>
+      <data key="e_alternatives">2</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,9 +1,9 @@
-# Python
-venv/
-.venv/
-__pycache__/
-*.py[cod]
-.ipynb_checkpoints/
+# R / RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+Rplots.pdf
 
 # Environment
 .env
@@ -12,5 +12,10 @@ __pycache__/
 .DS_Store
 .vscode/
 .idea/
-.pdf
 /temp
+
+# Python (scraper only)
+venv/
+.venv/
+__pycache__/
+*.py[cod]

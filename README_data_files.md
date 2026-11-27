@@ -1,5 +1,7 @@
 # UBCO CS prerequisite network: data files
 
+**Never-offered courses** (COSC 223, 413 and 417) stay in these input files but are filtered out by `R/data.R`, so they appear in no network, figure or result. Counts below describe the input files unless they say otherwise.
+
 Last updated: 2026-10-27
 
 ## Files
@@ -10,11 +12,11 @@ Last updated: 2026-10-27
 | `coreq_groups.csv` | NEW | Corequisite logic (same format) for 8 courses: COSC 150, 221, 301, 305, STAT 203, PHYS 111, 121, 122. 13 corequisite edges. Adding them to the prerequisite graph still gives no cycles. |
 | `prereq_groups_readable.txt` | UPDATED | The same content as plain-English formulas, each next to the calendar text, for checking against the calendar. Corequisites are in the last section. |
 | `degree_requirements.csv` | UPDATED | BSc and BA requirements (120 credits each; both follow last year's plan). |
-| `network_basic.png` / `network_basic.svg` | NEW | Basic drawing of all courses in the network (prerequisites solid, corequisites dashed, thick border = course in the BSc or BA plan). Use the SVG to zoom. |
+| `network_basic.png` / `network_basic.pdf` | UPDATED | Basic drawing of all courses except the three never offered (prerequisites solid, corequisites dashed, thick border = course in the BSc or BA plan). Drawn by `build_networks.R`; use the PDF to zoom. |
 | `network_nodes.csv` | NEW | One row per course in the drawing: role (plan course, offered elective, COSC course never offered, prerequisite only), number of prerequisites and courses it unlocks, and whether it has grade data. |
 | `REVIEW_CHECKLIST.md` | NEW | What to check, where and against what. |
 | `courses.csv` | unchanged | Scraped calendar text for 79 COSC courses. |
-| `edges.csv` | unchanged | Original edge list (104 prereq + 7 coreq). Kept for reference. The network is now built from `prereq_groups.csv` and `coreq_groups.csv`. |
+| `edges.csv` | unchanged | Original edge list from the scraper. Kept for reference. The network is built from `prereq_groups.csv` and `coreq_groups.csv`. |
 | UBC PAIR grade files (3) | unchanged | `all_sections`, `by_course`, `required`. |
 
 ## How to read `prereq_groups.csv` and `coreq_groups.csv`
@@ -45,7 +47,7 @@ Columns: `program, req_id, kind, options, pick, credits, note`.
 
 1. Grade data only distinguishes Winter and Summer sessions (the PAIR data has no Term 1 / Term 2 split); Term 1 / Term 2 / Summer offerings come from Workday (see course_offerings.csv).
 2. Three networks: the full network, the BSc core (mandatory + choice courses) and the BA core.
-3. Courses that never appear in the 2021-2025 section data are assumed not offered. They stay in the network but are excluded from the scheduler's elective pool.
+3. Courses that never appear in the 2021-2025 section data are assumed not offered. COSC 223, 413 and 417, confirmed in Workday, are excluded from the networks, figures and scheduler; the other courses without section data stay in the networks.
 4. Elective baseline: any upper-level COSC course that is offered. The 21 foundational and 12 distribution BA credits are treated as free credits.
 5. **BSc requirements follow last year's plan, not the current calendar.** In that plan there is no COSC 210, COSC 270 or DATA 311 requirement, no concentrations (18 credits of upper-level COSC electives instead) and PHYS 111 or 112 replaces the science-course choice. COSC 270 is a new requirement in the current calendar (confirmed) and is not counted. COSC 210, COSC 270 and DATA 311 were deleted from the network (see "Courses removed from the network").
 6. **The BSc core is built from `degree_requirements.csv`, not from the `In BSc` flag in `grades_required`.** That flag follows the current calendar: it includes BIOL 116/117, CHEM 121, EESC 111, COSC 210 and DATA 311, which are not in last year's plan, and it misses ENGL 113.
